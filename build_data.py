@@ -7,6 +7,10 @@
 """
 import json, os, re, subprocess, datetime
 
+def bj_now():
+    """北京时间（UTC+8），GitHub Actions 服务器默认 UTC"""
+    return datetime.datetime.utcnow() + datetime.timedelta(hours=8)
+
 def http_get(url, timeout=15, referer=None):
     cmd = ["curl", "-s", "--max-time", str(timeout), "-H", "User-Agent: Mozilla/5.0"]
     if referer:
@@ -71,7 +75,7 @@ def fetch_global():
     return out
 
 def fetch_futures():
-    today = datetime.date.today()
+    today = bj_now().date()
     out = []
     for prod in ("IF", "IH", "IC", "IM"):
         try:
@@ -155,7 +159,7 @@ def main():
     picks = fetch_picks()
     water = fetch_water(con)
     payload = {
-        "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "date": bj_now().strftime("%Y-%m-%d %H:%M"),
         "index": index, "industry": ind[:8], "concept": con[:5],
         "global": g, "futures": fut, "picks": picks, "water": water,
         "note": "来源：腾讯财经/新浪财经/中金所。盘中数据为当时快照，收盘后为完整数据。属水为个人偏好维度。",
