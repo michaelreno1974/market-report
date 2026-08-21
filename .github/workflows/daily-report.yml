@@ -26,4 +26,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add report.json
-          git diff --cached --quiet && echo "no change" || (git commit -m "data update $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)
+          if git diff --cached --quiet; then
+            echo "no data change"
+          else
+            git commit -m "data update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main || echo "rebase skipped"
+            git push || (sleep 5 && git pull --rebase origin main && git push)
+          fi
