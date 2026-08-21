@@ -147,8 +147,43 @@ def fetch_water(con):
 # 持仓个股配置（默认祥源文旅，用户指定新增前保持）
 STOCK_HOLDINGS = [("sh600576", "社会服务")]
 
+def calc_indicators(closes, highs, lows):
+    """KDJ(9,3,3) / BOLL(20,2) / EXPMA(12,50)"""
+    ind = {}
+    try:
+        n = 9
+        k = d = 50.0
+        for i in range(len(closes)):
+            lo = min(lows[max(0, i - n + 1):i + 1])
+            hi = max(highs[max(0, i - n + 1):i + 1])
+            rsv = (closes[i] - lo) / (hi - lo) * 100 if hi > lo else 50.0
+            k = k * 2 / 3 + rsv / 3
+            d = d * 2 / 3 + k / 3
+        j = 3 * k - 2 * d
+        ind["kdj"] = {"k": round(k, 2), "d": round(d, 2), "j": round(j, 2)}
+    except Exception:
+        pass
+    try:
+        import statistics
+        mid = statistics.mean(closes[-20:])
+        sd = statistics.stdev(closes[-20:]) if len(closes) >= 20 else 0
+        ind["boll"] = {"up": round(mid + 2 * sd, 3), "mid": round(mid, 3), "dn": round(mid - 2 * sd, 3)}
+    except Exception:
+        pass
+    try:
+        def ema(period):
+            e = closes[0]
+            a = 2 / (period + 1)
+            for c in closes[1:]:
+                e = e * (1 - a) + c * a
+            return e
+        ind["expma"] = {"ema20": round(ema(20), 3)}
+    except Exception:
+        pass
+    return ind
+
 def fetch_stock_holding(code, sector, ind):
-    """持仓单日数据：行情 / 均线 / 资金流 / 板块"""
+    """持仓单日数据：行情 / 均线 / 技术指标(KDJ/BOLL/EXPMA) / 资金流 / 板块"""
     out = {}
     try:
         raw = http_get(f"https://qt.gtimg.cn/q={code}").decode("gbk", "ignore")
@@ -165,12 +200,15 @@ def fetch_stock_holding(code, sector, ind):
     except Exception:
         pass
     try:
-        d = json.loads(http_get(f"https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param={code},day,,,35,qfq").decode("utf-8", "ignore") or "{}")
+        d = json.loads(http_get(f"https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param={code},day,,,80,qfq").decode("utf-8", "ignore") or "{}")
         bars = ((d.get("data") or {}).get(code) or {}).get("qfqday") or []
         closes = [float(b[2]) for b in bars if len(b) > 2]
+        highs = [float(b[3]) for b in bars if len(b) > 3]
+        lows = [float(b[4]) for b in bars if len(b) > 4]
         def ma(nn):
             return round(sum(closes[-nn:]) / nn, 3) if len(closes) >= nn else None
         out.update({"ma5": ma(5), "ma10": ma(10), "ma20": ma(20)})
+        out.update(calc_indicators(closes, highs, lows))
     except Exception:
         pass
     try:
