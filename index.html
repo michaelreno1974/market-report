@@ -81,6 +81,23 @@ function render(d){
     }).join('')+'</div>';
   }
 
+  if(d.holdings && d.holdings.length){
+    h+='<div class="card"><h2>持仓复盘</h2>'+d.holdings.map(function(s){
+      var mi=n(s.main_in_wan);
+      var concl;
+      if(n(s.pct)>0&&mi>0) concl='量价资金同向，偏积极';
+      else if(n(s.pct)<0&&mi<0) concl='量价资金同弱，偏防守';
+      else if(n(s.pct)>0) concl='上涨但资金未明显进场';
+      else concl='弱势整理，等信号';
+      var maTxt='MA5 '+(n(s.ma5)>0?n(s.ma5).toFixed(2):'-')+' / MA20 '+(n(s.ma20)>0?n(s.ma20).toFixed(2):'-');
+      var szTxt=(s.sector_zdf!==null&&s.sector_zdf!==undefined)?' 板块'+fmt(n(s.sector_zdf))+'%':'';
+      return '<div class="row"><div class="nm">'+esc(s.name)+'<br><span style="font-size:10.5px;color:var(--sub);">'+esc(s.code)+' · '+esc(s.sector||'')+'</span></div>'+
+        '<div style="flex:1;font-size:11.5px;color:var(--sub);">'+maTxt+'<br>主力 '+(mi>=0?'+':'')+mi.toFixed(0)+'万'+szTxt+'</div>'+
+        '<div style="text-align:right;"><div class="pct '+cls(n(s.pct))+'">'+fmt(n(s.pct))+'%</div>'+
+        '<div style="font-size:10.5px;color:var(--sub);">'+concl+'</div></div></div>';
+    }).join('')+'<div style="font-size:11px;color:var(--sub);margin-top:5px;">默认持仓祥源文旅，可在 cloud/build_data.py 的 STOCK_HOLDINGS 中增改。</div></div>';
+  }
+
   h+='<div class="card"><h2>今日推荐</h2>'+d.picks.map(function(p){
     var tag=p.src.indexOf('资金')>-1?'资金':'热点';
     return '<div class="row"><div class="nm">'+esc(p.name)+'<br><span style="font-size:10.5px;color:var(--sub);">'+esc(p.code)+'</span></div>'+

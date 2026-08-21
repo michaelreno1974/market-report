@@ -144,6 +144,51 @@ def fetch_water(con):
     rows = [b for b in con if any(k in (b["name"] or "") for k in kw)]
     return [{"name": b["name"], "zdf": b["zdf"], "zljlr": b["zljlr"], "leader": b["leader"]} for b in rows[:6]]
 
+# 持仓个股配置（默认祥源文旅，用户指定新增前保持）
+STOCK_HOLDINGS = [("sh600576", "社会服务")]
+
+def fetch_stock_holding(code, sector, ind):
+    """持仓单日数据：行情 / 均线 / 资金流 / 板块"""
+    out = {}
+    try:
+        raw = http_get(f"https://qt.gtimg.cn/q={code}").decode("gbk", "ignore")
+        for line in raw.strip().split(";"):
+            if "=" not in line: continue
+            f = line.split("=", 1)[1].strip().strip('"').split("~")
+            if len(f) < 75: continue
+            def g(i, d=0.0):
+                try: return float(f[i]) if f[i] else d
+                except: return d
+            out.update({"code": f[2], "name": f[1], "price": g(3), "pct": g(32),
+                        "turnover": g(38), "vol_ratio": g(49), "r52_high": g(67), "r52_low": g(68)})
+            break
+    except Exception:
+        pass
+    try:
+        d = json.loads(http_get(f"https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param={code},day,,,35,qfq").decode("utf-8", "ignore") or "{}")
+        bars = ((d.get("data") or {}).get(code) or {}).get("qfqday") or []
+        closes = [float(b[2]) for b in bars if len(b) > 2]
+        def ma(nn):
+            return round(sum(closes[-nn:]) / nn, 3) if len(closes) >= nn else None
+        out.update({"ma5": ma(5), "ma10": ma(10), "ma20": ma(20)})
+    except Exception:
+        pass
+    try:
+        raw = http_get(f"https://vip.stock.finance.sina.com.cn/quotes_service/api/json_v2.php/MoneyFlow.ssl_qsfx_zjlrqs?page=1&num=1&sort=opendate&asc=0&daima={code}", referer="https://finance.sina.com.cn").decode("utf-8", "ignore")
+        rows = json.loads(raw or "[]")
+        if rows:
+            out["main_in_wan"] = round(float(rows[0].get("netamount") or 0) / 10000, 0)
+    except Exception:
+        pass
+    board = next((b for b in ind if b["name"] == sector), None)
+    out["sector"] = sector
+    out["sector_zdf"] = board["zdf"] if board else None
+    out["sector_flow"] = board["zljlr"] if board else None
+    return out
+
+def fetch_holdings(ind):
+    return [fetch_stock_holding(code, sector, ind) for code, sector in STOCK_HOLDINGS]
+
 def main():
     print("[1/6] 大盘 ...")
     index = fetch_index()
@@ -155,13 +200,15 @@ def main():
     g = fetch_global()
     print("[5/6] 股指期货 ...")
     fut = fetch_futures()
-    print("[6/6] 推荐与属水 ...")
+    print("[6/6] 推荐/属水/持仓 ...")
     picks = fetch_picks()
     water = fetch_water(con)
+    hold = fetch_holdings(ind)
     payload = {
         "date": bj_now().strftime("%Y-%m-%d %H:%M"),
         "index": index, "industry": ind[:8], "concept": con[:5],
         "global": g, "futures": fut, "picks": picks, "water": water,
+        "holdings": hold,
         "note": "来源：腾讯财经/新浪财经/中金所。盘中数据为当时快照，收盘后为完整数据。属水为个人偏好维度。",
     }
     with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "report.json"), "w", encoding="utf-8") as f:
