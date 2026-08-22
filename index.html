@@ -38,6 +38,7 @@
   .foot{font-size:11px;color:var(--sub);text-align:center;padding:16px 20px 8px;line-height:1.7;}
   .loading{text-align:center;color:var(--sub);padding:40px 0;}
   .err{background:#fff1f0;border:1px solid #ffccc7;color:#c0392b;border-radius:10px;padding:14px;margin:12px;font-size:13px;}
+  .upd{font-size:11px;color:var(--sub);text-align:center;padding:3px 16px 9px;}
   /* 持仓盯盘 / 复盘 */
   .hold{margin:10px 0;padding:10px 11px;border:1px solid var(--line);border-radius:10px;background:#fbfcfe;}
   .hold .hd{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:8px;}
@@ -66,6 +67,7 @@
 <body>
 <div class="top"><h1>每日市场快报</h1><div class="tm" id="tm">加载中...</div></div>
 <div class="body" id="body"><div class="loading">数据加载中...</div></div>
+<div class="upd" id="upd">页面加载中，将自动刷新…</div>
 <div class="foot" id="foot">免责声明：本页基于公开行情数据生成，仅供参考，不构成投资建议。市场有风险，投资需谨慎。数据来源：腾讯财经/新浪财经/中金所。属水标签为个人偏好维度。操作建议为指标算法生成，亦不构成买卖依据。</div>
 <script>
 function n(v,d){v=parseFloat(v);return isFinite(v)?v:(d===undefined?0:d);}
@@ -197,12 +199,23 @@ function render(d){
   document.getElementById('body').innerHTML=h;
 }
 
-fetch('report.json').then(function(r){return r.json();}).then(function(d){
-  if(!d||!d.index){document.getElementById('body').innerHTML='<div class="err">数据异常：report.json 格式不正确</div>';return;}
-  render(d);
-}).catch(function(e){
-  document.getElementById('body').innerHTML='<div class="err">数据加载失败：'+e.message+'。请确认 report.json 已随仓库发布。</div>';
-});
+function pad(x){return (x<10?'0':'')+x;}
+/* 自动刷新：加载时拉一次，之后每5分钟重新拉取最新 report.json（带时间戳破除 CDN 缓存） */
+function load(){
+  fetch('report.json?_='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(d){
+    if(!d||!d.index){document.getElementById('body').innerHTML='<div class="err">数据异常：report.json 格式不正确</div>';return;}
+    render(d);
+    var now=new Date();
+    var u=document.getElementById('upd');
+    if(u) u.textContent='数据更新于 '+esc(d.date)+' · 页面每5分钟自动刷新（'+pad(now.getHours())+':'+pad(now.getMinutes())+':'+pad(now.getSeconds())+'）';
+  }).catch(function(e){
+    var u=document.getElementById('upd');
+    if(u) u.textContent='加载失败：'+esc(e.message)+'，将自动重试';
+    document.getElementById('body').innerHTML='<div class="err">数据加载失败：'+esc(e.message)+'。请确认 report.json 已随仓库发布。</div>';
+  });
+}
+load();
+setInterval(load, 5*60*1000);
 </script>
 </body>
 </html>

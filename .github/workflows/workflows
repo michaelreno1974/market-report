@@ -1,0 +1,33 @@
+name: daily-market-report
+on:
+  schedule:
+    - cron: '0 0 * * *'      # 北京 08:00 盘前定调
+    - cron: '30 4 * * *'     # 北京 12:30 午间捕捉
+    - cron: '30 9 * * *'     # 北京 17:30 盘后收盘（完整数据）
+  workflow_dispatch:         # 支持手动触发
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build data
+        run: python build_data.py
+      - name: Commit report.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add report.json
+          if git diff --cached --quiet; then
+            echo "no data change"
+          else
+            git commit -m "data update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main || echo "rebase skipped"
+            git push || (sleep 5 && git pull --rebase origin main && git push)
+          fi
