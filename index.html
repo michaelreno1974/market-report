@@ -54,6 +54,13 @@
   .hold .atag{display:inline-block;font-weight:600;color:#fff;background:var(--blue);border-radius:6px;padding:1px 7px;font-size:11px;margin-right:6px;vertical-align:middle;}
   .hold .atext{font-weight:600;vertical-align:middle;}
   .hold .areason{color:var(--sub);font-size:11.5px;margin-top:3px;}
+  /* 每日财经要闻 */
+  .nl{display:block;text-decoration:none;color:var(--ink);padding:7px 0;border-bottom:1px dashed var(--line);}
+  .nl:last-of-type{border-bottom:none;}
+  .nl .nt{display:block;font-size:13.5px;line-height:1.45;}
+  .nl .nm{display:block;font-size:11px;color:var(--sub);margin-top:1px;}
+  .nl.hl{background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:7px 9px;margin:5px 0;}
+  .nl.hl .nt{color:#ad6800;font-weight:600;}
 </style>
 </head>
 <body>
@@ -132,6 +139,24 @@ function render(d){
   if(d.holdings && d.holdings.length){
     h+='<div class="card"><h2>持仓盯盘 · 复盘</h2>'+d.holdings.map(renderHold).join('')+
        '<div style="font-size:11px;color:var(--sub);margin-top:5px;">默认持仓祥源文旅，可在 cloud/build_data.py 的 STOCK_HOLDINGS 中增改。操作建议为指标算法生成，仅供参考。</div></div>';
+  }
+  // 每日财经要闻（持仓相关高亮 + 市场精选）
+  var holdNews=d.hold_news||[], marketNews=d.news||[];
+  if(holdNews.length||marketNews.length){
+    var nh='<div class="card"><h2>每日财经要闻</h2>';
+    if(holdNews.length){
+      nh+='<div style="font-size:11px;color:#ad6800;margin-bottom:4px;">持仓相关（'+esc(d.holdings&&d.holdings[0]?d.holdings[0].name:'')+'）</div>';
+      nh+=holdNews.map(function(x){
+        return '<a class="nl hl" href="'+esc(x.url)+'" target="_blank" rel="noopener"><span class="nt">'+esc(x.title)+'</span><span class="nm">'+esc(x.media||'')+' · '+esc(x.time||'')+(x.src?' · '+esc(x.src):'')+'</span></a>';
+      }).join('');
+    }
+    if(marketNews.length){
+      nh+=marketNews.map(function(x){
+        return '<a class="nl" href="'+esc(x.url)+'" target="_blank" rel="noopener"><span class="nt">'+esc(x.title)+'</span><span class="nm">'+esc(x.media||'')+' · '+esc(x.time||'')+'</span></a>';
+      }).join('');
+    }
+    nh+='<div style="font-size:10.5px;color:var(--sub);margin-top:6px;">新闻来自公开接口，仅供参考，不构成投资建议。</div></div>';
+    h+=nh;
   }
   h+='<div class="card"><h2>大盘</h2><div class="idx">'+((d.index||[]).map(function(i){
     return '<div class="c"><div class="k">'+esc(i.name)+'</div><div class="v '+cls(i.pct)+'">'+n(i.price).toFixed(2)+'</div><div class="p '+cls(i.pct)+'">'+fmt(i.pct)+'%</div></div>';

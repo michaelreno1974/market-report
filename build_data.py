@@ -5,7 +5,7 @@
 输出：report.json（供 index.html 手机端渲染）
 依赖：Python 标准库 + curl（runner 自带）
 """
-import json, os, re, subprocess, datetime
+import json, os, re, subprocess, datetime, time
 
 def bj_now():
     """北京时间（UTC+8），GitHub Actions 服务器默认 UTC"""
@@ -144,6 +144,88 @@ def fetch_water(con):
     rows = [b for b in con if any(k in (b["name"] or "") for k in kw)]
     return [{"name": b["name"], "zdf": b["zdf"], "zljlr": b["zljlr"], "leader": b["leader"]} for b in rows[:6]]
 
+def fetch_sina_roll(num=25):
+    """新浪财经滚动新闻（lid=2509 财经）。返回近24h去重列表"""
+    out = []
+    try:
+        url = f"https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2509&num={num}&order=1"
+        d = json.loads(http_get(url).decode("utf-8", "ignore") or "{}")
+        data = ((d.get("result") or {}).get("data")) or []
+        now = int(time.time())
+        seen = set()
+        for x in data:
+            try:
+                t = int(x.get("intime") or 0)
+                if t < now - 86400:
+                    continue
+                title = (x.get("title") or "").strip()
+                if not title or title in seen:
+                    continue
+                seen.add(title)
+                out.append({
+                    "title": title,
+                    "url": x.get("url") or x.get("wapurl") or "",
+                    "time": datetime.datetime.fromtimestamp(t).strftime("%m-%d %H:%M"),
+                    "media": x.get("media_name") or "",
+                    "intro": (x.get("intro") or x.get("summary") or "").strip(),
+                })
+            except Exception:
+                continue
+    except Exception:
+        pass
+    return out
+
+def fetch_eastmoney_ann(codes):
+    """东财个股公告（结构化），codes 如 ['sh600576']"""
+    out = []
+    try:
+        stock = ",".join(codes)
+        url = f"https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=10&page_index=0&ann_type=2&client_source=web&stock_list={stock}"
+        d = json.loads(http_get(url).decode("utf-8", "ignore") or "{}")
+        for it in ((d.get("data") or {}).get("list")) or []:
+            title = (it.get("title") or "").strip()
+            if not title:
+                continue
+            nd = it.get("notice_date") or it.get("eitime") or ""
+            out.append({
+                "title": title,
+                "url": it.get("url") or "",
+                "time": str(nd)[:16],
+                "media": "交易所公告",
+                "intro": "",
+            })
+    except Exception:
+        pass
+    return out
+
+def fetch_news(holdings):
+    """组合：市场要闻精选 + 持仓相关消息高亮"""
+    news = fetch_sina_roll()
+    kws = set()
+    for h in (holdings or []):
+        nm = h.get("name") or ""
+        if len(nm) >= 4:
+            kws.add(nm[:2]); kws.add(nm[2:])
+        elif nm:
+            kws.add(nm)
+        cd = (h.get("code") or "")[2:]
+        if cd:
+            kws.add(cd)
+    hold = []
+    for n in news:
+        if any(k in (n.get("title") or "") for k in kws):
+            h2 = dict(n); h2["src"] = "相关新闻"; hold.append(h2)
+    for a in fetch_eastmoney_ann([h.get("code") for h in (holdings or []) if h.get("code")]):
+        a2 = dict(a); a2["src"] = "公告"; hold.append(a2)
+    seen = set(); hold_dedup = []
+    for h in hold:
+        if h["title"] in seen:
+            continue
+        seen.add(h["title"]); hold_dedup.append(h)
+    hold_titles = seen
+    market = [n for n in news if n["title"] not in hold_titles][:12]
+    return {"news": market, "hold_news": hold_dedup}
+
 # 持仓个股配置（默认祥源文旅，用户指定新增前保持）
 STOCK_HOLDINGS = [("sh600576", "社会服务")]
 
@@ -238,16 +320,18 @@ def main():
     g = fetch_global()
     print("[5/6] 股指期货 ...")
     fut = fetch_futures()
-    print("[6/6] 推荐/属水/持仓 ...")
+    print("[6/6] 推荐/属水/持仓/要闻 ...")
     picks = fetch_picks()
     water = fetch_water(con)
     hold = fetch_holdings(ind)
+    nb = fetch_news(hold)
     payload = {
         "date": bj_now().strftime("%Y-%m-%d %H:%M"),
         "index": index, "industry": ind[:8], "concept": con[:5],
         "global": g, "futures": fut, "picks": picks, "water": water,
         "holdings": hold,
-        "note": "来源：腾讯财经/新浪财经/中金所。盘中数据为当时快照，收盘后为完整数据。属水为个人偏好维度。",
+        "news": nb["news"], "hold_news": nb["hold_news"],
+        "note": "来源：腾讯财经/新浪财经/中金所。盘中数据为当时快照，收盘后为完整数据。属水为个人偏好维度。财经要闻来自公开新闻接口，仅供参考，不构成投资建议。",
     }
     with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "report.json"), "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
@@ -255,7 +339,7 @@ def main():
     for i in index: print(f"  {i['name']} {i['price']} ({i['pct']:+.2f}%)")
     print("  热点:", " | ".join(f"{b['name']} {b['zdf']:+.1f}%" for b in ind[:3]))
     print("  期货:", " ".join(f"{x['prod']}{x['citic_dnet']:+d}" for x in fut))
-    print("  推荐:", len(picks), "只 | 属水板块:", len(water))
+    print("  推荐:", len(picks), "只 | 属水板块:", len(water), "| 要闻:", len(nb["news"]), "条 | 持仓消息:", len(nb["hold_news"]), "条")
 
 if __name__ == "__main__":
     main()

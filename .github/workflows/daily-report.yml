@@ -1,11 +1,9 @@
 name: daily-market-report
 on:
   schedule:
-    - cron: '0 2 * * 1-5'     # 北京 10:00
-    - cron: '0 3 * * 1-5'     # 北京 11:00
-    - cron: '0 6 * * 1-5'     # 北京 14:00
-    - cron: '0 7 * * 1-5'     # 北京 15:00
-    - cron: '15 9 * * 1-5'    # 北京 17:15（收盘完整数据）
+    - cron: '0 0 * * *'      # 北京 08:00 盘前定调
+    - cron: '30 4 * * *'     # 北京 12:30 午间捕捉
+    - cron: '30 9 * * *'     # 北京 17:30 盘后收盘（完整数据）
   workflow_dispatch:         # 支持手动触发
 permissions:
   contents: write
