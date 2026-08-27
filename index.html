@@ -111,7 +111,7 @@ function renderHold(s){
     var jv=n(kdj.j); kdjStat=jv>80?'超买':(jv<20?'超卖':(jv<0?'严重超卖':'')); }
   // BOLL
   var bollTxt='—', bollPos='';
-  if(boll.up!=null){ bollTxt='上'+n(boll.up).toFixed(2)+' 中'+n(boll.mid).toFixed(2)+' 下'+n(boll.dn).toFixed(2);
+  if(boll.up!=null){ var bw=boll.width!=null?(' 宽'+n(boll.width).toFixed(1)+'%'):''; bollTxt='上'+n(boll.up).toFixed(2)+' 中'+n(boll.mid).toFixed(2)+' 下'+n(boll.dn).toFixed(2)+bw;
     if(price>n(boll.up)) bollPos='上轨上方(强势)'; else if(price<n(boll.dn)) bollPos='下轨下方(超卖)'; else if(price>n(boll.mid)) bollPos='中轨上方'; else bollPos='中轨下方'; }
   // EXPMA
   var expTxt='—', expPos='';
