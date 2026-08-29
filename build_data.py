@@ -227,7 +227,7 @@ def fetch_news(holdings):
     return {"news": market, "hold_news": hold_dedup}
 
 # 持仓个股配置（默认祥源文旅，用户指定新增前保持）
-STOCK_HOLDINGS = [("sh600576", "社会服务")]
+STOCK_HOLDINGS = [("sh600576", "社会服务"), ("sh600460", "电子")]
 
 def calc_indicators(closes, highs, lows):
     """KDJ(9,3,3) / BOLL(20,2) / EXPMA(12,50)"""
@@ -249,7 +249,8 @@ def calc_indicators(closes, highs, lows):
         import statistics
         mid = statistics.mean(closes[-20:])
         sd = statistics.stdev(closes[-20:]) if len(closes) >= 20 else 0
-        ind["boll"] = {"up": round(mid + 2 * sd, 3), "mid": round(mid, 3), "dn": round(mid - 2 * sd, 3)}
+        width = round((4 * sd) / mid * 100, 2) if mid else 0
+        ind["boll"] = {"up": round(mid + 2 * sd, 3), "mid": round(mid, 3), "dn": round(mid - 2 * sd, 3), "width": width}
     except Exception:
         pass
     try:
