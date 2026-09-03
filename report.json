@@ -1,5 +1,5 @@
 {
- "date": "2026-09-02 17:38",
+ "date": "2026-09-03 08:10",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   52766.8789,
-   -0.79
+   53061.9492,
+   0.56
   ],
   "纳斯达克": [
-   26099.7742,
-   -1.03
+   26217.8279,
+   0.45
   ],
   "标普500": [
-   7631.4702,
-   -0.71
+   7666.6001,
+   0.46
   ],
   "恒生指数": [
    25280.82,
@@ -134,48 +134,19 @@
    -0.303
   ],
   "美元/人民币": [
-   6.7226,
+   6.7185,
    0
   ],
   "纽约黄金": [
-   4358.771,
+   4433.004,
    0
   ],
   "纽约原油": [
-   90.417,
+   90.619,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2609",
-   "net20": -9936,
-   "citic_net": 4962,
-   "citic_dnet": -862
-  },
-  {
-   "prod": "IH",
-   "main": "IH2609",
-   "net20": -9235,
-   "citic_net": 6769,
-   "citic_dnet": 531
-  },
-  {
-   "prod": "IC",
-   "main": "IC2609",
-   "net20": -3887,
-   "citic_net": 6649,
-   "citic_dnet": -1167
-  },
-  {
-   "prod": "IM",
-   "main": "IM2609",
-   "net20": -15209,
-   "citic_net": 13528,
-   "citic_dnet": 89
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "301357",
@@ -300,88 +271,88 @@
  ],
  "news": [
   {
-   "title": "市场切换防御形态，三大指数低开低走，军工板块逆市崛起| 华宝基金3A日报（2026.9.2）",
-   "url": "https://finance.sina.com.cn/money/fund/etf/2026-09-02/doc-iniqmshw2835460.shtml",
-   "time": "09-02 09:36",
-   "media": "新浪基金",
-   "intro": ""
+   "title": "新天绿色能源遭小摩减持236.96万股 每股作价3.26港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqnyaa4338007.shtml",
+   "time": "09-03 00:09",
+   "media": "新浪港股",
+   "intro": "香港联交所最新资料显示，8月27日，小摩减持新天绿色能源（00956）236.96万股，每股作价3.2583港元，总金额约为772.09万港元。减持后最新持股数目约为1.28亿股..."
   },
   {
-   "title": "长城基金汪立：科技成长仍将是市场关注的重要方向，策略上需更为关注结构与节奏",
-   "url": "https://finance.sina.com.cn/stock/enterprise/sale/2026-09-02/doc-iniqmshu1343848.shtml",
-   "time": "09-02 09:32",
-   "media": "新浪基金",
-   "intro": "近期，市场宽幅震荡，随着前期超跌修复持续推进，科技板块内部轮动和个股分化也进一步加快。后续AI产业链产业价值将如何重新分配？站在投资角度..."
-  },
-  {
-   "title": "长城基金汪立：科技产业的长期逻辑没变，产业趋势仍然是核心驱动力",
-   "url": "https://finance.sina.com.cn/stock/enterprise/sale/2026-09-02/doc-iniqmshu1343017.shtml",
-   "time": "09-02 09:31",
-   "media": "新浪基金",
-   "intro": "近期，科技股波动明显加大，部分公司出现“业绩增长但股价下跌”的情形，这是否意味着科技投资逻辑正在发生变化？为什么市场会出现“看对产业，却没有赚到钱”的情况？"
-  },
-  {
-   "title": "中微公司今日大宗交易折价成交50万股 成交额1.63亿元",
-   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-02/doc-iniqmshs4570525.shtml",
-   "time": "09-02 09:37",
-   "media": "界面",
-   "intro": "9月2日，中微公司大宗交易成交50万股，成交额1.63亿元，占当日总成交额的4.04%，成交价326.27元，较市场收盘价343.88元折价5.12%。（文章来源：界面新闻）"
-  },
-  {
-   "title": "GoPro拟以2.85亿美元出售多数股权，向人工智能与国防领域转型",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmshw7658103.shtml",
-   "time": "09-02 09:26",
+   "title": "马杜罗以国家元首豁免权为由要求美国法院撤销刑事指控",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqnyaa4334190.shtml",
+   "time": "09-03 00:05",
    "media": "环球市场播报",
-   "intro": "本次交易将帮助 GoPro 清偿 9200 万美元债务，公司将把业务目标投向数据中心与国防领域。 运动相机厂商 GoPro 周二对外宣布，已与光学设备制造商星人光学（Starman..."
+   "intro": "据报道，尼古拉斯·马杜罗要求纽约一名法官撤销针对他的刑事案件，理由是他作为一个主权国家的元首，在美国享有刑事起诉豁免权。"
   },
   {
-   "title": "摩根大通：日本政府养老投资基金显现配置调整的初步迹象",
-   "url": "https://finance.sina.com.cn/world/2026-09-02/doc-iniqmshw2830821.shtml",
-   "time": "09-02 09:25",
+   "title": "白宫：委内瑞拉协议相关原油可能11月进入美国储备系统",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqnyaa4331941.shtml",
+   "time": "09-03 00:03",
    "media": "环球市场播报",
-   "intro": "摩根大通表示，受日本国债收益率大幅上行影响，日本政府养老投资基金（GPIF）或正在重新考量资产配置方案，这有可能成为日元的又一支撑力量。"
+   "intro": "白宫发言人Anna Kelly 周三在媒体采访时表示，美国与委内瑞拉协议的相关原油很可能11月进入美国储备体系。"
   },
   {
-   "title": "750亿美元热钱涌入 土耳其政策制定者陷入两难",
-   "url": "https://finance.sina.com.cn/world/2026-09-02/doc-iniqmshu1335742.shtml",
-   "time": "09-02 09:23",
+   "title": "高盛：瓶颈制约委内瑞拉原油增产 未来两年难回2018年前水平",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqnyaa4331398.shtml",
+   "time": "09-03 00:03",
    "media": "环球市场播报",
-   "intro": "巨额资金涌入土耳其里拉资产，让政策制定者左右为难：如何遏制投机性短期资金，同时又不损害支撑本币的重要资金来源。 土耳其基准利率高达37%，位居全球前列..."
+   "intro": "高盛预计委内瑞拉原油产量将小幅上升，但受基础设施等瓶颈制约，未来两年日产量不太可能恢复到2018年前超过200万桶的水平。"
   },
   {
-   "title": "孟买证券交易所正与投资者磋商 提升收盘集合竞价活跃度",
-   "url": "https://finance.sina.com.cn/world/2026-09-02/doc-iniqmshs4561831.shtml",
-   "time": "09-02 09:21",
+   "title": "韩国8月份外汇储备增加143亿美元，为有史以来最大增幅",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqnyae1103212.shtml",
+   "time": "09-03 00:02",
    "media": "环球市场播报",
-   "intro": "孟买证券交易所（BSE）一名高管周三透露，交易所正与高频交易机构及其他市场参与者沟通，这类机构一直未参与印度新近推出的收盘集合竞价机制。"
+   "intro": "韩国央行周四公布的时间显示，由于美元计价资产增加，韩国外汇储备在8月份实现了有记录以来最大幅度的增长。 根据韩国央行的数据，截至8月底，韩国外汇储备为4422..."
   },
   {
-   "title": "石油巨头BP结束董事长遴选工作，化解董事会动荡局面",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmshu1333771.shtml",
-   "time": "09-02 09:21",
+   "title": "摩根士丹利：银行跻身亚洲人工智能受益行列",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqnyah7174904.shtml",
+   "time": "09-03 00:02",
    "media": "环球市场播报",
-   "intro": "核心要点继 5 月前任董事长阿尔伯特・马尼福德遭突然解职后，BP 正式任命伊恩・泰勒出任董事长。高级独立董事阿曼达・布兰克将在 2027 年年度股东大会之后退出 BP 董事会..."
+   "intro": "摩根士丹利表示，在亚洲人工智能应用推广、应对人口老龄化两大核心趋势下，银行属于净受益行业。 股票策略师丹尼尔・布莱克（Daniel Blake）与乔纳森・加纳（Jonathan..."
   },
   {
-   "title": "浙江荣泰：控股股东及一致行动人拟合计减持不超1.68%股份",
-   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-02/doc-iniqmshs4573260.shtml",
-   "time": "09-02 09:38",
-   "media": "财联社",
-   "intro": "浙江荣泰(603119.SH)公告称，公司控股股东、实际控制人及其一致行动人葛泰荣、葛太亮、上海巢泰因资金需求，拟于2026年9月24日至12月23日期间..."
+   "title": "日韩股市高开 韩国股市开盘上涨1.3%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqnyah7174586.shtml",
+   "time": "09-03 00:01",
+   "media": "环球市场播报",
+   "intro": "日经225指数上午开盘报64724.81点，涨幅0.62%。韩国综合股价指数（KOSPI）开盘上涨1.3%，至6650.33点。"
   },
   {
-   "title": "鑫巨宏IPO状态变更为提交注册",
-   "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-02/doc-iniqmshw2828823.shtml",
-   "time": "09-02 09:38",
-   "media": "",
-   "intro": "根据北交所最新披露的信息，2026年9月2日，无锡鑫巨宏智能科技股份有限公司IPO的状态从通过变更为提交注册。"
+   "title": "金沙中国获Chafetz Irwin增持162.32万股 每股作价13.83港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqnyah2346805.shtml",
+   "time": "09-02 23:58",
+   "media": "新浪港股",
+   "intro": "香港联交所最新数据显示，9月1日，Chafetz Irwin增持金沙中国（01928）162.32万股，每股作价13.83港元，总金额约为2244.89万港元。"
   },
   {
-   "title": "中银理财党委书记、董事长黄党贵：“十五五”时期理财行业实现差异化发展的路径探索",
-   "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-09-02/doc-iniqmshw2834469.shtml",
-   "time": "09-02 09:34",
-   "media": "市场资讯",
-   "intro": "原标题：中银理财党委书记、董事长黄党贵：“十五五”时期理财行业实现差异化发展的路径探索 | 银行家论道 来源：清华金融评论 编者按 当前，全球经济格局深刻调整..."
+   "title": "全美最严！纽约市全面禁止低龄学生使用AI",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqnyae1100024.shtml",
+   "time": "09-02 23:57",
+   "media": "环球市场播报",
+   "intro": "随着全美各学区争相应对人工智能带来的各类问题，纽约市周三宣布对低龄学生实施大范围人工智能禁令，此举标志着学校对这项新兴技术的管控力度大幅升级。"
+  },
+  {
+   "title": "圣邦股份获GIC Private Limited增持40万股 每股作价约94.35港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqnyah7173135.shtml",
+   "time": "09-02 23:56",
+   "media": "新浪港股",
+   "intro": "香港联交所最新数据显示，8月31日，GIC Private Limited增持圣邦股份（03661）40万股，每股作价94.3509港元，总金额约为3774.04万港元。"
+  },
+  {
+   "title": "朝聚眼科获张光弟增持3.6万股 每股作价2.358港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqnyah2345862.shtml",
+   "time": "09-02 23:54",
+   "media": "新浪港股",
+   "intro": "香港联交所最新数据显示，8月31日，张光弟增持朝聚眼科（02219）3.6万股，每股作价2.358港元，总金额约为8.49万港元。增持后最新持股数目约为8.47万股，最新持股比例为0..."
+  },
+  {
+   "title": "信达生物遭Cooney Charles Leland减持约3.86万股 每股作价约107.99港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqnyah7172243.shtml",
+   "time": "09-02 23:52",
+   "media": "新浪港股",
+   "intro": "香港联交所最新数据显示，8月27日，Cooney Charles Leland减持信达生物（01801）3.8628万股，每股作价107.9934港元，总金额约为417.16万港元。"
   }
  ],
  "hold_news": [],
