@@ -63,6 +63,11 @@
   .hold .pos{display:flex;flex-wrap:wrap;gap:2px 14px;font-size:12px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:5px 9px;margin:0 0 7px;}
   .hold .pos .ik2{color:var(--sub);}
   .hold .pos b{font-weight:600;color:var(--ink);}
+  .hold .disc{font-size:12px;border-radius:8px;padding:5px 9px;margin:0 0 7px;line-height:1.5;}
+  .hold .disc .dt{font-weight:700;margin-right:6px;}
+  .hold .disc.l0{background:var(--soft);color:var(--sub);}
+  .hold .disc.l1{background:#fff7e6;border:1px solid #ffd591;color:#ad4e00;}
+  .hold .disc.l2{background:#fff1f0;border:1px solid #ffa39e;color:#c0392b;font-weight:600;}
   .acct{display:flex;flex-wrap:wrap;gap:3px 16px;font-size:12px;background:var(--soft);border-radius:8px;padding:6px 10px;margin:0 0 2px;color:var(--sub);}
   .acct b{color:var(--ink);font-weight:600;}
   /* 每日财经要闻 */
@@ -134,10 +139,15 @@ function renderHold(s){
     var plv=n(s.pl), plc=cls(plv);
     posLine='<div class="pos"><span class="ik2">持仓</span><b>'+money(s.qty)+'</b>股<span class="ik2">成本</span><b>'+n(s.cost).toFixed(4)+'</b><span class="ik2">市值</span><b>'+money(s.mv)+'</b><span class="ik2">浮盈亏</span><span class="'+plc+'"><b>'+(plv>0?'+':'')+money(plv)+'</b></span></div>';
   }
+  var disc=s.disc||{}, dlv=disc.lvl||0, discHtml;
+  if(dlv===2){ discHtml='<div class="disc l2"><span class="dt">纪律·执行</span>'+esc(disc.msg||'')+'</div>'; }
+  else if(dlv===1){ discHtml='<div class="disc l1"><span class="dt">纪律·提示</span>'+esc(disc.msg||'')+'</div>'; }
+  else{ discHtml='<div class="disc l0">纪律线：未触发</div>'; }
   return '<div class="hold">'+
     '<div class="hd"><div><div class="nm">'+esc(s.name)+'</div><div class="cd">'+esc(s.code)+' · '+esc(s.sector)+'</div></div>'+
     '<div class="pr"><div class="pv '+clsP+'">'+price.toFixed(2)+'</div><div class="pp '+clsP+'">'+pctStr+'</div></div></div>'+
     posLine+
+    discHtml+
     '<div class="grid">'+
       it('均线','MA5 '+fmt2(ma5)+' / MA20 '+fmt2(ma20))+
       it('量价','换手'+turn.toFixed(2)+'% 量比'+vr.toFixed(2)+' 主力'+sign(mi)+mi.toFixed(0)+'万')+
