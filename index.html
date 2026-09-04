@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="theme-color" content="#1f2329" />
+<html lang="zh-CN" data-page-node-id="jfCrVwMGXHNLjsVEw5yQNm">
+<head data-page-node-id="S6VpXoBTjYgD0squxYgtFe">
+<meta charset="UTF-8" data-page-node-id="239rFZVArBK9aCARHYdCA0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" data-page-node-id="JEAp5pewxDllfIwWB7oLlR" />
+<meta name="apple-mobile-web-app-capable" content="yes" data-page-node-id="XLihasmdGQDBezuiu27L7y" />
+<meta name="theme-color" content="#1f2329" data-page-node-id="fmgU7kZ4CFETgujKOWa7Bf" />
 <title>每日市场快报</title>
-<link rel="icon" type="image/png" sizes="64x64" href="favicon.png" />
-<link rel="apple-touch-icon" href="apple-touch-icon.png" />
-<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" type="image/png" sizes="64x64" href="favicon.png" data-page-node-id="8LlhtfvsVMOoELCNmA0pIt" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" data-page-node-id="ABFegw0UT0QYE3IC6mfeZw" />
+<link rel="manifest" href="manifest.webmanifest" data-page-node-id="vDwrPXofF7VslPqYKCvxUA" />
 <style>
   :root{--ink:#1f2329;--sub:#5a6472;--line:#e6e9ef;--red:#d4380d;--green:#1e8e3e;--blue:#1d6fe0;--soft:#f0f3f7;--card:#fff;}
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
@@ -79,11 +79,11 @@
   .nl.hl .nt{color:#ad6800;font-weight:600;}
 </style>
 </head>
-<body>
-<div class="top"><span class="lg">涨</span><div class="ttl"><h1>每日市场快报</h1><div class="tm" id="tm">加载中...</div></div></div>
-<div class="body" id="body"><div class="loading">数据加载中...</div></div>
-<div class="upd" id="upd">页面加载中，将自动刷新…</div>
-<div class="foot" id="foot">免责声明：本页基于公开行情数据生成，仅供参考，不构成投资建议。市场有风险，投资需谨慎。数据来源：腾讯财经/新浪财经/中金所。属水标签为个人偏好维度。操作建议为指标算法生成，亦不构成买卖依据。</div>
+<body data-page-node-id="fIekOJ5ed6VW43ekYz8cQL">
+<div class="top" data-page-node-id="tFVBeXq2X2RPaJMoKod7hh"><span class="lg" data-page-node-id="OdxztfNKYI0uK2su0ZgmlF">涨</span><div class="ttl" data-page-node-id="69qrV6br0HsNcEnzS9g6If"><h1 data-page-node-id="Xh4xgIGbgw3AroTKiEULwe">每日市场快报</h1><div class="tm" id="tm" data-page-node-id="AZnUblRdygCYc7EFwUwC5G">加载中...</div></div></div>
+<div class="body" id="body" data-page-node-id="mO6aOP5fSnflB26sASs6cN"><div class="loading" data-page-node-id="a6qHir2ZGXHFWbLEzZwHgm">数据加载中...</div></div>
+<div class="upd" id="upd" data-page-node-id="F465igXOKOeYRfpx23BABw">页面加载中，将自动刷新…</div>
+<div class="foot" id="foot" data-page-node-id="3OjJa8hmoAkhcLnnRKGagE">免责声明：本页基于公开行情数据生成，仅供参考，不构成投资建议。市场有风险，投资需谨慎。数据来源：腾讯财经/新浪财经/中金所。属水标签为个人偏好维度。操作建议为指标算法生成，亦不构成买卖依据。</div>
 <script>
 function n(v,d){v=parseFloat(v);return isFinite(v)?v:(d===undefined?0:d);}
 function fmt(v){return (v>=0?'+':'')+v.toFixed(2);}
@@ -248,6 +248,15 @@ function load(){
 }
 load();
 setInterval(load, 5*60*1000);
+/* 页面版本自检：HTML 改版后，旧缓存的页面自动升级到新版（首次4秒后检查，此后每30分钟一次） */
+var PAGE_VER='20260904d2';
+function verCheck(){
+  fetch('index.html?_='+Date.now(),{cache:'no-store'}).then(function(r){return r.text();}).then(function(t){
+    if(t.indexOf("PAGE_VER='"+PAGE_VER+"'")<0){ location.href=location.pathname+'?v='+Date.now(); }
+  }).catch(function(){});
+}
+setTimeout(verCheck, 4000);
+setInterval(verCheck, 30*60*1000);
 </script>
 </body>
 </html>
