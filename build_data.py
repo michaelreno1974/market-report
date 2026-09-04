@@ -315,6 +315,26 @@ def fetch_stock_holding(code, sector, ind):
     out["sector_flow"] = board["zljlr"] if board else None
     return out
 
+def discipline(code, price, vr):
+    """持仓纪律线核对（2026-09-04 用户确认）。收盘价触发，次日执行。
+    返回 (lvl, msg)：0 未触发 / 1 提示(警戒或到价执行) / 2 强制执行"""
+    p = price or 0
+    if code == "sh600460":  # 士兰微
+        if 0 < p < 30.0:
+            if vr and vr > 1.5:
+                return 2, "放量跌破 30 元纪律线，次日卖出 700 股，恢复 2400 股敞口"
+            return 1, ("跌破 30 元（量比 %.2f 未放量），次日放量确认即卖出 700 股" % vr) if vr else "跌破 30 元（量比数据缺失），警戒观察"
+        if 31.5 <= p <= 32.3:
+            return 1, "反抽至减仓区 31.5-32.3，卖出 700 股，恢复 2400 股敞口"
+    elif code == "sh600576":  # 祥源文旅
+        if 0 < p < 5.20:
+            return 2, "跌破 5.20 底线，次日减仓 5000 股，控制深套股尾部风险"
+        if p < 5.40:
+            return 1, "逼近 5.20 底线（现价 %.2f），破位即减 5000 股" % p
+        if p >= 5.79 and vr and vr >= 1.2:
+            return 1, "放量触及 5.79 压力区，滞涨则减仓 5000 股，回收弹药"
+    return 0, ""
+
 def fetch_holdings(ind):
     out = []
     for code, sector in STOCK_HOLDINGS:
@@ -330,6 +350,8 @@ def fetch_holdings(ind):
                 "pl": round((p - cost) * qty, 2),
                 "pl_pct": round((p / cost - 1) * 100, 2) if cost else None,
             })
+        dlv, dmsg = discipline(code, h.get("price"), h.get("vol_ratio"))
+        h["disc"] = {"lvl": dlv, "msg": dmsg}
         out.append(h)
     return out
 
