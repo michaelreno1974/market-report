@@ -60,6 +60,11 @@
   .hold .atag{display:inline-block;font-weight:600;color:#fff;background:var(--blue);border-radius:6px;padding:1px 7px;font-size:11px;margin-right:6px;vertical-align:middle;}
   .hold .atext{font-weight:600;vertical-align:middle;}
   .hold .areason{color:var(--sub);font-size:11.5px;margin-top:3px;}
+  .hold .pos{display:flex;flex-wrap:wrap;gap:2px 14px;font-size:12px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:5px 9px;margin:0 0 7px;}
+  .hold .pos .ik2{color:var(--sub);}
+  .hold .pos b{font-weight:600;color:var(--ink);}
+  .acct{display:flex;flex-wrap:wrap;gap:3px 16px;font-size:12px;background:var(--soft);border-radius:8px;padding:6px 10px;margin:0 0 2px;color:var(--sub);}
+  .acct b{color:var(--ink);font-weight:600;}
   /* 每日财经要闻 */
   .nl{display:block;text-decoration:none;color:var(--ink);padding:7px 0;border-bottom:1px dashed var(--line);}
   .nl:last-of-type{border-bottom:none;}
@@ -85,6 +90,7 @@ function gv(obj,key,d){if(!obj||obj[key]==null)return d==null?0:d;var v=parseFlo
 
 function it(k,v){return '<div class="it"><span class="ik">'+esc(k)+'</span><span class="iv">'+esc(v)+'</span></div>';}
 function sign(v){return v>=0?'+':'';}
+function money(v){return (v==null||isNaN(v))?'—':Math.round(v).toLocaleString('zh-CN');}
 
 /* 持仓操作建议：综合趋势/动量/资金/板块给出参考 */
 function holdAdvice(price,ma20,e20,j,mi,sz){
@@ -123,9 +129,15 @@ function renderHold(s){
   if(exp.ema20!=null){ expTxt='20日 '+n(exp.ema20).toFixed(2); expPos=price>n(exp.ema20)?'现价高于EMA20(偏强)':'现价低于EMA20(偏弱)'; }
   var adv=holdAdvice(price,ma20,exp.ema20,kdj.j,mi,sz);
   var pctStr=(pct>=0?'+':'')+pct.toFixed(2)+'%';
+  var posLine='';
+  if(s.qty!=null&&s.cost!=null){
+    var plv=n(s.pl), plc=cls(plv);
+    posLine='<div class="pos"><span class="ik2">持仓</span><b>'+money(s.qty)+'</b>股<span class="ik2">成本</span><b>'+n(s.cost).toFixed(4)+'</b><span class="ik2">市值</span><b>'+money(s.mv)+'</b><span class="ik2">浮盈亏</span><span class="'+plc+'"><b>'+(plv>0?'+':'')+money(plv)+'</b></span></div>';
+  }
   return '<div class="hold">'+
     '<div class="hd"><div><div class="nm">'+esc(s.name)+'</div><div class="cd">'+esc(s.code)+' · '+esc(s.sector)+'</div></div>'+
     '<div class="pr"><div class="pv '+clsP+'">'+price.toFixed(2)+'</div><div class="pp '+clsP+'">'+pctStr+'</div></div></div>'+
+    posLine+
     '<div class="grid">'+
       it('均线','MA5 '+fmt2(ma5)+' / MA20 '+fmt2(ma20))+
       it('量价','换手'+turn.toFixed(2)+'% 量比'+vr.toFixed(2)+' 主力'+sign(mi)+mi.toFixed(0)+'万')+
@@ -144,8 +156,13 @@ function render(d){
   document.getElementById('tm').textContent='更新于 '+(d.date||'')+' · 盘中数据为当时快照';
   var h='';
   if(d.holdings && d.holdings.length){
-    h+='<div class="card"><h2>持仓盯盘 · 复盘</h2>'+d.holdings.map(renderHold).join('')+
-       '<div style="font-size:11px;color:var(--sub);margin-top:5px;">默认持仓祥源文旅，可在 cloud/build_data.py 的 STOCK_HOLDINGS 中增改。操作建议为指标算法生成，仅供参考。</div></div>';
+    var acct=d.account||{}, aHtml='';
+    if(acct.cash!=null){
+      var apl=n(acct.hold_pl), acls=cls(apl);
+      aHtml='<div class="acct"><span>可用现金 <b>'+money(acct.cash)+'</b></span><span>持仓市值 <b>'+money(acct.hold_mv)+'</b></span><span class="'+acls+'">持仓盈亏 <b>'+(apl>0?'+':'')+money(apl)+'</b></span><span>账户总资产 <b>'+money(acct.assets)+'</b></span></div>';
+    }
+    h+='<div class="card"><h2>持仓盯盘 · 复盘</h2>'+aHtml+d.holdings.map(renderHold).join('')+
+       '<div style="font-size:11px;color:var(--sub);margin-top:5px;">持仓股数与成本为账户核对口径（祥源 10000 股、士兰微 3100 股），市值与盈亏随行情实时更新。操作建议为指标算法生成，仅供参考。</div></div>';
   }
   // 每日财经要闻（持仓相关高亮 + 市场精选）
   var holdNews=d.hold_news||[], marketNews=d.news||[];
