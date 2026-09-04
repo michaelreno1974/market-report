@@ -229,6 +229,14 @@ def fetch_news(holdings):
 # 持仓个股配置（默认祥源文旅，用户指定新增前保持）
 STOCK_HOLDINGS = [("sh600576", "社会服务"), ("sh600460", "电子")]
 
+# 持仓账户口径（2026-09-04 用户券商 App 核对）：qty 股数, cost 含费成本价
+POSITIONS = {
+    "sh600576": {"qty": 10000, "cost": 8.2475},
+    "sh600460": {"qty": 3100, "cost": 33.5224},
+}
+# 证券账户可用现金（2026-09-04 核对）
+ACCOUNT_CASH = 1063.58
+
 def calc_indicators(closes, highs, lows):
     """KDJ(9,3,3) / BOLL(20,2) / EXPMA(12,50)"""
     ind = {}
@@ -308,7 +316,22 @@ def fetch_stock_holding(code, sector, ind):
     return out
 
 def fetch_holdings(ind):
-    return [fetch_stock_holding(code, sector, ind) for code, sector in STOCK_HOLDINGS]
+    out = []
+    for code, sector in STOCK_HOLDINGS:
+        h = fetch_stock_holding(code, sector, ind)
+        pos = POSITIONS.get(code)
+        if pos:
+            qty, cost = pos["qty"], pos["cost"]
+            p = h.get("price") or 0
+            h.update({
+                "qty": qty,
+                "cost": cost,
+                "mv": round(qty * p, 2),
+                "pl": round((p - cost) * qty, 2),
+                "pl_pct": round((p / cost - 1) * 100, 2) if cost else None,
+            })
+        out.append(h)
+    return out
 
 def main():
     print("[1/6] 大盘 ...")
@@ -326,11 +349,21 @@ def main():
     water = fetch_water(con)
     hold = fetch_holdings(ind)
     nb = fetch_news(hold)
+    hold_mv = round(sum((x.get("mv") or 0) for x in hold), 2)
+    hold_cost = round(sum((x.get("qty") or 0) * (x.get("cost") or 0) for x in hold), 2)
+    hold_pl = round(hold_mv - hold_cost, 2)
     payload = {
         "date": bj_now().strftime("%Y-%m-%d %H:%M"),
         "index": index, "industry": ind[:8], "concept": con[:5],
         "global": g, "futures": fut, "picks": picks, "water": water,
         "holdings": hold,
+        "account": {
+            "cash": ACCOUNT_CASH,
+            "hold_mv": hold_mv,
+            "hold_cost": hold_cost,
+            "hold_pl": hold_pl,
+            "assets": round(hold_mv + ACCOUNT_CASH, 2),
+        },
         "news": nb["news"], "hold_news": nb["hold_news"],
         "note": "来源：腾讯财经/新浪财经/中金所。盘中数据为当时快照，收盘后为完整数据。属水为个人偏好维度。财经要闻来自公开新闻接口，仅供参考，不构成投资建议。",
     }
