@@ -1,5 +1,5 @@
 {
- "date": "2026-09-08 17:39",
+ "date": "2026-09-09 08:11",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   53414.25,
-   -0.51
+   52786.0703,
+   -1.18
   ],
   "纳斯达克": [
-   26506.9901,
-   -0.29
+   26421.4126,
+   -0.32
   ],
   "标普500": [
-   7718.6001,
-   -0.38
+   7673.52,
+   -0.58
   ],
   "恒生指数": [
    25252.07,
@@ -134,48 +134,19 @@
    -0.384
   ],
   "美元/人民币": [
-   6.71,
+   6.6992,
    0
   ],
   "纽约黄金": [
-   4440.092,
+   4394.164,
    0
   ],
   "纽约原油": [
-   94.084,
+   94.408,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2609",
-   "net20": -8344,
-   "citic_net": 5536,
-   "citic_dnet": -202
-  },
-  {
-   "prod": "IH",
-   "main": "IH2609",
-   "net20": -8290,
-   "citic_net": 6116,
-   "citic_dnet": -494
-  },
-  {
-   "prod": "IC",
-   "main": "IC2609",
-   "net20": -2550,
-   "citic_net": 6160,
-   "citic_dnet": -570
-  },
-  {
-   "prod": "IM",
-   "main": "IM2609",
-   "net20": -12498,
-   "citic_net": 12041,
-   "citic_dnet": -557
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "688293",
@@ -367,88 +338,88 @@
  },
  "news": [
   {
-   "title": "价值276亿美元的加拿大报复性关税正式生效，美加贸易裂痕进一步加深",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww9460513.shtml",
-   "time": "09-08 09:39",
+   "title": "首惠产业金融公布股份合并将于9月10日生效",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-09/doc-iniresxy8880207.shtml",
+   "time": "09-09 00:10",
+   "media": "新浪港股",
+   "intro": "首惠产业金融（00730）发布公告，联交所上市委员会已批准合并股份上市及买卖。由于股东已于股东特别大会上批准股份合并，而股份合并的所有先决条件已获达成..."
+  },
+  {
+   "title": "奥传思维控股获主要股东Silver Pro出售9396万股公司股份",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-09/doc-iniresxy8879403.shtml",
+   "time": "09-09 00:09",
+   "media": "新浪港股",
+   "intro": "奥传思维控股（08091）发布公告，董事会接获本公司主要股东Silver Pro Investments Limited（Silver Pro）通知，于2026年9月8日，其已向梁俊威先生（梁先生）..."
+  },
+  {
+   "title": "贝森特债市抛售潮“退烧”计划即将揭晓 华尔街如坐针毡",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-iniresxy8878441.shtml",
+   "time": "09-09 00:07",
    "media": "环球市场播报",
-   "intro": "核心要点加拿大对价值 276 亿美元的美国商品开征并上调关祱，涵盖乳制品、农业设备、纸张、家电及电子产品。美国钢铁、铝、铁制品、家具、服装被征收最高 50% 的关祱。"
+   "intro": "美国财政部长斯科特·贝森特即将揭晓扩大美债回购计划的力度，华尔街交易商对此严阵以待。 美国财政部预计将于周三宣布次日回购存续10年期至20年期美债的规模；根据以往经验..."
   },
   {
-   "title": "三星领投欧洲AI龙头Mistral，公司估值达240亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4627416.shtml",
-   "time": "09-08 09:36",
+   "title": "康宁杰瑞制药-B于9月8日斥资184.99万港元回购22万股",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-09/doc-iniresxy8877923.shtml",
+   "time": "09-09 00:07",
+   "media": "新浪港股",
+   "intro": "康宁杰瑞制药-B（09966）发布公告，于2026年9月8日斥资184.99万港元回购22万股。"
+  },
+  {
+   "title": "HASHKEY HLDGS于9月8日斥资478.66万港元回购170.64万股",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-09/doc-iniresya5649607.shtml",
+   "time": "09-09 00:06",
+   "media": "新浪港股",
+   "intro": "HASHKEY HLDGS（03887）发布公告，于2026年9月8日斥资478.66万港元回购170.64万股。"
+  },
+  {
+   "title": "理想汽车-W于9月8日斥资2663.35万港元回购53.91万股",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-09/doc-iniresxy8876158.shtml",
+   "time": "09-09 00:05",
+   "media": "新浪港股",
+   "intro": "理想汽车-W（02015）发布公告，于2026年9月8日斥资2663.35万港元回购53.91万股。"
+  },
+  {
+   "title": "江波龙于9月8日斥资4.48亿元回购124.95万股A股",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-09/doc-iniresye8799982.shtml",
+   "time": "09-09 00:04",
+   "media": "新浪港股",
+   "intro": "江波龙（09976）发布公告，于2026年9月8日斥资4.48亿元回购124.95万股A股。"
+  },
+  {
+   "title": "优地机器人：香港公开发售获140.02倍认购",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-09/doc-iniresye8798924.shtml",
+   "time": "09-09 00:02",
+   "media": "新浪港股",
+   "intro": "优地机器人（03231）公布配发结果，公司全球发售4500万股H股，香港公开发售占6.18%，国际发售占93.82%。每股发售价14.45港元，全球发售净筹约5.766亿港元。"
+  },
+  {
+   "title": "日韩股市开盘涨跌不一 韩国股市开盘上涨0.3%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-iniresye8798728.shtml",
+   "time": "09-09 00:01",
    "media": "环球市场播报",
-   "intro": "核心要点Mistral 完成 30 亿欧元（折合 35 亿美元）融资，投后估值 210 亿欧元。主要投资方包括三星电子、欧盟背书的欧洲规模化基金（Scaleup Europe Fund）。"
+   "intro": "日经225指数上午开盘报65087.22点，跌幅0.28%。韩国综合股价指数（KOSPI）开盘上涨0.3%，至6972.87点。"
   },
   {
-   "title": "交易员：印度央行周二在外汇市场抛售美元以支撑卢比汇率",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4627109.shtml",
-   "time": "09-08 09:36",
+   "title": "交运燃气：控股股东解除质押股份",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-09/doc-iniresye3966474.shtml",
+   "time": "09-09 00:00",
+   "media": "新浪港股",
+   "intro": "交运燃气（01407）发布公告，如质押公告所披露，公司控股股东LXL Phoenix及SEGM Holding已分别质押公司1.848亿股普通股及3300万股普通股（合共约占公司于2025年9月2日已发..."
+  },
+  {
+   "title": "美军称摧毁多艘伊朗油轮 以回应德黑兰此前企图袭击美国军舰",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-iniresya5642181.shtml",
+   "time": "09-08 23:57",
    "media": "环球市场播报",
-   "intro": "据知情交易员透露，印度央行周二在境内外汇市场抛售美元以支撑卢比汇率。因未获授权公开谈论此事，这些交易员要求匿名。"
+   "intro": "美国中央司令部称，为回应伊朗近日两次企图用弹道导弹袭击美国海军军舰，美军周二打击了五艘载有原油的伊朗油轮。 美国军方周二表示，美国军舰并未被击中..."
   },
   {
-   "title": "北方华创砸入72亿元研发 利润率正在为新品商业化买单？",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-09-08/doc-inirceww4626065.shtml",
-   "time": "09-08 09:34",
-   "media": "新浪证券",
-   "intro": "出品：新浪财经上市公司研究院 作者：杳 核心观点：北方华创自2025年以来利润增长明显落后于收入增长，表面看是研发投入和费用化加快所致..."
-  },
-  {
-   "title": "胆固醇药物临床试验受挫，数十亿美元研发竞赛蒙上阴影",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4625928.shtml",
-   "time": "09-08 09:33",
+   "title": "摩根士丹利称套利交易足以承受日元强升的冲击",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-iniresxy8869067.shtml",
+   "time": "09-08 23:56",
    "media": "环球市场播报",
-   "intro": "核心要点诺华的pelacarsen虽可降低有害脂蛋白 a（Lp （a）），但未能减少心血管事件。此次失利，令安进、礼来的同靶点在研 Lp （a） 药物前景充满不确定性。"
-  },
-  {
-   "title": "亚马逊委任银行筹备首次英镑债券发行",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircews9283726.shtml",
-   "time": "09-08 09:31",
-   "media": "环球市场播报",
-   "intro": "亚马逊公司已委任银行安排其首次英镑债券发行，交易预计最快于周三启动。 据一位不愿具名的知情人士透露，亚马逊计划发行多个期限的债券，期限从3年至19年不等，摩根大通..."
-  },
-  {
-   "title": "全球市场持续对各类冲击免疫 汇丰银行列出可能终结这一态势的风险因素",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4624511.shtml",
-   "time": "09-08 09:30",
-   "media": "环球市场播报",
-   "intro": "核心要点汇丰银行表示，在企业盈利向好、财富增值以及央行大规模兜底政策的支撑下，市场多次对各类冲击置之不理。该行称，若市场感知到央行不再提供托底支持..."
-  },
-  {
-   "title": "科威特原油出口回暖至100万桶/日",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4623544.shtml",
-   "time": "09-08 09:28",
-   "media": "环球市场播报",
-   "intro": "随着霍尔木兹海峡石油运输逐步恢复，科威特原油日出口量约100万桶，其中包含在霍尔木兹海峡外通过船对船转运完成的部分。"
-  },
-  {
-   "title": "印尼将大米援助延长至年底，继续覆盖约3320万户家庭",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww9454119.shtml",
-   "time": "09-08 09:25",
-   "media": "环球市场播报",
-   "intro": "印度尼西亚总统普拉博沃·苏比延多已指示，将原定持续至9月的大米援助计划延长至2026年12月，继续向约3320万户低收入家庭提供支持。"
-  },
-  {
-   "title": "华夏银行：独立董事赵红、郭庆旺、丁益辞任",
-   "url": "https://finance.sina.com.cn/jryx/hm/2026-09-08/doc-inirceww4622017.shtml",
-   "time": "09-08 09:25",
-   "media": "金融一线",
-   "intro": "9月8日金融一线消息，华夏银行今日发布公告称，该行董事会收到独立董事赵红、郭庆旺、丁益的书面辞职报告。赵红、郭庆旺、丁益因担任独立董事职务时间已满 6 年..."
-  },
-  {
-   "title": "三星在日本开设先进芯片封装研发中心",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4620572.shtml",
-   "time": "09-08 09:22",
-   "media": "环球市场播报",
-   "intro": "据报道，三星电子已在日本横滨开设了一家先进的半导体封装研发中心。  三星之前曾宣布，计划从2024年起的五年内投资约400亿日元，用于扩建该实验室的研究基础设施并加强先..."
-  },
-  {
-   "title": "日本金融业人才争夺升温 Pimco招募前法国农业信贷银行日本交易主管",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww9451518.shtml",
-   "time": "09-08 09:19",
-   "media": "环球市场播报",
-   "intro": "随着亚洲最活跃金融中心之一的人才争夺战升温，品浩（Pimco）聘请了前法国农业信贷银行日本交易部门负责人。 根据备忘录，天田空将于9月下旬加入Pimco..."
+   "intro": "摩根士丹利策略师认为，日元近期大幅升值，不太可能打乱新兴市场广受欢迎的套利交易。 以全球外汇和新兴市场策略主管James Lord为首的团队在一份报告写道..."
   }
  ],
  "hold_news": [],
