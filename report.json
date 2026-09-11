@@ -1,5 +1,5 @@
 {
- "date": "2026-09-10 17:40",
+ "date": "2026-09-11 08:09",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   52380.6602,
-   -0.77
+   52064.1016,
+   -0.6
   ],
   "纳斯达克": [
-   26253.3398,
-   -0.64
+   26081.7245,
+   -0.65
   ],
   "标普500": [
-   7636.3599,
-   -0.48
+   7591.7002,
+   -0.58
   ],
   "恒生指数": [
    24985.18,
@@ -134,48 +134,19 @@
    -1.126
   ],
   "美元/人民币": [
-   6.7061,
+   6.702,
    0
   ],
   "纽约黄金": [
-   4433.8,
+   4360.31,
    0
   ],
   "纽约原油": [
-   97.698,
+   103.004,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2609",
-   "net20": -7985,
-   "citic_net": 5017,
-   "citic_dnet": -130
-  },
-  {
-   "prod": "IH",
-   "main": "IH2609",
-   "net20": -6812,
-   "citic_net": 5686,
-   "citic_dnet": -387
-  },
-  {
-   "prod": "IC",
-   "main": "IC2609",
-   "net20": -2631,
-   "citic_net": 4379,
-   "citic_dnet": -1471
-  },
-  {
-   "prod": "IM",
-   "main": "IM2609",
-   "net20": -10908,
-   "citic_net": 10491,
-   "citic_dnet": -1214
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "301176",
@@ -367,88 +338,88 @@
  },
  "news": [
   {
-   "title": "牧原秦英林对话图灵金贤敏畅想“量子养猪”，学者直言“量子养猪”匪夷所思",
-   "url": "https://finance.sina.com.cn/meeting/2026-09-10/doc-iniritau2877701.shtml",
-   "time": "09-10 09:38",
-   "media": "睿见Economy",
-   "intro": "近日，在一场活动上，牧原集团终身荣誉董事长秦英林与图灵量子创始人金贤敏展开了一场传统产业与未来产业的对话。 牧原集团终身荣誉董事长秦英林向图灵量子创始人金贤敏提..."
-  },
-  {
-   "title": "大商所国际产业大会将于10月13-14日在大连召开",
-   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-10/doc-iniritaq8628579.shtml",
-   "time": "09-10 09:36",
-   "media": "市场资讯",
-   "intro": "由大连商品交易所（简称“大商所”）、马来西亚交易所（简称“马交所”）共同主办的“第19届国际油脂油料大会暨农畜产业（衍生品）大会”（简称“国际产业大会”）将于10月13-14日..."
-  },
-  {
-   "title": "土耳其司法部长：市场操纵行为不能逍遥法外",
-   "url": "https://finance.sina.com.cn/world/2026-09-10/doc-iniritas5400361.shtml",
-   "time": "09-10 09:36",
+   "title": "韩国10年期国债期货跌至2022年10月以来最低水平",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmfea7061808.shtml",
+   "time": "09-11 00:08",
    "media": "环球市场播报",
-   "intro": "媒体援引司法部长阿金·居尔莱克在伊斯坦布尔的讲话称：“重要的是避免不必要地扰乱市场。” “股市中有大量投资者与普通民众。但构成刑事犯罪的操纵交易不能不受惩处..."
+   "intro": "在周四美国国债遭到抛售后，韩国10年期国债期货跌至2022年10月以来的最低水平。10年期国债期货一度下跌106点，至103.62。"
   },
   {
-   "title": "印度8月股票型基金资金流入增至31亿美元 环比上升19%",
-   "url": "https://finance.sina.com.cn/world/2026-09-10/doc-iniritau2875217.shtml",
-   "time": "09-10 09:34",
+   "title": "全球国债收益率飙升 对冲基金Andromeda示警信贷紧缩并称或已撞上冰山",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmfei2104927.shtml",
+   "time": "09-11 00:08",
    "media": "环球市场播报",
-   "intro": "印度共同基金协会数据显示，印度投资者8月向股票型基金净投入2933亿卢比（折合31亿美元），较7月增长19%。 债券型基金净流出813亿卢比，7月则为净流入1.88万亿卢比。"
+   "intro": "总部位于伦敦的信贷对冲基金Andromeda Capital Management表示，全球政府债券收益率上升正对公司债市场构成日益严重的威胁。"
   },
   {
-   "title": "IBM与洛克希德·马丁宣布在苏黎世联邦理工学院设立瑞士量子创新中心",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-iniritas5397900.shtml",
-   "time": "09-10 09:33",
+   "title": "佛罗里达州州长德桑蒂斯抨击特朗普的5000美元支票计划：将带来“更多债务和更多通胀”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmfei2103813.shtml",
+   "time": "09-11 00:07",
    "media": "环球市场播报",
-   "intro": "IBM与洛克希德·马丁宣布在苏黎世联邦理工学院设立瑞士量子创新中心，核心设备为瑞士首台IBM量子计算机 双方将拓展现有合作，计划与瑞士多家精选学术机构共同启动研究项目。..."
+   "intro": "佛罗里达州州长罗恩・德桑蒂斯抨击美国总统唐纳德・特朗普的提案 —— 即如果共和党在中期选举守住席位，就向美国人发放 5000 美元..."
   },
   {
-   "title": "韩国即将敲定数百亿美元对美投资协议 特朗普迎来一项政绩",
-   "url": "https://finance.sina.com.cn/world/2026-09-10/doc-iniritau2873529.shtml",
-   "time": "09-10 09:32",
+   "title": "日韩股市集体低开 韩国股市开盘下跌3.3%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmfea7059530.shtml",
+   "time": "09-11 00:02",
    "media": "环球市场播报",
-   "intro": "韩国政府即将公布一项在美国开展的大型能源投资项目，用以支撑美国人工智能产业建设。这是美韩两国去年达成贸易协议后，市场期待已久的进展。"
+   "intro": "日经225指数开盘下跌1.5%，报64276.82点，全市场普遍遭抛售。韩国综合股价指数（KOSPI）开盘下跌3.3%，至6802.50点。三星电子股价下跌3%，SK海力士股价下跌4%。"
   },
   {
-   "title": "铜价大涨逼近15000美元 市场响起泡沫风险警告",
-   "url": "https://finance.sina.com.cn/world/2026-09-10/doc-iniritas5394650.shtml",
-   "time": "09-10 09:31",
+   "title": "加拿大与乌克兰签署百年协议，包括合作生产数百万架无人机",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmfei2098659.shtml",
+   "time": "09-11 00:01",
    "media": "环球市场播报",
-   "intro": "铜价在历史纪录高点附近企稳。本轮上涨推动铜价逼近每吨15000美元，投资者正在思考行情潜在的下行压力。 伦敦金属交易所铜价有望创下连续11周上涨的历史纪录。"
+   "intro": "加拿大总理马克·卡尼周四与到访的乌克兰总统泽连斯基签署多项宣言与合作计划，其中包括一份百年伙伴关系宣言以及无人机合作项目。"
   },
   {
-   "title": "伊朗战事持续 欧洲天然气在三年高位附近持稳",
-   "url": "https://finance.sina.com.cn/world/2026-09-10/doc-iniritau2872636.shtml",
-   "time": "09-10 09:30",
+   "title": "药明康德获JPMorgan Chase & Co.增持约110.3万股 每股作价约191.71港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-11/doc-inirmfei2096984.shtml",
+   "time": "09-10 23:59",
+   "media": "新浪港股",
+   "intro": "香港联交所最新数据显示，9月7日，JPMorgan Chase &amp; Co．增持药明康德（02359）110.2999万股，每股作价191.7113港元，总金额约为2.11亿港元。"
+  },
+  {
+   "title": "圣邦股份获JPMorgan Chase & Co.增持10.09万股 每股作价约87.75港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-11/doc-inirmfef5323913.shtml",
+   "time": "09-10 23:58",
+   "media": "新浪港股",
+   "intro": "香港联交所最新数据显示，9月7日，JPMorgan Chase &amp; Co．增持圣邦股份（03661）10.09万股，每股作价87.7489港元，总金额约为885.39万港元。"
+  },
+  {
+   "title": "建滔积层板获Hallgain Management Limited增持60万股 每股作价46.82港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-11/doc-inirmfea2225670.shtml",
+   "time": "09-10 23:57",
+   "media": "新浪港股",
+   "intro": "香港联交所最新数据显示，9月7日，Hallgain Management Limited增持建滔积层板（01888）60万股，每股作价46.82港元，总金额约为2809.2万港元。"
+  },
+  {
+   "title": "国药控股获Lazard Asset Management LLC增持95.96万股 每股作价约15.68港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-11/doc-inirmfei2095187.shtml",
+   "time": "09-10 23:55",
+   "media": "新浪港股",
+   "intro": "香港联交所最新数据显示，9月4日，Lazard Asset Management LLC增持国药控股（01099）95.96万股，每股作价15.6782港元，总金额约为1504.48万港元。"
+  },
+  {
+   "title": "建滔集团获董事会主席张国荣增持8.25万股 每股作价51.7港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-11/doc-inirmfef5322176.shtml",
+   "time": "09-10 23:55",
+   "media": "新浪港股",
+   "intro": "香港联交所最新数据显示，9月7日，董事会主席张国荣增持建滔集团（00148）8.25万股，每股作价51.7港元，总金额约为426.53万港元。"
+  },
+  {
+   "title": "美国总统特朗普为伊朗战争辩护 他预测冲突将在中期选举后结束",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmfea2224813.shtml",
+   "time": "09-10 23:54",
    "media": "环球市场播报",
-   "intro": "欧洲天然气价格维持在三年多来的高位附近，交易员权衡中东冲突升级风险下欧洲的供气前景。 基准期货在前四个交易日累计上涨10%后，在每兆瓦时78欧元附近震荡。"
+   "intro": "美国总统特朗普为伊朗战争辩护，他预测冲突将在中期选举后结束，并指责德黑兰在等待华盛顿的政治变革。“他们认为民主党人会让他们基本上拥有核武器。他们不会拥有核武器。"
   },
   {
-   "title": "SK海力士债券收益率逼近亚马逊：AI举债热潮重塑风险定价",
-   "url": "https://finance.sina.com.cn/world/2026-09-10/doc-iniritau7704051.shtml",
-   "time": "09-10 09:29",
-   "media": "环球市场播报",
-   "intro": "美国大型科技公司大规模举债，债券投资者开始将部分新兴市场同行视作更安全的投资标的。 SK海力士2031年到期债券的收益率仅比亚马逊债券高出9个基点..."
-  },
-  {
-   "title": "欧洲央行即将加息 关注对利率敏感的欧洲板块",
-   "url": "https://finance.sina.com.cn/world/2026-09-10/doc-iniritau7702776.shtml",
-   "time": "09-10 09:26",
-   "media": "环球市场播报",
-   "intro": "欧洲央行即将公布利率决议，周四市场重点关注欧洲银行与地产板块。市场预期政策制定者将再度加息25个基点，这是伊朗冲突推高能源价格后的第二次加息，以此遏制通胀压力。"
-  },
-  {
-   "title": "印度搭建出口商与美国采购商对接平台 冲刺5000亿美元贸易目标",
-   "url": "https://finance.sina.com.cn/world/2026-09-10/doc-iniritau2870064.shtml",
-   "time": "09-10 09:25",
-   "media": "环球市场播报",
-   "intro": "印度推出线上平台，帮助本国出口商对接美国采购商，以此加大力度，力争在本十年末将双边贸易额提升至5000亿美元。 当前印美仍在进行贸易协定谈判..."
-  },
-  {
-   "title": "百合股份业绩说明会公告现“星期乌龙”：9月9日实际是星期三，公告写成星期二",
-   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-10/doc-iniritas5399770.shtml",
-   "time": "09-10 09:35",
-   "media": "新浪证券",
-   "intro": "近日，上交所上市公司百合股份（603102）一份业绩说明会公告被市场发现存在常识性时间笔误，同一份文件内两处星期标注均与实际日历不符..."
+   "title": "建滔集团获Hallgain Management Limited增持10万股 每股作价约52.86港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-11/doc-inirmfef5321735.shtml",
+   "time": "09-10 23:54",
+   "media": "新浪港股",
+   "intro": "香港联交所最新数据显示，9月9日，Hallgain Management Limited增持建滔集团（00148）10万股，每股作价52.857港元，总金额为528.57万港元。"
   }
  ],
  "hold_news": [],
