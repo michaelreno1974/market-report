@@ -1,5 +1,5 @@
 {
- "date": "2026-09-29 18:49",
+ "date": "2026-09-30 00:02",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   51481.5117,
-   -0.67
+   51142.3398,
+   -0.66
   ],
   "纳斯达克": [
-   26820.3809,
-   -0.92
+   26778.6285,
+   -0.16
   ],
   "标普500": [
-   7683.6899,
-   -0.77
+   7660.8999,
+   -0.3
   ],
   "恒生指数": [
    24648.64,
@@ -134,48 +134,19 @@
    -0.583
   ],
   "美元/人民币": [
-   6.703,
+   6.705,
    0
   ],
   "纽约黄金": [
-   4183.42,
+   4188.984,
    0
   ],
   "纽约原油": [
-   92.153,
+   90.363,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2612",
-   "net20": -24327,
-   "citic_net": 18089,
-   "citic_dnet": -205
-  },
-  {
-   "prod": "IH",
-   "main": "IH2612",
-   "net20": -11607,
-   "citic_net": 5633,
-   "citic_dnet": -281
-  },
-  {
-   "prod": "IC",
-   "main": "IC2612",
-   "net20": -18656,
-   "citic_net": 9889,
-   "citic_dnet": -101
-  },
-  {
-   "prod": "IM",
-   "main": "IM2612",
-   "net20": -34822,
-   "citic_net": 14493,
-   "citic_dnet": -1409
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "301560",
@@ -335,7 +306,7 @@
     "width": 15.68
    },
    "expma": {
-    "ema20": 32.107
+    "ema20": 32.106
    },
    "main_in_wan": -815.0,
    "sector": "电子",
@@ -361,88 +332,88 @@
  },
  "news": [
   {
-   "title": "FPG财盛国际:窄脉高品位发现仍需采矿验证",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-09-29/doc-initnwnc2864647.shtml",
-   "time": "09-29 10:47",
-   "media": "市场资讯",
-   "intro": "9月29日，一段高品位矿脉的价值，需要同时结合宽度和连续性理解。FPG财盛国际表示，Talisker最新公布Mustang地下工作面采样结果，已暴露矿化走向长度约三十六米..."
-  },
-  {
-   "title": "达州农村商业银行获批增加注册资本至44.51亿元",
-   "url": "https://finance.sina.com.cn/jryx/fd/2026-09-29/doc-initnwmv7705059.shtml",
-   "time": "09-29 10:47",
-   "media": "金融一线",
-   "intro": "9月29日金融一线消息，达州金融监管分局发布批复，同意达州农村商业银行增加注册资本44067015元人民币，由4406715090元人民币变更为4450782105元人民币。"
-  },
-  {
-   "title": "GO Markets:土壤采样追索黄金异常源头",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-09-29/doc-initnwnc6158546.shtml",
-   "time": "09-29 10:45",
-   "media": "市场资讯",
-   "intro": "9月29日，溪流沉积物中的黄金异常，为寻找上游矿化提供线索，却不是矿体本身。GO Markets表示，Stockworks Gold已在巴西Pirenopolis项目启动细致土壤地球化学调查..."
-  },
-  {
-   "title": "GTCFX:实际利率上行考验黄金韧性",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-09-29/doc-initnwnc6155781.shtml",
-   "time": "09-29 10:42",
-   "media": "市场资讯",
-   "intro": "9月29日，黄金回调再次把持有成本推到市场视野中央。根据Kitco对道富策略师的最新采访，GTCFX表示，利率预期走高与美元转强正对黄金形成短期压力..."
-  },
-  {
-   "title": "GTC泽汇资本:炼油增量改变汽油进口结构",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-09-29/doc-initnwnf2926869.shtml",
-   "time": "09-29 10:41",
-   "media": "市场资讯",
-   "intro": "9月29日，尼日利亚汽油市场的供应重心正在向本地炼厂转移。依据九月二十七日披露的八月行业数据，GTC泽汇资本表示，当地日均汽油进口量由七月的一千九百七十万升降至一千四..."
-  },
-  {
-   "title": "诺比侃进行配售：募资净额1.3亿港元 上市9个月市值蒸发近百亿",
-   "url": "https://finance.sina.com.cn/stock/s/2026-09-29/doc-initnwnc6159119.shtml",
-   "time": "09-29 10:45",
-   "media": "市场资讯",
-   "intro": "来源：雷递 雷递网 雷建平 9月29日 诺比侃（股票代码：02635.HK）今日发布公告，宣布2026年9月29日（交易时段前），公司与配售代理订立配售协议。"
-  },
-  {
-   "title": "英伟达1500亿美元股票回购计划或将助推新一轮股价上涨",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnwnf2919794.shtml",
-   "time": "09-29 10:39",
+   "title": "特朗普推出AI驱动的新网站America.gov 打造政府服务一站式入口",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzx6108914.shtml",
+   "time": "09-29 15:47",
    "media": "环球市场播报",
-   "intro": "临近年末直至 2027 年初，市场热门交易标的或许还是那个久经市场验证的选择：英伟达（NVDA）。 倘若英伟达股价获得额外上行动力，看多英伟达的投资者要归功于公司这份规模..."
+   "intro": "美国总统特朗普周二推出一个由人工智能（AI）驱动的新网站，旨在打造政府服务一站式入口。在公众对AI经济和社会影响日益持怀疑态度之际，特朗普进一步拥抱AI。"
   },
   {
-   "title": "Anthropic招股书披露宏大AI愿景，成本激增",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnwnf2917406.shtml",
-   "time": "09-29 10:31",
+   "title": "美国债市抛售潮越过又一重要关口 30年期收益率创下二十四年来最高",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzz2878092.shtml",
+   "time": "09-29 15:37",
    "media": "环球市场播报",
-   "intro": "Anthropic IPO 招股书显示，该公司押下重注，认为人工智能对全球经济的变革程度，将超过工业化、电力普及与互联网。 但实现该愿景所需付出的成本高得惊人。"
+   "intro": "美国30年期国债收益率连续第六个交易日上涨，在全球债市抛售加剧之际，收益率跨过了又一个重要心理关口。 由于企业大量发债，加之能源价格高企引发通胀压力上升..."
   },
   {
-   "title": "大众汽车因英国金融行为监管局汽车金融赔付计划",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnwmv7697339.shtml",
-   "time": "09-29 10:40",
+   "title": "OpenAI年化营收近700亿美元 企业和消费者业务增长",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzz2876313.shtml",
+   "time": "09-29 15:37",
    "media": "环球市场播报",
-   "intro": "这家德国汽车巨头大众汽车，即将披露英国金融监管机构一项90亿英镑汽车金融赔偿方案带来的大额损失。数月前，大众曾联合多家竞品车企，就该方案的执行提起法律诉讼。"
+   "intro": "按OpenAI目前的业绩表现计算，该公司的年化营收势将接近700亿美元，得益于企业和消费者业务强劲增长。 8月有报道称，这家ChatGPT开发商当时的年化营收有望突破400亿美元。..."
   },
   {
-   "title": "里昂：康师傅控股重申“跑赢大市”目标价13.70港元",
-   "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnwnc6143738.shtml",
-   "time": "09-29 10:30",
-   "media": "新浪港股",
-   "intro": "里昂发布研报称，康师傅控股（00322）维持2026年指引，预期收入同比录得低单位数增长，报告净利润至少同比持平；业务大致按计划推进，不确定性主要来自原材料成本..."
+   "title": "30年期美债收益率，连涨6天",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-29/doc-initphzr7563412.shtml",
+   "time": "09-29 15:40",
+   "media": "滚动播报",
+   "intro": "来源：财联社 美国30年期国债收益率升至5.60%，创下自2002年以来的最高水平，日内上涨5个基点。美国30年期国债收益率已连续6日上涨。"
   },
   {
-   "title": "高盛：商汤科技扩展运算平台 给予目标价2.03港元",
-   "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnwnf2915164.shtml",
-   "time": "09-29 10:29",
-   "media": "新浪港股",
-   "intro": "高盛发布研报称，基于商汤科技（00020）两阶段 DCF 估值得出 12 个月目标价 2.03 港元，其中 WACC 为 11.5%，永续增长率为 2%。该行近期在香港与公司高管会面..."
+   "title": "杰米·戴蒙有一个复兴西方的计划：与欧洲达成一项“宏大而美好”的协议",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzx2719032.shtml",
+   "time": "09-29 15:37",
+   "media": "环球市场播报",
+   "intro": "摩根大通CEO杰米·戴蒙正在推销他对西方世界未来的愿景——其关键在于欧洲重振其疲弱经济并加强防御能力。 “我认为，美国应当向欧洲提供一个重大激励：如果欧洲实施有意义的经..."
   },
   {
-   "title": "小摩：富卫集团维持“增持”评级 目标价48港元",
-   "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnwnc2855301.shtml",
-   "time": "09-29 10:28",
-   "media": "新浪港股",
-   "intro": "摩根大通发布研报称，维持富卫集团（01828）目标价48港元及“增持”评级，并更新模型以反映上半年强劲业绩、近期宏观变化及业绩后经营趋势。"
+   "title": "物价与就业担忧加剧，美国消费者乐观情绪大幅降温",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzz2875425.shtml",
+   "time": "09-29 15:27",
+   "media": "环球市场播报",
+   "intro": "核心要点 世界大型企业联合会（The Conference Board）9 月消费者信心指数下滑，受访者对通胀的担忧加剧，同时对劳动力市场前景心存疑虑。"
+  },
+  {
+   "title": "特朗普政府官员格比亚：全新AI驱动政府网站同时采用Gemini与Grok大模型",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzr7558837.shtml",
+   "time": "09-29 15:26",
+   "media": "环球市场播报",
+   "intro": "核心要点 美国首席设计官乔・格比亚透露，特朗普政府推出的全新聊天机器人网站 America.gov，后台同时搭载谷歌 Gemini 以及埃隆・马斯克的 Grok 人工智能模型。"
+  },
+  {
+   "title": "众议员科默扩大众议院对预测市场内幕交易的调查范围",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzx6099871.shtml",
+   "time": "09-29 15:26",
+   "media": "环球市场播报",
+   "intro": "核心要点 众议院监督与政府改革委员会首席共和党议员詹姆斯・科默众议员，将针对三家预测交易平台的内幕交易调查范围进一步扩大。"
+  },
+  {
+   "title": "特朗普称赞马斯克推动政府技术转型",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzx6096644.shtml",
+   "time": "09-29 15:10",
+   "media": "环球市场播报",
+   "intro": "美国总统特朗普在America.gov网站上线活动上向马斯克表达谢意，称他是个“很棒的人”。 “我还必须感谢最初构想通过技术实现政府转型、并为我们带来人才完成这项工作的人..."
+  },
+  {
+   "title": "避开资产分散配置的投资者，或将迎来数十年来最佳债券买入窗口",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzx6086964.shtml",
+   "time": "09-29 14:54",
+   "media": "环球市场播报",
+   "intro": "核心要点无需分散配置：股票相对债券的 10 年总回报差值接近历史最高水平。美银认为，当前债券相对股票迎来 20 多年里最好的买入机会之一。"
+  },
+  {
+   "title": "首相伯纳姆誓言重塑英国 打造“新经济、新政治”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzr7548848.shtml",
+   "time": "09-29 14:52",
+   "media": "环球市场播报",
+   "intro": "英国首相安迪·伯纳姆承诺打造“新经济和新政治”，并在向执政党工党发表的演讲中表示，将加强公共部门对供水、能源和住房领域的控制。"
+  },
+  {
+   "title": "普林斯顿评论：这些公立与私立院校投资回报率表现最佳",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzr7547079.shtml",
+   "time": "09-29 14:49",
+   "media": "环球市场播报",
+   "intro": "核心要点 鉴于公众对大学就读成本与潜在投资回报率愈发关切，普林斯顿评论综合学术水平、就读负担能力以及毕业生就业前景，对各高校综合价值进行排名。"
   }
  ],
  "hold_news": [],
