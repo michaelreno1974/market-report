@@ -1,115 +1,115 @@
 {
- "date": "2026-09-29 11:42",
+ "date": "2026-09-29 18:49",
  "index": [
   {
    "name": "上证指数",
-   "price": 3826.51,
-   "pct": 0.08
+   "price": 3830.45,
+   "pct": 0.18
   },
   {
    "name": "深证成指",
-   "price": 12911.78,
-   "pct": 0.41
+   "price": 12901.95,
+   "pct": 0.34
   },
   {
    "name": "创业板指",
-   "price": 3150.37,
-   "pct": 0.34
+   "price": 3142.56,
+   "pct": 0.09
   }
  ],
  "industry": [
   {
    "name": "房地产",
-   "zdf": 3.71,
-   "zljlr": 9.918109,
-   "leader": "信达地产",
-   "leader_zdf": 10.1
+   "zdf": 4.06,
+   "zljlr": 15.901561,
+   "leader": "特发服务",
+   "leader_zdf": 13.49
   },
   {
    "name": "传媒",
-   "zdf": 2.16,
-   "zljlr": 11.651382,
+   "zdf": 1.85,
+   "zljlr": 11.729803,
    "leader": "值得买",
-   "leader_zdf": 12.59
+   "leader_zdf": 10.71
   },
   {
-   "name": "计算机",
-   "zdf": 1.4,
-   "zljlr": 12.259789,
-   "leader": "华是科技",
-   "leader_zdf": 15.39
-  },
-  {
-   "name": "综合",
-   "zdf": 1.25,
-   "zljlr": 0.28318499999999996,
-   "leader": "综艺股份",
-   "leader_zdf": 6.27
-  },
-  {
-   "name": "建筑装饰",
-   "zdf": 1.02,
-   "zljlr": 2.211593,
-   "leader": "园林股份",
-   "leader_zdf": 10.01
-  },
-  {
-   "name": "环保",
-   "zdf": 0.98,
-   "zljlr": 1.235348,
-   "leader": "上海洗霸",
-   "leader_zdf": 10.01
+   "name": "有色金属",
+   "zdf": 1.33,
+   "zljlr": 9.675583,
+   "leader": "金徽股份",
+   "leader_zdf": 6.72
   },
   {
    "name": "建筑材料",
-   "zdf": 0.89,
-   "zljlr": -1.229865,
+   "zdf": 1.01,
+   "zljlr": -1.215209,
    "leader": "国统股份",
-   "leader_zdf": 5.34
+   "leader_zdf": 10.0
   },
   {
-   "name": "轻工制造",
-   "zdf": 0.83,
-   "zljlr": 0.7149260000000001,
-   "leader": "环球印务",
-   "leader_zdf": 10.06
+   "name": "计算机",
+   "zdf": 0.94,
+   "zljlr": 13.333772,
+   "leader": "华是科技",
+   "leader_zdf": 13.18
+  },
+  {
+   "name": "电子",
+   "zdf": 0.85,
+   "zljlr": 16.797971,
+   "leader": "迅捷兴",
+   "leader_zdf": 20.01
+  },
+  {
+   "name": "建筑装饰",
+   "zdf": 0.77,
+   "zljlr": 1.489317,
+   "leader": "汉嘉数智",
+   "leader_zdf": 12.37
+  },
+  {
+   "name": "综合",
+   "zdf": 0.76,
+   "zljlr": 0.460208,
+   "leader": "综艺股份",
+   "leader_zdf": 4.75
   }
  ],
  "concept": [
   {
    "name": "昨日首板",
-   "zdf": 4.19,
-   "zljlr": 1.848723,
+   "zdf": 3.54,
+   "zljlr": 2.240581,
    "leader": "善水科技",
    "leader_zdf": 20.0
   },
   {
+   "name": "昨日涨停",
+   "zdf": 2.58,
+   "zljlr": 2.792781,
+   "leader": "善水科技",
+   "leader_zdf": 20.0
+  },
+  {
+   "name": "白银概念",
+   "zdf": 2.18,
+   "zljlr": 2.958812,
+   "leader": "金徽股份",
+   "leader_zdf": 6.72
+  },
+  {
    "name": "昨日连板",
-   "zdf": 3.5,
-   "zljlr": 0.027712999999999998,
+   "zdf": 2.1,
+   "zljlr": -0.243515,
    "leader": "新华传媒",
    "leader_zdf": 10.06
   },
   {
-   "name": "昨日涨停",
-   "zdf": 3.28,
-   "zljlr": 2.326213,
-   "leader": "善水科技",
-   "leader_zdf": 20.0
-  },
-  {
    "name": "AIPC",
-   "zdf": 2.2,
-   "zljlr": 4.228701999999999,
-   "leader": "当虹科技",
-   "leader_zdf": 11.09
-  },
-  {
-   "name": "ChatGPT",
-   "zdf": 2.16,
-   "zljlr": 3.911296,
-   "leader": "环球印务",
-   "leader_zdf": 10.06
+   "zdf": 1.78,
+   "zljlr": 6.358199,
+   "leader": "传艺科技",
+   "leader_zdf": 10.03
   }
  ],
  "global": {
@@ -127,26 +127,55 @@
   ],
   "恒生指数": [
    24648.64,
-   -0.514
+   -0.578
   ],
   "国企指数": [
    8227.19,
-   -0.469
+   -0.583
   ],
   "美元/人民币": [
-   6.7054,
+   6.703,
    0
   ],
   "纽约黄金": [
-   4170.981,
+   4183.42,
    0
   ],
   "纽约原油": [
-   93.972,
+   92.153,
    0
   ]
  },
- "futures": [],
+ "futures": [
+  {
+   "prod": "IF",
+   "main": "IF2612",
+   "net20": -24327,
+   "citic_net": 18089,
+   "citic_dnet": -205
+  },
+  {
+   "prod": "IH",
+   "main": "IH2612",
+   "net20": -11607,
+   "citic_net": 5633,
+   "citic_dnet": -281
+  },
+  {
+   "prod": "IC",
+   "main": "IC2612",
+   "net20": -18656,
+   "citic_net": 9889,
+   "citic_dnet": -101
+  },
+  {
+   "prod": "IM",
+   "main": "IM2612",
+   "net20": -34822,
+   "citic_net": 14493,
+   "citic_dnet": -1409
+  }
+ ],
  "picks": [
   {
    "code": "301560",
@@ -179,71 +208,65 @@
    "src": "涨幅榜"
   },
   {
-   "code": "301041",
-   "name": "金百泽",
-   "pct": 16.184,
+   "code": "301282",
+   "name": "金禄电子",
+   "pct": 13.64,
+   "src": "涨幅榜"
+  },
+  {
+   "code": "300917",
+   "name": "特发服务",
+   "pct": 13.488,
    "src": "涨幅榜"
   },
   {
    "code": "301218",
    "name": "华是科技",
-   "pct": 15.395,
+   "pct": 13.177,
    "src": "涨幅榜"
   },
   {
-   "code": "688244",
-   "name": "永信至诚",
-   "pct": 14.848,
-   "src": "涨幅榜"
-  },
-  {
-   "code": "301282",
-   "name": "金禄电子",
-   "pct": 13.49,
-   "src": "涨幅榜"
+   "code": "000002",
+   "name": "万 科Ａ",
+   "pct": 9.97305,
+   "src": "资金+11.3亿"
   },
   {
    "code": "000823",
    "name": "超声电子",
    "pct": 10.009,
-   "src": "资金+8.4亿"
-  },
-  {
-   "code": "000002",
-   "name": "万 科Ａ",
-   "pct": 7.8167100000000005,
-   "src": "资金+7.9亿"
+   "src": "资金+9.4亿"
   },
   {
    "code": "300394",
    "name": "天孚通信",
-   "pct": 3.72141,
-   "src": "资金+7.6亿"
-  },
-  {
-   "code": "002384",
-   "name": "东山精密",
-   "pct": 2.03233,
-   "src": "资金+6.8亿"
+   "pct": 4.57108,
+   "src": "资金+8.9亿"
   },
   {
    "code": "002074",
    "name": "国轩高科",
    "pct": 10.0115,
-   "src": "资金+6.6亿"
+   "src": "资金+7.7亿"
+  },
+  {
+   "code": "688498",
+   "name": "源杰科技",
+   "pct": 2.95772,
+   "src": "资金+7.4亿"
   }
  ],
  "water": [
   {
    "name": "白酒概念",
-   "zdf": 0.48,
-   "zljlr": 2.7752380000000003,
+   "zdf": 0.43,
+   "zljlr": 4.844044,
    "leader": "泉阳泉"
   },
   {
    "name": "航运概念",
-   "zdf": 0.48,
-   "zljlr": -0.364676,
+   "zdf": 0.24,
+   "zljlr": 0.405129,
    "leader": "宁波能源"
   }
  ],
@@ -253,8 +276,8 @@
    "name": "祥源文旅",
    "price": 5.32,
    "pct": 0.57,
-   "turnover": 0.28,
-   "vol_ratio": 0.57,
+   "turnover": 0.54,
+   "vol_ratio": 0.55,
    "r52_high": 9.45,
    "r52_low": 5.2,
    "ma5": 5.368,
@@ -274,10 +297,10 @@
    "expma": {
     "ema20": 5.495
    },
-   "main_in_wan": -585.0,
+   "main_in_wan": -240.0,
    "sector": "社会服务",
-   "sector_zdf": 0.78,
-   "sector_flow": -0.6119,
+   "sector_zdf": 0.13,
+   "sector_flow": -2.3478779999999997,
    "qty": 10000,
    "cost": 8.2475,
    "mv": 53200.0,
@@ -291,38 +314,38 @@
   {
    "code": "600460",
    "name": "士兰微",
-   "price": 31.85,
-   "pct": 1.43,
-   "turnover": 2.17,
-   "vol_ratio": 0.98,
+   "price": 31.84,
+   "pct": 1.4,
+   "turnover": 3.01,
+   "vol_ratio": 0.68,
    "r52_high": 57.02,
    "r52_low": 24.62,
-   "ma5": 32.608,
-   "ma10": 32.245,
+   "ma5": 32.606,
+   "ma10": 32.244,
    "ma20": 31.456,
    "kdj": {
-    "k": 56.2,
-    "d": 63.83,
-    "j": 40.94
+    "k": 56.13,
+    "d": 63.8,
+    "j": 40.77
    },
    "boll": {
     "up": 33.922,
     "mid": 31.456,
-    "dn": 28.99,
+    "dn": 28.989,
     "width": 15.68
    },
    "expma": {
-    "ema20": 32.108
+    "ema20": 32.107
    },
-   "main_in_wan": -9345.0,
+   "main_in_wan": -815.0,
    "sector": "电子",
-   "sector_zdf": 0.8,
-   "sector_flow": -7.037916,
+   "sector_zdf": 0.85,
+   "sector_flow": 16.797971,
    "qty": 3100,
    "cost": 33.5224,
-   "mv": 98735.0,
-   "pl": -5184.44,
-   "pl_pct": -4.99,
+   "mv": 98704.0,
+   "pl": -5215.44,
+   "pl_pct": -5.02,
    "disc": {
     "lvl": 1,
     "msg": "反抽至减仓区 31.5-32.3，卖出 700 股，恢复 2400 股敞口"
@@ -331,95 +354,95 @@
  ],
  "account": {
   "cash": 1063.58,
-  "hold_mv": 151935.0,
+  "hold_mv": 151904.0,
   "hold_cost": 186394.44,
-  "hold_pl": -34459.44,
-  "assets": 152998.58
+  "hold_pl": -34490.44,
+  "assets": 152967.58
  },
  "news": [
   {
-   "title": "复宏汉霖盘中涨超5% 汉斯状®两项消化道肿瘤领域研究亮相ASTRO2026年会",
-   "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-29/doc-initnfqm3022152.shtml",
-   "time": "09-29 03:41",
-   "media": "新浪港股",
-   "intro": "复宏汉霖（02696）盘中涨超5%，截至发稿，股价上涨2.28%，现报56.05港元，成交额1533.69万港元。 据复宏汉霖官微消息，在美国放射肿瘤学会（American Society for..."
+   "title": "FPG财盛国际:窄脉高品位发现仍需采矿验证",
+   "url": "https://finance.sina.com.cn/money/future/roll/2026-09-29/doc-initnwnc2864647.shtml",
+   "time": "09-29 10:47",
+   "media": "市场资讯",
+   "intro": "9月29日，一段高品位矿脉的价值，需要同时结合宽度和连续性理解。FPG财盛国际表示，Talisker最新公布Mustang地下工作面采样结果，已暴露矿化走向长度约三十六米..."
   },
   {
-   "title": "TCL电子午前涨超4% 公司拟注入空调业务并剥离光伏",
-   "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-29/doc-initnfqm3019674.shtml",
-   "time": "09-29 03:37",
-   "media": "新浪港股",
-   "intro": "TCL电子（01070）盘中涨超5%。截至发稿，股价上涨4.23%，现报17.50港元，成交额8961.67万港元。 TCL电子近期公告称，正考虑通过实物分派方式..."
+   "title": "达州农村商业银行获批增加注册资本至44.51亿元",
+   "url": "https://finance.sina.com.cn/jryx/fd/2026-09-29/doc-initnwmv7705059.shtml",
+   "time": "09-29 10:47",
+   "media": "金融一线",
+   "intro": "9月29日金融一线消息，达州金融监管分局发布批复，同意达州农村商业银行增加注册资本44067015元人民币，由4406715090元人民币变更为4450782105元人民币。"
   },
   {
-   "title": "部分光通信概念股回暖 长飞光纤光缆涨超7%剑桥科技涨超3%",
-   "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-29/doc-initnfqm6138266.shtml",
-   "time": "09-29 03:34",
-   "media": "新浪港股",
-   "intro": "部分光通信概念股回暖，截至发稿，长飞光纤光缆（06869）上涨7.01%，报166.40港元；剑桥科技（06166）上涨3.14%，报105.10港元；中际旭创（03308）上涨2.72%，报1056港元。"
+   "title": "GO Markets:土壤采样追索黄金异常源头",
+   "url": "https://finance.sina.com.cn/money/future/roll/2026-09-29/doc-initnwnc6158546.shtml",
+   "time": "09-29 10:45",
+   "media": "市场资讯",
+   "intro": "9月29日，溪流沉积物中的黄金异常，为寻找上游矿化提供线索，却不是矿体本身。GO Markets表示，Stockworks Gold已在巴西Pirenopolis项目启动细致土壤地球化学调查..."
   },
   {
-   "title": "旗下基金遭遇360亿美元资金流出后 AI空头Jain“投降”",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnfqm6134712.shtml",
-   "time": "09-29 03:31",
+   "title": "GTCFX:实际利率上行考验黄金韧性",
+   "url": "https://finance.sina.com.cn/money/future/roll/2026-09-29/doc-initnwnc6155781.shtml",
+   "time": "09-29 10:42",
+   "media": "市场资讯",
+   "intro": "9月29日，黄金回调再次把持有成本推到市场视野中央。根据Kitco对道富策略师的最新采访，GTCFX表示，利率预期走高与美元转强正对黄金形成短期压力..."
+  },
+  {
+   "title": "GTC泽汇资本:炼油增量改变汽油进口结构",
+   "url": "https://finance.sina.com.cn/money/future/roll/2026-09-29/doc-initnwnf2926869.shtml",
+   "time": "09-29 10:41",
+   "media": "市场资讯",
+   "intro": "9月29日，尼日利亚汽油市场的供应重心正在向本地炼厂转移。依据九月二十七日披露的八月行业数据，GTC泽汇资本表示，当地日均汽油进口量由七月的一千九百七十万升降至一千四..."
+  },
+  {
+   "title": "诺比侃进行配售：募资净额1.3亿港元 上市9个月市值蒸发近百亿",
+   "url": "https://finance.sina.com.cn/stock/s/2026-09-29/doc-initnwnc6159119.shtml",
+   "time": "09-29 10:45",
+   "media": "市场资讯",
+   "intro": "来源：雷递 雷递网 雷建平 9月29日 诺比侃（股票代码：02635.HK）今日发布公告，宣布2026年9月29日（交易时段前），公司与配售代理订立配售协议。"
+  },
+  {
+   "title": "英伟达1500亿美元股票回购计划或将助推新一轮股价上涨",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnwnf2919794.shtml",
+   "time": "09-29 10:39",
    "media": "环球市场播报",
-   "intro": "Rajiv Jain一年前声称AI热潮是“打了兴奋剂的互联网泡沫”，如今却突然调转了方向。 用了十年时间将GQG Partners打造为1500亿美元投资巨头的Jain..."
+   "intro": "临近年末直至 2027 年初，市场热门交易标的或许还是那个久经市场验证的选择：英伟达（NVDA）。 倘若英伟达股价获得额外上行动力，看多英伟达的投资者要归功于公司这份规模..."
   },
   {
-   "title": "瑞博生物-B午前涨逾5% 公司自动化智能药物筛选中心落成",
-   "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-29/doc-initnfqm3016755.shtml",
-   "time": "09-29 03:30",
+   "title": "Anthropic招股书披露宏大AI愿景，成本激增",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnwnf2917406.shtml",
+   "time": "09-29 10:31",
+   "media": "环球市场播报",
+   "intro": "Anthropic IPO 招股书显示，该公司押下重注，认为人工智能对全球经济的变革程度，将超过工业化、电力普及与互联网。 但实现该愿景所需付出的成本高得惊人。"
+  },
+  {
+   "title": "大众汽车因英国金融行为监管局汽车金融赔付计划",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnwmv7697339.shtml",
+   "time": "09-29 10:40",
+   "media": "环球市场播报",
+   "intro": "这家德国汽车巨头大众汽车，即将披露英国金融监管机构一项90亿英镑汽车金融赔偿方案带来的大额损失。数月前，大众曾联合多家竞品车企，就该方案的执行提起法律诉讼。"
+  },
+  {
+   "title": "里昂：康师傅控股重申“跑赢大市”目标价13.70港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnwnc6143738.shtml",
+   "time": "09-29 10:30",
    "media": "新浪港股",
-   "intro": "瑞博生物-B（06938）午前涨逾5%，截至发稿，股价上涨4.88%，现报53.65港元，成交额358.05万港元。 近日，据瑞博生物官微消息，公司宣布..."
+   "intro": "里昂发布研报称，康师傅控股（00322）维持2026年指引，预期收入同比录得低单位数增长，报告净利润至少同比持平；业务大致按计划推进，不确定性主要来自原材料成本..."
   },
   {
-   "title": "印度商务部长将与美国官员会晤 就贸易协议进行磋商",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnfqc7856965.shtml",
-   "time": "09-29 03:29",
-   "media": "环球市场播报",
-   "intro": "印度商务部长戈亚尔（Piyush Goyal）本周将访问美国，与美方官员举行双边会谈，双方寻求敲定一项临时贸易协议。 戈亚尔于周二启程前往美国进行为期七天的访问..."
+   "title": "高盛：商汤科技扩展运算平台 给予目标价2.03港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnwnf2915164.shtml",
+   "time": "09-29 10:29",
+   "media": "新浪港股",
+   "intro": "高盛发布研报称，基于商汤科技（00020）两阶段 DCF 估值得出 12 个月目标价 2.03 港元，其中 WACC 为 11.5%，永续增长率为 2%。该行近期在香港与公司高管会面..."
   },
   {
-   "title": "【出口解读】泰国天然橡胶出口承压前行 四季度有望季节性回升",
-   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-29/doc-initnfqm3015980.shtml",
-   "time": "09-29 03:28",
-   "media": "市场资讯",
-   "intro": "卓创资讯天然橡胶分析师 吴伟茹 【导语】2026年1-8月泰国天然橡胶累计出口302.47万吨，同比微增0.7%。标准胶与混合胶出口依旧分化，其中标胶累计下滑9.11%，混合胶增长10..."
-  },
-  {
-   "title": "美国“艾森豪威尔”号航母发生着舰事故，两名飞行员弹射逃生，4名舰上人员受伤",
-   "url": "https://finance.sina.com.cn/world/gjcj/2026-09-29/doc-initnfqc7857440.shtml",
-   "time": "09-29 03:35",
-   "media": "红星新闻",
-   "intro": "据美国海军28日通报，在美国弗吉尼亚州海岸附近的“艾森豪威尔”号航母当天发生舰载机着舰事故，两名飞行员弹射逃生，另有4名舰上人员受伤。"
-  },
-  {
-   "title": "白糖：8月进口65万吨创年内新高，9月或环比微跌",
-   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-29/doc-initnfqm6132230.shtml",
-   "time": "09-29 03:28",
-   "media": "市场资讯",
-   "intro": "卓创资讯白糖行业高级分析师牛哲 【导语】2026年8月我国食糖进口量达到65万吨，创下今年以来单月进口新高，这一数据打破了此前市场对下半年进口节奏偏缓的普遍预期..."
-  },
-  {
-   "title": "高瞻远“猪”：产能去化周期或延续，2027年猪价或谨慎偏乐观",
-   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-29/doc-initnfqm3015473.shtml",
-   "time": "09-29 03:27",
-   "media": "市场资讯",
-   "intro": "卓创资讯生猪行业资深分析师李晶 【导语】2026年二三季度母猪减产逐步加速，两轮减产先后经历低效母猪减产向高效母猪减产的推进。政策面及市场端或推动产能去化周期延续。..."
-  },
-  {
-   "title": "东方汇理等机构获新加坡金管局11.4亿美元资金以提振股市",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnfqc7855967.shtml",
-   "time": "09-29 03:27",
-   "media": "环球市场播报",
-   "intro": "作为提振该国股市流动性举措的一部分，新加坡金管局又选聘了包括东方汇理资产管理（Amundi）在内的五家资产管理机构。 新加坡金融管理局周二表示..."
-  },
-  {
-   "title": "9月山东市场蛋价先涨后跌，10月或整体偏弱",
-   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-29/doc-initnfqm3015087.shtml",
-   "time": "09-29 03:26",
-   "media": "市场资讯",
-   "intro": "卓创资讯鸡蛋市场分析师刘旭 【导语】9月份受中秋节影响，山东市场鸡蛋价格涨至年度高点后下跌，10月份市场需求量或减少，价格或整体偏弱。"
+   "title": "小摩：富卫集团维持“增持”评级 目标价48港元",
+   "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnwnc2855301.shtml",
+   "time": "09-29 10:28",
+   "media": "新浪港股",
+   "intro": "摩根大通发布研报称，维持富卫集团（01828）目标价48港元及“增持”评级，并更新模型以反映上半年强劲业绩、近期宏观变化及业绩后经营趋势。"
   }
  ],
  "hold_news": [],
