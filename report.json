@@ -1,5 +1,5 @@
 {
- "date": "2026-10-07 19:13",
+ "date": "2026-10-08 00:44",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   51521.2812,
-   0.49
+   51166.5,
+   -0.69
   ],
   "纳斯达克": [
-   27599.8861,
-   0.45
+   27462.5353,
+   -0.5
   ],
   "标普500": [
-   7818.9302,
-   0.58
+   7791.9102,
+   -0.35
   ],
   "恒生指数": [
    24172.29,
@@ -138,11 +138,11 @@
    0
   ],
   "纽约黄金": [
-   4145.556,
+   4129.36,
    0
   ],
   "纽约原油": [
-   89.873,
+   88.955,
    0
   ]
  },
@@ -332,88 +332,88 @@
  },
  "news": [
   {
-   "title": "Antofagasta旗下智利铜矿将罢工 铜供应担忧加剧",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumcpz4825449.shtml",
-   "time": "10-07 11:05",
+   "title": "欧洲债市：法国与德国国债利差一度收窄 因发债相关报道",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqcv4711853.shtml",
+   "time": "10-07 16:43",
    "media": "环球市场播报",
-   "intro": "Antofagasta旗下位于智利的Centinela铜矿劳资谈判破裂，工人定于周三发起罢工，加剧这个全球最大产铜国矿业领域的劳资紧张局势。"
+   "intro": "法国与德国国债利差一度收窄，法国财政部长Roland Lescure称，法国正在考虑发行更多短期债券。随后，法国财政部一名发言人表示，债券发行策略并未调整。"
   },
   {
-   "title": "黄金周·沪上消费｜上海国庆假期线上线下消费762.4亿元",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-07/doc-iniumcqf4555885.shtml",
-   "time": "10-07 11:10",
-   "media": "",
-   "intro": "（来源：上观新闻）今年国庆，上海以“爱购上海，欢度国庆”为主题，聚焦宣传造势、活动聚流、消费落地，全力做好节日期间200余场促消费活动。"
-  },
-  {
-   "title": "000408，喜获15.39亿元分红",
-   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-07/doc-iniumcpz4825678.shtml",
-   "time": "10-07 11:10",
-   "media": "证券时报",
-   "intro": "藏格矿业收大“红包”。藏格矿业(000408)10月7日晚公告，公司近日收到参股公司西藏巨龙铜业有限公司(以下简称“巨龙铜业”)15.39亿元分红款。"
-  },
-  {
-   "title": "002388，重大资产重组！明起停牌！",
-   "url": "https://finance.sina.com.cn/stock/s/2026-10-07/doc-iniumcqa5828991.shtml",
-   "time": "10-07 11:02",
-   "media": "证券时报",
-   "intro": "公司股票明起停牌。 新亚制程（002388）10月7日晚公告，公司正在筹划以发行股份及支付现金的方式购买上海启元气体发展有限公司（简称“启元气体”）的控股权并募集配套资金。..."
-  },
-  {
-   "title": "荣丰控股筹划控制权变更，此前提出三年内退出房地产、转型跨境物流",
-   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-07/doc-iniumcqf4553325.shtml",
-   "time": "10-07 11:10",
-   "media": "经济导报",
-   "intro": "荣丰控股集团股份有限公司(000668.SZ，下称“荣丰控股”)的控制权或将迎来变化。10月7日晚间，荣丰控股披露公告称，公司于9月30日收到控股股东盛世达投资有限公司(下称“盛世..."
-  },
-  {
-   "title": "国庆大消息汇总！它爆冷了，三季度被砸哭：创业板-27% 它-30%，假期各主流指数表现，各ETF后续怎么办？",
-   "url": "https://finance.sina.com.cn/wm/2026-10-07/doc-iniumcqf4552763.shtml",
-   "time": "10-07 11:10",
-   "media": "",
-   "intro": "（来源：定投十年赚十倍之路）9月煤炭 创新药 红利 互联网 电网ETF被大抛  科创半导体 中概 证券 恒生 科创芯片ETF被大买 2026年10月7日：定投十年 长定投计划：无。"
-  },
-  {
-   "title": "胡塞武装袭击、美国墨西哥湾风暴加剧供应风险，油价上行",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumcpz4810539.shtml",
-   "time": "10-07 10:45",
+   "title": "法国国债抛售推高收益率 逢低买家伺机入场",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqcv4710341.shtml",
+   "time": "10-07 16:38",
    "media": "环球市场播报",
-   "intro": "12 月布伦特原油期货上涨 1%，报每桶 101.54 美元；12 月 WTI 原油期货上涨 1%，报每桶 89.31 美元美国能源信息署将第四季度布伦特原油均价预期上调至每桶 105 美元..."
+   "intro": "法国债券抛售可能接近转折点，收益率飙升开始吸引一些投资者重新入场。 Mediolanum International Funds Ltd小幅增持法国国债，奥明资产管理株式会社和Aegon Asset..."
   },
   {
-   "title": "中东冲突扰乱燃油市场，壳牌炼油利润率飙升至历史新高",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumcqf4547902.shtml",
-   "time": "10-07 10:45",
+   "title": "SpaceX拟举债400亿美元采购英伟达芯片，其股价应声下跌",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqct7936223.shtml",
+   "time": "10-07 16:37",
    "media": "环球市场播报",
-   "intro": "该公司炼油指标利润率预计达每桶 42 美元，超过 2022 年俄罗斯全面入侵乌克兰之后创下的 28.04 美元纪录能源企业的交易部门往往能从价格大幅波动中获利..."
+   "intro": "据报道，由埃隆・马斯克执掌、同时涉足航天与人工智能业务的 SpaceX，计划大规模举债，周三早盘该公司股价出现回落。 SpaceX 拟发行400 亿美元新增债务，采购英伟达芯片..."
   },
   {
-   "title": "芯片初创企业Groq背后风投机构目标募集百亿美元巨型基金",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumcqa5821575.shtml",
-   "time": "10-07 10:45",
+   "title": "摩根士丹利建议做空欧元/瑞郎 因欧元风险上升",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqct7934368.shtml",
+   "time": "10-07 16:27",
    "media": "环球市场播报",
-   "intro": "押注热门 AI 初创企业大获成功，这家原本知名度不高的达拉斯机构跻身少数巨型基金募资阵营Disruptive 公司创始人兼首席执行官亚历克斯・戴维斯。"
+   "intro": "摩根士丹利策略师重新建议做空欧元/瑞郎，押注避险情绪升温以及欧元区资产风险溢价上升将拖累欧元。 David Adams、Koichi Sugisaki..."
   },
   {
-   "title": "A股能否开门红？券商集体研判10月行情，哪些板块有望率先启动？",
-   "url": "https://finance.sina.com.cn/stock/wbstock/2026-10-07/doc-iniukxhc4935947.shtml",
-   "time": "10-07 11:11",
-   "media": "",
-   "intro": "来源：@财联社APP微博财联社10月7日讯（记者 赵昕睿）国庆假期即将结束，中信建投、国金证券、光大证券、山西证券、中泰证券、财通证券等多家券商密集发布10月策略报告..."
-  },
-  {
-   "title": "报道：伊朗军方称必要时将采取先发制人的军事行动",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukxhc4933962.shtml",
-   "time": "10-07 10:28",
+   "title": "加拿大韦斯顿家族以89亿美元收购英国连锁药房博姿（Boots）",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqct7925651.shtml",
+   "time": "10-07 16:07",
    "media": "环球市场播报",
-   "intro": "伊朗半官方的法尔斯通讯社引述一名军方发言人的话称，伊朗可能“在必要时采取先发制人的军事行动，以威慑敌方，阻止其发动任何侵略或袭击”。"
+   "intro": "本次交易涵盖博姿英国与爱尔兰零售业务、博姿眼镜连锁、No7 美妆公司，以及泰国业务和特许经营业务韦斯顿家族旗下控股公司威灵顿投资表示..."
   },
   {
-   "title": "30年期美国国债收益率攀升至2002年以来最高水平",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukxhi4675666.shtml",
-   "time": "10-07 10:27",
+   "title": "弗瑞泽集团入股安德玛，加码运动服饰赛道",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqcv4696899.shtml",
+   "time": "10-07 16:06",
    "media": "环球市场播报",
-   "intro": "随着油价持续走高，美国国债周三延续跌势，收益率重返本周早些时候触及的高位。 30年期美国国债收益率上涨5个基点至5.7%，10年期收益率上涨4个基点至5.3%。"
+   "intro": "弗瑞泽集团近期已取得雨果博斯接近多数的控股权安德玛正面临消费环境严峻的困境，产品需求受到冲击。 内容速览 英国零售集团弗瑞泽集团买入 1660 万股安德玛股票..."
+  },
+  {
+   "title": "欧盟多国倾向将G7柴油和原油紧急释储规模控制在3月承诺范围内",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqcz4376352.shtml",
+   "time": "10-07 16:03",
+   "media": "环球市场播报",
+   "intro": "欧盟成员国普遍认为，七国集团（G7）上周宣布的紧急释放最多1亿桶柴油和原油库存的协议实际上只是落实此前已经作出的承诺，不需要额外增加释放规模。"
+  },
+  {
+   "title": "奔驰第三季度汽车销量下跌8%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqcz4375800.shtml",
+   "time": "10-07 16:06",
+   "media": "环球市场播报",
+   "intro": "内容速览 奔驰第三季度汽车销量下跌 8%，至 407200 辆；中国市场销量大幅下滑，抵消了欧洲与美国市场的增长。 这家德国豪华车企于周三公布数据：乘用车销量同比下滑 8%..."
+  },
+  {
+   "title": "Disney+将流媒体直播即将到来的超级碗",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumqct7917743.shtml",
+   "time": "10-07 15:56",
+   "media": "环球市场播报",
+   "intro": "迪士尼周三宣布，其流媒体服务Disney+将播出2月即将到来的超级碗。 这场2027年冠军赛，以及决赛前的两场“周一晚橄榄球”比赛，将面向美国所有Disney+订阅用户提供。"
+  },
+  {
+   "title": "预付5万美元，苦等九年。特斯拉Roadster能否不负万众期待？",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumqcv4685805.shtml",
+   "time": "10-07 15:35",
+   "media": "环球市场播报",
+   "intro": "特斯拉新款 Roadster 超跑定于 10 月 15 日首发，历经近十年打磨，客户预付定金最低 5 万美元 内容速览 特斯拉计划 10 月 15 日在得州韦科市..."
+  },
+  {
+   "title": "英伟达千亿并购引擎，下一步将投向何处",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumqcz4369412.shtml",
+   "time": "10-07 15:35",
+   "media": "环球市场播报",
+   "intro": "在开启历史性的大规模并购之后，这家芯片巨头接下来或将布局机器人、自动驾驶技术以及端侧本地 AI 模型领域。 今年 7 月，英伟达听闻 AI 模型交易平台 OpenRouter..."
+  },
+  {
+   "title": "特斯拉Optimus前负责人创办工业机器人初创企业",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumqcz4368411.shtml",
+   "time": "10-07 15:21",
+   "media": "环球市场播报",
+   "intro": "据两位知情人士透露，特斯拉 Optimus 人形机器人前 AI 负责人阿希什・库马尔联合创办了一家初创公司，研发非人形机器人，用来完成制造业..."
   }
  ],
  "hold_news": [],
