@@ -1,5 +1,5 @@
 {
- "date": "2026-10-08 19:30",
+ "date": "2026-10-09 00:43",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   51179.8711,
-   -0.66
+   51078.7617,
+   -0.2
   ],
   "纳斯达克": [
-   27538.6907,
-   -0.22
+   27396.9711,
+   -0.51
   ],
   "标普500": [
-   7801.77,
-   -0.22
+   7781.8101,
+   -0.26
   ],
   "恒生指数": [
    24031.66,
@@ -134,48 +134,19 @@
    -0.889
   ],
   "美元/人民币": [
-   6.7034,
+   6.7036,
    0
   ],
   "纽约黄金": [
-   4145.38,
+   4143.843,
    0
   ],
   "纽约原油": [
-   92.592,
+   90.728,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2612",
-   "net20": -23625,
-   "citic_net": 17284,
-   "citic_dnet": -101
-  },
-  {
-   "prod": "IH",
-   "main": "IH2612",
-   "net20": -10785,
-   "citic_net": 4549,
-   "citic_dnet": -916
-  },
-  {
-   "prod": "IC",
-   "main": "IC2612",
-   "net20": -16491,
-   "citic_net": 9054,
-   "citic_dnet": -1130
-  },
-  {
-   "prod": "IM",
-   "main": "IM2612",
-   "net20": -33737,
-   "citic_net": 15015,
-   "citic_dnet": -91
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "688196",
@@ -361,88 +332,88 @@
  },
  "news": [
   {
-   "title": "CBCX:黄金长期判断仍需供需验证",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-08/doc-iniuphpf3713064.shtml",
-   "time": "10-08 11:29",
-   "media": "市场资讯",
-   "intro": "10月8日，黄金回调使长期价格判断再次受到检验。CBCX表示，Kitco刊载的CPM集团评论保留黄金长期上涨预期，同时承认短线仍可能出现弱势。"
-  },
-  {
-   "title": "冲高回落仍跑赢，军工ETF（512810）韧性凸显！利好密集来袭：新船造价连涨6个月，Space X万星级组网获批…",
-   "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-08/doc-iniuphnz4410105.shtml",
-   "time": "10-08 11:29",
-   "media": "新浪基金",
-   "intro": "节后首日（10月8日），A股午后跳水，三大指数集体收跌，科技股重挫拖累深成指跌逾2%、创指跌3.15%，双双创近6个月新低。"
-  },
-  {
-   "title": "一则研报重挫光芯片？源杰科技20CM跌停！双创50指数重回4月位置，机构：科技或重新占优！",
-   "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-08/doc-iniuphnx7636485.shtml",
-   "time": "10-08 11:28",
-   "media": "新浪基金",
-   "intro": "国庆节后首个交易日（10月8日），市场盘整，A股主要指数悉数回调，科创板、创业板跌幅居前，覆盖创业板+科创板高成长龙头的硬科技宽基——双创50ETF华宝（588330）标的指数随..."
-  },
-  {
-   "title": "CPT Markets:金矿深部延伸提供新验证",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-08/doc-iniuphpf3712305.shtml",
-   "time": "10-08 11:27",
-   "media": "市场资讯",
-   "intro": "10月8日，新的钻探结果把黄金项目的观察范围推向既有资源之外。CPT Markets表示，Awalé十月七日公布BBM金铜矿床七个钻孔化验结果..."
-  },
-  {
-   "title": "张裕A股价涨停，公司回应：基本面没有什么变化",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniuphpf3712398.shtml",
-   "time": "10-08 11:29",
-   "media": "证券时报网",
-   "intro": "（原标题：张裕A股价涨停，公司回应） 人民财讯10月8日电，10月8日，张裕A股价涨停。对于股价涨停，张裕A方面回应，公司基本面没有什么变化。"
-  },
-  {
-   "title": "EasyMarkets易信:风暴预警考验石油供应弹性",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-08/doc-iniuphpf7666293.shtml",
-   "time": "10-08 11:26",
-   "media": "市场资讯",
-   "intro": "10月8日，天气变化让海上油气供应增加了新的观察变量。EasyMarkets易信表示，十月七日的报道显示，雪佛龙正撤离墨西哥湾平台非必要人员..."
-  },
-  {
-   "title": "高盛高层将迎巨额特别奖金 总额料超5亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuphnx7633861.shtml",
-   "time": "10-08 11:24",
+   "title": "伊朗伊斯兰革命卫队将使用无人机和导弹守卫霍尔木兹海峡",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkr7431201.shtml",
+   "time": "10-08 16:41",
    "media": "环球市场播报",
-   "intro": "高盛集团最高层管理人员即将获得一笔特别奖金，其规模将跻身该公司历来最大笔此类奖励之列。 根据文件以及知情人士透露，约20名高管有望获得一批将在本月晚些时候最终确定..."
+   "intro": "伊斯兰革命卫队总司令Ahmad Vahidi称，伊斯兰革命卫队已准备动用精确打击导弹、攻击型无人机、快艇、电子战手段和海岸防御网络，应对船只“未经授权”通过霍尔木兹海峡。"
   },
   {
-   "title": "FPG财盛国际:黄金增储计划先看执行条件",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-08/doc-iniuphnx7633657.shtml",
-   "time": "10-08 11:23",
-   "media": "市场资讯",
-   "intro": "10月8日，已有黄金资源并不意味着扩储计划可以立即开工。FPG财盛国际表示，Granada十月七日宣布为其魁北克黄金项目申请钻探许可，拟通过加密和外围钻探提升资源认识。"
+   "title": "报道称星巴克曾考虑收购奇波雷墨西哥烧烤（Chipotle）",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkx3431048.shtml",
+   "time": "10-08 16:38",
+   "media": "环球市场播报",
+   "intro": "据《金融时报》报道，咖啡连锁巨头星巴克曾研究收购餐饮连锁品牌奇波雷墨西哥烧烤。若这笔交易落地，将成为有史以来规模最大的餐饮行业收购案。"
   },
   {
-   "title": "FPG财盛国际:矿企产量变化牵动黄金评估",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-08/doc-iniuphnz4404822.shtml",
-   "time": "10-08 11:21",
-   "media": "市场资讯",
-   "intro": "10月8日，黄金市场观察也需要关注矿企产量兑现。FPG财盛国际表示，据Investing.com报道，Regis Resources季度黄金产量为八万三千盎司，受到九月降雨影响..."
+   "title": "特朗普称美国不会在中期选举前袭击伊朗",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkx3430617.shtml",
+   "time": "10-08 16:37",
+   "media": "环球市场播报",
+   "intro": "美国总统特朗普于周四表示，美国不会在 11 月 3 日中期选举之前袭击伊朗，他明确将是否采取进一步潜在军事行动的时间点和美国国内政治日程绑定在一起央视新闻。"
   },
   {
-   "title": "节后科技行情怎么走？景顺长城科技军团刘力思：AI产业大趋势仍然积极",
-   "url": "https://finance.sina.com.cn/money/fund/jjh/2026-10-08/doc-iniuphpf7663952.shtml",
-   "time": "10-08 11:20",
-   "media": "新浪基金",
-   "intro": "国庆黄金周期间，海内外消息面整体平静，但全球资本市场在“AI叙事”的催化下仍呈现分化走强格局。在科技股的带动下，纳斯达克指数上涨2.52%，标普500指数上涨1.96%。"
+   "title": "罗森布拉特：新云厂商Nebius正迎来“超高速增长”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkt4201460.shtml",
+   "time": "10-08 16:35",
+   "media": "环球市场播报",
+   "intro": "罗森布拉特周三首次覆盖云服务商 Nebius，给予买入评级，目标价 304 美元。该股周三收盘价为 237.15 美元。 这家投行认为，公司营收将随算力规模同步增长；预计到 2030..."
   },
   {
-   "title": "GTCFX:伦敦黄金期货迎来新布局",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-08/doc-iniuphpf7663044.shtml",
-   "time": "10-08 11:18",
-   "media": "市场资讯",
-   "intro": "10月8日，伦敦黄金市场迎来新的交易工具。GTCFX表示，据Kitco报道，洲际交易所推出与伦敦每日黄金定价拍卖挂钩的期货合约，为参与者提供交易所内管理黄金价格敞口的渠道。..."
+   "title": "特朗普称美国不会在11月3日中期选举前攻击伊朗",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkt4199251.shtml",
+   "time": "10-08 16:40",
+   "media": "环球市场播报",
+   "intro": "特朗普称美国不会在11月中期选举前攻击伊朗 美国总统特朗普表示，美国与伊朗方面的磋商“富有成效”，不会在11月中期选举前攻击伊朗。"
   },
   {
-   "title": "运价狂飙！石油石化全天猛攻，石油ETF华宝（159019）标的指数涨超3%！",
-   "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-08/doc-iniuphnx7629080.shtml",
-   "time": "10-08 11:18",
-   "media": "新浪基金",
-   "intro": "石油石化板块今日（10月8日）全天猛攻，航运、油气装备、燃气等板块部分个股涨幅居前。截至收盘，中远海能、招商南油双双涨停，招商轮船涨超9%，通源石油..."
+   "title": "摩根士丹利资深债券投资者十年来首次转为看多美债",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkt4189653.shtml",
+   "time": "10-08 16:15",
+   "media": "环球市场播报",
+   "intro": "摩根士丹利投资管理的Vishal Khanduja是表现出色的债券投资者之一。在收益率升至20年高位并开始对经济增长形成制约之际，他十年来首次转为看多美国债券。"
+  },
+  {
+   "title": "美国打击外籍劳工签证项目，暂停微软、Adobe参与绿卡劳工认证计划",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkr7416539.shtml",
+   "time": "10-08 16:15",
+   "media": "环球市场播报",
+   "intro": "核心要点美国劳工部宣布，暂停微软与 Adobe 参与永久劳工认证计划（PERM）。劳工部长基思・松德林表示，高知特、印孚瑟斯、凯捷、塔塔、维普罗、HCL 也被移出该项目。"
+  },
+  {
+   "title": "调查发现：Z世代现已成为艺术市场最大消费群体",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkx3420019.shtml",
+   "time": "10-08 16:25",
+   "media": "环球市场播报",
+   "intro": "核心要点巴塞尔艺术展联合瑞银、艺术经济学研究院发布的《全球收藏调查报告》显示，2025 年至 2026 年上半年，Z 世代在美术艺术品上的花销超过其他所有世代。"
+  },
+  {
+   "title": "10年期美债拍卖现“强力买盘”，期权交易员开始判断债券抛售行情或将触底",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuptat7542962.shtml",
+   "time": "10-08 16:15",
+   "media": "环球市场播报",
+   "intro": "在美国国债持续遭到抛售的行情下，判断市场已经触底听起来或许有些鲁莽，但一小部分期权交易员正越来越愿意押注这一可能性。"
+  },
+  {
+   "title": "特朗普任内继续频繁交易 8月买入至多2500万美元Meta股票",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuptaz3546952.shtml",
+   "time": "10-08 15:58",
+   "media": "环球市场播报",
+   "intro": "美国总统唐纳德·特朗普8月买入Meta Platforms Inc．、麦当劳和微软价值至少七位数的股份，并买入至少100万美元的SpaceX债券，此举延续了其任内前所未有的交易活动。"
+  },
+  {
+   "title": "美国暂停微软等科技公司参与PERM项目 称其滥用签证制度",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuptav4310934.shtml",
+   "time": "10-08 15:57",
+   "media": "环球市场播报",
+   "intro": "特朗普政府表示，包括微软在内的多家科技公司将被暂停参与一项移民项目，因这些企业广泛滥用外籍劳工签证制度。 美国副总统万斯周四在华盛顿举行的简报会上表示：“遗憾的是..."
+  },
+  {
+   "title": "谷歌推出办公AI智能体 工作方式类似同事",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuptaz7498574.shtml",
+   "time": "10-08 15:45",
+   "media": "环球市场播报",
+   "intro": "Alphabet Inc．旗下谷歌宣布推出面向办公场景的Gemini智能体，加大与OpenAI、Anthropic PBC和微软争夺企业客户的力度。"
   }
  ],
  "hold_news": [],
