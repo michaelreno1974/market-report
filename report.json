@@ -1,5 +1,5 @@
 {
- "date": "2026-10-09 19:26",
+ "date": "2026-10-10 00:25",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   51231.6406,
-   0.1
+   51579.6992,
+   0.68
   ],
   "纳斯达克": [
-   27193.3403,
-   -1.25
+   27347.8944,
+   0.57
   ],
   "标普500": [
-   7765.3599,
-   -0.47
+   7804.8701,
+   0.51
   ],
   "恒生指数": [
    23941.26,
@@ -134,48 +134,19 @@
    1.714
   ],
   "美元/人民币": [
-   6.692,
+   6.6925,
    0
   ],
   "纽约黄金": [
-   4209.94,
+   4215.7,
    0
   ],
   "纽约原油": [
-   90.58,
+   91.549,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2612",
-   "net20": -23800,
-   "citic_net": 17527,
-   "citic_dnet": 243
-  },
-  {
-   "prod": "IH",
-   "main": "IH2612",
-   "net20": -11549,
-   "citic_net": 6151,
-   "citic_dnet": 1602
-  },
-  {
-   "prod": "IC",
-   "main": "IC2612",
-   "net20": -18194,
-   "citic_net": 9367,
-   "citic_dnet": 313
-  },
-  {
-   "prod": "IM",
-   "main": "IM2612",
-   "net20": -34333,
-   "citic_net": 13383,
-   "citic_dnet": -1632
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "300369",
@@ -349,88 +320,88 @@
  },
  "news": [
   {
-   "title": "分析师：英伟达或将在2028年下半年采用英特尔Foveros封装技术",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurrui7830395.shtml",
-   "time": "10-09 11:23",
+   "title": "摩根士丹利上调芝加哥期权交易所全球市场（Cboe）评级",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaix2637916.shtml",
+   "time": "10-09 16:00",
    "media": "环球市场播报",
-   "intro": "韩国GF证券分析师Jeff Pu认为，英伟达或将在2028年下半年采用Foveros封装技术。该消息仍需审慎看待：目前尚未公布任何相关合同或具体产品。"
+   "intro": "摩根士丹利表示，随着 Cboe 与标普道琼斯指数公司（DJI）的合约完成续期，该公司股价大概率将继续上行。 这家投行将 Cboe 评级从低配（Underweight）直接上调两级至超配（O..."
   },
   {
-   "title": "打包了“一篮子”算力的指数，走势会更平稳吗？",
-   "url": "https://finance.sina.com.cn/stock/enterprise/sale/2026-10-09/doc-iniurruh1055386.shtml",
-   "time": "10-09 11:19",
-   "media": "新浪基金",
-   "intro": "近日，创业板算力ETF易方达（158050）等全市场首批算力主题ETF陆续上市交易，受到资金关注。Wind数据显示，截至9月29日，创业板算力ETF易方达（158050）连续4日获资金净流..."
-  },
-  {
-   "title": "账面价值约382万元，挂牌价3123万元！上市药企卖老厂，七年亏损超8.7亿元",
-   "url": "https://finance.sina.com.cn/stock/s/2026-10-09/doc-iniurruc2816996.shtml",
-   "time": "10-09 11:24",
-   "media": "",
-   "intro": "红星资本局10月9日消息 10月8日晚，莱美药业（300006.SZ）发布公告称，拟公开挂牌出售部分资产，标的为公司持有的重庆市南岸区月季路8号土地使用权及地上房屋建筑物..."
-  },
-  {
-   "title": "大牛股“腰斩”后，“牛散”葛卫东出手了！豪掷7亿元抢筹，曾报出当天全场最高价，成公司第五大股东",
-   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-09/doc-iniurruc6770689.shtml",
-   "time": "10-09 11:21",
-   "media": "",
-   "intro": "红星资本局10月9日消息，玻纤巨头中材科技定增落地。公司10月8日晚发布的公告显示，公司以51.40元/股，向15名对象合计发行了8718.19万股股份，募资总额为44.81亿元。"
-  },
-  {
-   "title": "长城基金陈子扬：黄金有两重逻辑支撑",
-   "url": "https://finance.sina.com.cn/stock/enterprise/sale/2026-10-09/doc-iniurruc2813884.shtml",
-   "time": "10-09 11:15",
-   "media": "新浪基金",
-   "intro": "国庆假后第二天，前期急跌的金价有所反弹，现货黄金重返4170美元，黄金股也集体回暖。消息面上，特朗普称中选前不会攻击伊朗，油价冲高回落，美元指数回落。"
-  },
-  {
-   "title": "4票同意、5票反对：硕世生物换届受阻，新名单没有现任董事长王国强",
-   "url": "https://finance.sina.com.cn/stock/roll/2026-10-09/doc-iniurruc2813651.shtml",
-   "time": "10-09 11:15",
-   "media": "新浪证券",
-   "intro": "文/新浪财经上海站 视距 10月9日，硕世生物披露：控股股东闰康生物要求召开临时股东会推进换届，议案以4票同意、5票反对未获通过。"
-  },
-  {
-   "title": "CBCX:初请回落之后金价为何企稳",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-09/doc-iniurruc2813573.shtml",
-   "time": "10-09 11:14",
-   "media": "市场资讯",
-   "intro": "10月9日，美国就业数据再次呈现分化。CBCX表示，据十月八日公布的报告，截至十月三日当周初请失业金人数为十九点七万，低于预期的二十万..."
-  },
-  {
-   "title": "OpenAI与Anthropic挖角特朗普政府官员 AI行业争夺华盛顿信任",
-   "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurruc6767920.shtml",
-   "time": "10-09 11:15",
+   "title": "NBA总裁：联盟希望获取预测市场数据，以此侦测市场操纵行为",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaix6591067.shtml",
+   "time": "10-09 15:53",
    "media": "环球市场播报",
-   "intro": "随着前沿技术日益被视作国家安全议题，Anthropic与OpenAI正在招揽特朗普政府官员出任高管，AI行业争相巩固与华盛顿的关系。"
+   "intro": "核心要点 NBA 总裁亚当・萧华表示，获取预测市场的数据，有助于联盟查处内幕交易行为。 就在此番表态之前，美国国家橄榄球联盟（NFL）于周四向最高法院提交法庭之友意见书..."
   },
   {
-   "title": "CPT Markets:重质油折价改变炼厂采购账",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-09/doc-iniurrui7824056.shtml",
-   "time": "10-09 11:13",
-   "media": "市场资讯",
-   "intro": "10月9日，印度炼厂的原料采购正在体现油种价差的重要性。CPT Markets表示，十月八日报道援引船运追踪数据称，九月印度自委内瑞拉进口原油约每日二十五万桶..."
+   "title": "白宫成立委员会调查美联储理事库克 要求其11月5日出席白宫听证",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusakc7713013.shtml",
+   "time": "10-09 15:57",
+   "media": "环球市场播报",
+   "intro": "美国总统特朗普正在成立一个委员会，调查针对美联储理事丽莎·库克的房贷欺诈指控，并要求她必须出席白宫听证会为自己辩护，显示特朗普力图将库克解职的行动明显升级。"
   },
   {
-   "title": "EasyMarkets易信:汽油周降难掩终端价格高位",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-09/doc-iniurruh1050689.shtml",
-   "time": "10-09 11:11",
-   "media": "市场资讯",
-   "intro": "10月9日，美国汽油连续两周降价，却依然处于罕见的十月高位。EasyMarkets易信表示，十月八日全国平均汽油价格为每加仑四点三六美元，一周回落约五美分..."
+   "title": "特朗普组建委员会，调查美联储理事丽莎・库克的相关陈述",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaix2635117.shtml",
+   "time": "10-09 15:47",
+   "media": "环球市场播报",
+   "intro": "核心要点 白宫对外宣布，美国总统唐纳德・特朗普设立一个调查委员会，就美联储理事丽莎・库克涉嫌在抵押贷款相关事项中作出虚假陈述一事展开调查。"
   },
   {
-   "title": "逆转收红！金融科技久违冲锋，159851标的指数涨超4%！港股AI企稳，港股互联网强劲反弹！有色量价齐升",
-   "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurrui7822177.shtml",
-   "time": "10-09 11:09",
-   "media": "新浪基金",
-   "intro": "反攻来了！10月9日，A股日内行情大逆转，早盘沪指一度失守3800点，创指跌逾3%创年内新低，午后三大指数携手拉升，最终集体收红。全市场成交1.92万亿元，连续两日放量。"
+   "title": "美国人债务问题亮起警示红灯，大衰退以来未见的风险信号出现",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaix6587932.shtml",
+   "time": "10-09 15:45",
+   "media": "环球市场播报",
+   "intro": "核心要点 美联储周五发布的一份调查显示，截至 2025 年的三年周期内，贷款逾期家庭占比从上一轮调查的约 12% 飙升至接近 20%。 该比例创下 2010 年以来最高水平..."
   },
   {
-   "title": "FPG财盛国际:宽幅金矿截段补充资源边界",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-09/doc-iniurrui7821389.shtml",
-   "time": "10-09 11:08",
-   "media": "市场资讯",
-   "intro": "10月9日，巴西一处金矿项目的新结果同时涉及地表与深部。FPG财盛国际表示，Altamira十月八日披露，Maria Bonita钻孔取得约一百三十四米..."
+   "title": "华尔街大力推数据中心作为房地产重仓标的，但风险正在不断累积",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaka0934750.shtml",
+   "time": "10-09 15:45",
+   "media": "环球市场播报",
+   "intro": "核心要点华尔街主推什么？黑石及其他另类投资机构，正在把数据中心资产打包进公募与私募投资产品。行业正在发生哪些变化：黑石旗下 BXDC..."
+  },
+  {
+   "title": "NBA总裁：联盟希望获取预测市场数据以检测操纵行为",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaix6580388.shtml",
+   "time": "10-09 15:15",
+   "media": "环球市场播报",
+   "intro": "NBA总裁亚当·萧华周五表示，NBA希望获取预测市场数据，以便进行监管并发现内幕交易。 “不管它叫预测市场，还是叫体育博彩，对我们联盟来说都是同样的问题..."
+  },
+  {
+   "title": "特朗普任命委员会调查美联储丽莎·库克的陈述",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaka0920941.shtml",
+   "time": "10-09 15:16",
+   "media": "环球市场播报",
+   "intro": "白宫周五宣布，美国总统特朗普正式设立了一个“调查委员会”，以调查有关美联储理事丽莎·库克就“一份或多份抵押贷款文书”作出虚假陈述的指控。"
+  },
+  {
+   "title": "科技股韧性令投资者费解，期权市场或许暗藏线索",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaka0919922.shtml",
+   "time": "10-09 15:01",
+   "media": "环球市场播报",
+   "intro": "越是刻意等待，意外反而越不会发生。这或许可以解释：在利率飙升、AI 板块饱受质疑的背景下，科技股为何依旧保持强势。但在期权交易市场..."
+  },
+  {
+   "title": "Blockchain.com寻求美国监管批准，拟开展预测市场与加密衍生品交易业务",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaix6576980.shtml",
+   "time": "10-09 15:00",
+   "media": "环球市场播报",
+   "intro": "核心要点Blockchain.com向 证实，已向美国商品期货交易委员会（CFTC）提交牌照申请，计划在美国推出事件合约以及加密货币衍生品业务。"
+  },
+  {
+   "title": "法拉利董事长看好AI，但对企业如何变现尚存疑虑",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaix6576406.shtml",
+   "time": "10-09 14:54",
+   "media": "环球市场播报",
+   "intro": "核心要点法拉利董事长约翰・埃尔坎并不担忧 AI 泡沫，他表示，即便市场出现回调，也不会阻碍这项技术的长期发展。他承认风险来自两方面：AI 基础设施投资规模飙升..."
+  },
+  {
+   "title": "预测市场：2027年前，规划中或已投运的数据中心数量大概率将超过5100座",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurvzz6706684.shtml",
+   "time": "10-09 14:55",
+   "media": "环球市场播报",
+   "intro": "核心要点预测交易平台 Kalshi 的交易者认为，2027 年之前，处于规划阶段或已经投入运行的 AI 数据中心数量超过 5100 座的概率为 75%；两周前该概率仅为 60%。"
   }
  ],
  "hold_news": [],
