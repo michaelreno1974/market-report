@@ -1,5 +1,5 @@
 {
- "date": "2026-10-12 20:17",
+ "date": "2026-10-13 03:11",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   51654.9492,
-   0.83
+   51821.9297,
+   0.32
   ],
   "纳斯达克": [
-   27366.1698,
-   0.64
+   27225.7898,
+   -0.51
   ],
   "标普500": [
-   7811.54,
-   0.59
+   7798.7798,
+   -0.16
   ],
   "恒生指数": [
    24434.93,
@@ -134,48 +134,19 @@
    0.254
   ],
   "美元/人民币": [
-   6.6935,
+   6.6936,
    0
   ],
   "纽约黄金": [
-   4195.06,
+   4188.0,
    0
   ],
   "纽约原油": [
-   93.008,
+   93.677,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2612",
-   "net20": -23244,
-   "citic_net": 16780,
-   "citic_dnet": -747
-  },
-  {
-   "prod": "IH",
-   "main": "IH2612",
-   "net20": -12336,
-   "citic_net": 5894,
-   "citic_dnet": -257
-  },
-  {
-   "prod": "IC",
-   "main": "IC2612",
-   "net20": -18437,
-   "citic_net": 9370,
-   "citic_dnet": 3
-  },
-  {
-   "prod": "IM",
-   "main": "IM2612",
-   "net20": -35230,
-   "citic_net": 13459,
-   "citic_dnet": 76
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "301052",
@@ -367,88 +338,88 @@
  },
  "news": [
   {
-   "title": "英特尔、博通首席执行官警告：资金紧张或将成为人工智能最大瓶颈",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypex5255628.shtml",
-   "time": "10-12 12:08",
+   "title": "UKMTO：一艘成品油运输船在霍尔木兹海峡遭不明飞行物击中",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzeax8252417.shtml",
+   "time": "10-12 18:58",
    "media": "环球市场播报",
-   "intro": "核心要点英特尔与博通发出警示：资金获取难题，有可能成为人工智能热潮的主要制约因素。博通首席执行官陈福阳周一在新加坡举办的星展银行亚洲未来前瞻峰会上表示：“我认为..."
+   "intro": "英国海事贸易行动办公室（UKMTO）称，他们收到一份报告称一艘装载成品油的油轮在驶离霍尔木兹海峡期间遭不明飞行物击中。"
   },
   {
-   "title": "ETF日报：在AI内容供给放量与档期需求验证的双重线索下，影视主题的关注度正在回升",
-   "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-12/doc-iniuypfc7296076.shtml",
-   "time": "10-12 11:55",
-   "media": "新浪基金",
-   "intro": "10月12日A股高开低走、尾盘跌幅扩大，大小盘显著分化。上证指数收报3797.24点，跌0.43%；深证成指收报12384.87点，跌2.03%。沪深两市共计成交1.55万亿元..."
-  },
-  {
-   "title": "泽连斯基称乌克兰愿意接受能源停火",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypff8405933.shtml",
-   "time": "10-12 11:53",
+   "title": "美国9月二手房签约量创近十二年最低 房贷利率飙升重挫购房需求",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzeav7195249.shtml",
+   "time": "10-12 18:58",
    "media": "环球市场播报",
-   "intro": "核心要点乌克兰总统弗拉基米尔・泽连斯基对美国斡旋促成的 “能源停火” 表示欢迎，但同时警告莫斯科方面必须采取对等行动。泽连斯基于周一表示：“今天一整个上午..."
+   "intro": "随着房贷利率重返7%以上，美国房地产市场进一步降温。上月卖家纷纷降价，为数不多的买家则掌握了更多议价权。房地产经纪公司Redfin经季节性调整的数据显示..."
   },
   {
-   "title": "拟跨界“追光”！刚刚，东百集团提示风险！",
-   "url": "https://finance.sina.com.cn/stock/s/2026-10-12/doc-iniuypfc7293976.shtml",
-   "time": "10-12 11:53",
-   "media": "市场资讯",
-   "intro": "来源：资本秘闻 百货公司东百集团拟3.16亿元跨界“追光”成为了市场热议焦点，上交所也火速向公司下发了监管工作函。不过在有关消息披露次日，即10月12日..."
-  },
-  {
-   "title": "停牌核查！10连板牛股公告！",
-   "url": "https://finance.sina.com.cn/stock/s/2026-10-12/doc-iniuypfc7293567.shtml",
-   "time": "10-12 11:52",
-   "media": "市场资讯",
-   "intro": "来源：资本秘闻 10月12日晚间，新华传媒披露公告称，公司将就股票交易波动情况进行停牌核查。公司股票将于10月13日起停牌，自披露核查公告后复牌。"
-  },
-  {
-   "title": "泽连斯基称若普京拒绝能源停火 乌克兰将继续对俄远程打击",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypfc7281471.shtml",
-   "time": "10-12 11:40",
+   "title": "美国要取消20年期国债？华尔街热议贝森特是否再有惊人之举",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzeax8251618.shtml",
+   "time": "10-12 18:57",
    "media": "环球市场播报",
-   "intro": "乌克兰总统泽连斯基周一表示，乌克兰将继续对俄罗斯发动远程打击，并指责莫斯科违反能源停火安排。 泽连斯基通过视频连线在华沙安全论坛上发表讲话称..."
+   "intro": "整整25年前的本月，美国财政部停发30年期国债之举震惊了投资者。眼下，华尔街开始热议20年债是否难逃被淘汰的命运。 德意志银行策略师George..."
   },
   {
-   "title": "ATFX:亮相坎昆行业联盟伙伴交流活动 以深度连接推动拉美生态协同",
-   "url": "https://finance.sina.com.cn/money/forex/forexroll/videoroll/2026-10-12/doc-iniuypfa0506626.shtml",
-   "time": "10-12 11:37",
-   "media": "市场资讯",
-   "intro": "10月12日，ATFX动态：坎昆的海风没有展馆的人流嘈杂，高尔夫球场的对话也没有展台旁的匆匆步履。ATFX选择把一场核心行业对话安放在这片滨海的松弛空间里..."
+   "title": "多艘空载超级油轮避开波斯湾 霍尔木兹石油运输再添风险",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzear5097321.shtml",
+   "time": "10-12 18:56",
+   "media": "环球市场播报",
+   "intro": "随着伊朗袭击升级，越来越多空载超级油轮开始掉头远离波斯湾。 根据汇总的油轮追踪数据，近日至少10艘超大型原油运输船（VLCC）以及数艘苏伊士型油轮在驶近阿联酋富查伊拉..."
   },
   {
-   "title": "CBCX:黄金当量指标需要拆分理解",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-12/doc-iniuypex5237044.shtml",
-   "time": "10-12 11:31",
-   "media": "市场资讯",
-   "intro": "10月12日，黄金项目同时含有其他金属时，单一当量指标容易掩盖收入结构差异。CBCX表示，Larvotto最新钻探披露Blacklode获得20.5米、每吨9.4克黄金当量的区间..."
+   "title": "扎克伯格：Meta在人工智能前沿已赶上竞争对手",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuw0487254.shtml",
+   "time": "10-12 17:47",
+   "media": "环球市场播报",
+   "intro": "Meta首席执行官马克·扎克伯格在采访中表示，随着新模型Muse Wonder发布，Meta已经追上处于AI“前沿”的竞争对手。 扎克伯格补充称，新系统“将能够完成复杂得多的任务..."
   },
   {
-   "title": "重大资产重组，10连板妖股飙涨近160%，新华传媒明日停牌",
-   "url": "https://finance.sina.com.cn/stock/roll/2026-10-12/doc-iniuypff8393802.shtml",
-   "time": "10-12 11:49",
-   "media": "21世纪经济报道",
-   "intro": "记者丨池伟嘉 编辑丨叶映橙 刘雪莹 10月12日，沪深两市三大指数低开，全天呈现震荡走弱走势。截至收盘，上证指数3797.24点，跌0.43%；深证成指12384.87点，跌2..."
+   "title": "美联储哈马克：随着“通胀心态”形成的风险上升，可能需要更高利率",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuw0473922.shtml",
+   "time": "10-12 17:18",
+   "media": "环球市场播报",
+   "intro": "克利夫兰联邦储备银行行长贝丝·哈马克周一表示，可能需要收紧货币政策以降低通胀，央行应迅速、渐进地调整。 “在可行的情况下，我通常认为，较小幅度的调整..."
   },
   {
-   "title": "贵州茅台重夺“股王”宝座！吃喝板块韧性彰显，食品饮料ETF华宝（515710）标的指数逆市收红！",
-   "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-12/doc-iniuypex5236259.shtml",
-   "time": "10-12 11:30",
-   "media": "新浪基金",
-   "intro": "吃喝板块今日（10月12日）逆市飘红。截至收盘，水井坊、安琪酵母涨超3%，贵州茅台、珠江啤酒、今世缘、燕京啤酒等多股涨超1%，贵州茅台收盘价超越联讯仪器..."
+   "title": "Meta推出最新AI模型Muse Wonder",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuz8302435.shtml",
+   "time": "10-12 17:18",
+   "media": "环球市场播报",
+   "intro": "Meta推出了其最新人工智能模型Muse Wonder，并称它是驱动数字助手的最先进选项。但它并非免费。 要使用该模型，Muse个人代理应用的用户需要注册每月20美元或100美元的订阅..."
   },
   {
-   "title": "CPT Markets:深浅部成果共同检验资源扩展",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-12/doc-iniuypff8390075.shtml",
-   "time": "10-12 11:29",
-   "media": "市场资讯",
-   "intro": "10月12日，Gum Creek黄金项目的新结果覆盖深部延伸和浅部加密两条路径。CPT Markets表示，Horizon Gold公告披露，Snook录得44米、每吨5.08克黄金的区间；与此同时..."
+   "title": "克利夫兰联储行长主张对货币政策小步快调 避免日后大幅纠偏",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuz8301937.shtml",
+   "time": "10-12 17:18",
+   "media": "环球市场播报",
+   "intro": "克利夫兰联储行长贝丝·哈马克表示，幅度较小、频率较高的货币政策调整有助于保持通胀预期稳定，但她没有明确支持本月加息。"
   },
   {
-   "title": "四重催化！银行股全线上涨，5股扎堆新高！银行ETF华宝（512800）标的指数涨超2%，再刷年内高点",
-   "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-12/doc-iniuypfc7272002.shtml",
-   "time": "10-12 11:28",
-   "media": "新浪基金",
-   "intro": "10月12日，无惧震荡银行稳步攀升，银行ETF华宝（512800）高开高走，标的指数大涨2.27%，刷新年内新高。A股42只银行股全线收涨，渝农商行、重庆银行涨近5%，招商银行..."
+   "title": "阿布扎比国家石油物流洽谈收购HEA股权，企业估值达30亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuw0467670.shtml",
+   "time": "10-12 17:08",
+   "media": "环球市场播报",
+   "intro": "据知情人士透露，阿联酋油气巨头阿布扎比国家石油公司（Adnoc）旗下的物流子公司，正在洽谈收购 HEA Energy 的大额股权。这笔交易对这家中东海上能源服务企业的估值最高可..."
+  },
+  {
+   "title": "量子计算企业IonQ拟最高13亿美元收购网络安全公司",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxut5145216.shtml",
+   "time": "10-12 17:04",
+   "media": "环球市场播报",
+   "intro": "内容摘要 IonQ 达成全股票交易协议，拟收购网络安全企业 Elisity，这笔交易对后者估值最高可达 13 亿美元。 据企业高管透露，量子计算公司 IonQ 达成全股票收购协议..."
+  },
+  {
+   "title": "思泰瑞拟21亿美元收购Xodus Medical",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuw0465772.shtml",
+   "time": "10-12 17:08",
+   "media": "环球市场播报",
+   "intro": "思泰瑞于周一宣布这笔交易，称收购将丰富自身产品组合，新增多款手术用消耗类产品。 总部位于宾夕法尼亚州的 Xodus 公司研发、生产多款医疗器械。"
+  },
+  {
+   "title": "路威酩轩（LVMH）销售疲软，给脆弱复苏的奢侈品行业蒙上阴影",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxux7237187.shtml",
+   "time": "10-12 17:08",
+   "media": "环球市场播报",
+   "intro": "这家法国奢侈品巨头表示，公司销售增速放缓，欧洲奢侈品行业期盼已久的复苏进程遭遇阻碍。 总部位于巴黎的 LVMH 手握一众时装、珠宝、香槟品牌..."
   }
  ],
  "hold_news": [],
