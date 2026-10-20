@@ -1,115 +1,115 @@
 {
- "date": "2026-10-20 10:58",
+ "date": "2026-10-20 17:33",
  "index": [
   {
    "name": "上证指数",
-   "price": 3730.0,
-   "pct": -0.02
+   "price": 3735.37,
+   "pct": 0.12
   },
   {
    "name": "深证成指",
-   "price": 11884.73,
-   "pct": 0.57
+   "price": 11801.29,
+   "pct": -0.14
   },
   {
    "name": "创业板指",
-   "price": 2771.87,
-   "pct": 0.93
+   "price": 2739.2,
+   "pct": -0.26
   }
  ],
  "industry": [
   {
+   "name": "计算机",
+   "zdf": 1.95,
+   "zljlr": -5.017778,
+   "leader": "博汇科技",
+   "leader_zdf": 20.01
+  },
+  {
    "name": "机械设备",
-   "zdf": 2.46,
-   "zljlr": 24.742716,
+   "zdf": 1.81,
+   "zljlr": 21.558034,
    "leader": "赛摩智能",
    "leader_zdf": 20.0
   },
   {
+   "name": "综合",
+   "zdf": 1.71,
+   "zljlr": -0.123225,
+   "leader": "东阳光",
+   "leader_zdf": 3.55
+  },
+  {
    "name": "电子",
-   "zdf": 2.44,
-   "zljlr": 65.366027,
+   "zdf": 1.4,
+   "zljlr": 14.805045000000002,
    "leader": "恒玄科技",
    "leader_zdf": 20.0
   },
   {
-   "name": "计算机",
-   "zdf": 2.03,
-   "zljlr": 1.5028629999999998,
-   "leader": "索辰科技",
-   "leader_zdf": 16.23
-  },
-  {
-   "name": "综合",
-   "zdf": 1.44,
-   "zljlr": -0.091376,
-   "leader": "ST三木",
-   "leader_zdf": 3.33
-  },
-  {
-   "name": "通信",
-   "zdf": 1.25,
-   "zljlr": 12.273908,
-   "leader": "广和通",
-   "leader_zdf": 14.33
-  },
-  {
    "name": "医药生物",
-   "zdf": 1.18,
-   "zljlr": 2.504773,
+   "zdf": 1.2,
+   "zljlr": 2.518807,
    "leader": "迪安诊断",
    "leader_zdf": 19.99
   },
   {
-   "name": "汽车",
-   "zdf": 1.07,
-   "zljlr": 3.015298,
-   "leader": "斯菱智驱",
-   "leader_zdf": 12.61
+   "name": "社会服务",
+   "zdf": 0.78,
+   "zljlr": -1.63809,
+   "leader": "昂立教育",
+   "leader_zdf": 10.0
   },
   {
-   "name": "轻工制造",
-   "zdf": 0.85,
-   "zljlr": -1.252104,
-   "leader": "尚品宅配",
-   "leader_zdf": 12.27
+   "name": "汽车",
+   "zdf": 0.68,
+   "zljlr": -3.476867,
+   "leader": "斯菱智驱",
+   "leader_zdf": 12.03
+  },
+  {
+   "name": "传媒",
+   "zdf": 0.6,
+   "zljlr": -3.014374,
+   "leader": "凡拓数创",
+   "leader_zdf": 20.0
   }
  ],
  "concept": [
   {
-   "name": "靶材",
-   "zdf": 5.45,
-   "zljlr": 1.408501,
-   "leader": "欧莱新材",
-   "leader_zdf": 9.77
-  },
-  {
    "name": "智能音箱",
-   "zdf": 4.95,
-   "zljlr": 26.049727999999998,
+   "zdf": 4.38,
+   "zljlr": 29.064353000000004,
    "leader": "恒玄科技",
    "leader_zdf": 20.0
   },
   {
-   "name": "昨日连板",
-   "zdf": 4.55,
-   "zljlr": -4.305530999999999,
-   "leader": "东安动力",
-   "leader_zdf": 10.02
-  },
-  {
-   "name": "无线耳机",
-   "zdf": 4.1,
-   "zljlr": 24.90266,
-   "leader": "恒玄科技",
-   "leader_zdf": 20.0
+   "name": "靶材",
+   "zdf": 3.84,
+   "zljlr": 0.8005140000000001,
+   "leader": "欧莱新材",
+   "leader_zdf": 7.04
   },
   {
    "name": "AIPC",
-   "zdf": 3.93,
-   "zljlr": 23.951105,
+   "zdf": 3.76,
+   "zljlr": 23.734295,
    "leader": "长盈精密",
    "leader_zdf": 19.99
+  },
+  {
+   "name": "MR头显",
+   "zdf": 3.55,
+   "zljlr": 43.504665,
+   "leader": "恒玄科技",
+   "leader_zdf": 20.0
+  },
+  {
+   "name": "无线耳机",
+   "zdf": 3.55,
+   "zljlr": 24.254248999999998,
+   "leader": "恒玄科技",
+   "leader_zdf": 20.0
   }
  ],
  "global": {
@@ -127,36 +127,65 @@
   ],
   "恒生指数": [
    23990.05,
-   -0.981
+   -1.319
   ],
   "国企指数": [
    8078.52,
-   -0.819
+   -1.206
   ],
   "美元/人民币": [
-   6.679,
+   6.6787,
    0
   ],
   "纽约黄金": [
-   4158.8,
+   4138.45,
    0
   ],
   "纽约原油": [
-   98.766,
+   100.523,
    0
   ]
  },
- "futures": [],
+ "futures": [
+  {
+   "prod": "IF",
+   "main": "IF2612",
+   "net20": -20378,
+   "citic_net": 15333,
+   "citic_dnet": 961
+  },
+  {
+   "prod": "IH",
+   "main": "IH2612",
+   "net20": -10528,
+   "citic_net": 4332,
+   "citic_dnet": 930
+  },
+  {
+   "prod": "IC",
+   "main": "IC2612",
+   "net20": -16565,
+   "citic_net": 9555,
+   "citic_dnet": 1659
+  },
+  {
+   "prod": "IM",
+   "main": "IM2612",
+   "net20": -28678,
+   "citic_net": 14892,
+   "citic_dnet": 842
+  }
+ ],
  "picks": [
   {
-   "code": "688608",
-   "name": "恒玄科技",
-   "pct": 20.0,
+   "code": "688004",
+   "name": "博汇科技",
+   "pct": 20.006,
    "src": "涨幅榜"
   },
   {
-   "code": "688689",
-   "name": "银河微电",
+   "code": "688608",
+   "name": "恒玄科技",
    "pct": 20.0,
    "src": "涨幅榜"
   },
@@ -185,60 +214,48 @@
    "src": "涨幅榜"
   },
   {
-   "code": "300461",
-   "name": "田中精机",
-   "pct": 19.986,
+   "code": "688787",
+   "name": "海天瑞声",
+   "pct": 17.549,
    "src": "涨幅榜"
   },
   {
-   "code": "688626",
-   "name": "翔宇医疗",
-   "pct": 18.179,
+   "code": "688360",
+   "name": "德马科技",
+   "pct": 16.997,
    "src": "涨幅榜"
-  },
-  {
-   "code": "002242",
-   "name": "九阳股份",
-   "pct": 10.0054,
-   "src": "资金+10.8亿"
-  },
-  {
-   "code": "603236",
-   "name": "移远通信",
-   "pct": 10.0014,
-   "src": "资金+8.8亿"
-  },
-  {
-   "code": "000823",
-   "name": "超声电子",
-   "pct": 5.706189999999999,
-   "src": "资金+7.2亿"
-  },
-  {
-   "code": "003029",
-   "name": "吉大正元",
-   "pct": 10.004100000000001,
-   "src": "资金+6.9亿"
   },
   {
    "code": "603893",
    "name": "瑞芯微",
    "pct": 10.0029,
-   "src": "资金+6.4亿"
+   "src": "资金+11.8亿"
+  },
+  {
+   "code": "603236",
+   "name": "移远通信",
+   "pct": 10.0014,
+   "src": "资金+11.6亿"
+  },
+  {
+   "code": "002242",
+   "name": "九阳股份",
+   "pct": 10.0054,
+   "src": "资金+11.3亿"
   }
  ],
  "water": [
   {
    "name": "白酒概念",
-   "zdf": 0.05,
-   "zljlr": -1.590871,
+   "zdf": -0.31,
+   "zljlr": -0.841651,
    "leader": "吉宏股份"
   },
   {
    "name": "航运概念",
-   "zdf": -0.41,
-   "zljlr": -4.981191,
-   "leader": "海晨股份"
+   "zdf": -0.6,
+   "zljlr": -7.405357,
+   "leader": "万林物流"
   }
  ],
  "holdings": [
@@ -247,8 +264,8 @@
    "name": "祥源文旅",
    "price": 4.85,
    "pct": 1.68,
-   "turnover": 0.52,
-   "vol_ratio": 1.3,
+   "turnover": 0.77,
+   "vol_ratio": 0.71,
    "r52_high": 9.45,
    "r52_low": 4.72,
    "ma5": 4.914,
@@ -268,10 +285,10 @@
    "expma": {
     "ema20": 5.194
    },
-   "main_in_wan": -133.0,
+   "main_in_wan": 222.0,
    "sector": "社会服务",
-   "sector_zdf": 0.73,
-   "sector_flow": -1.5432709999999998,
+   "sector_zdf": 0.78,
+   "sector_flow": -1.63809,
    "qty": 10000,
    "cost": 8.2475,
    "mv": 48500.0,
@@ -285,135 +302,135 @@
   {
    "code": "600460",
    "name": "士兰微",
-   "price": 26.1,
-   "pct": 2.35,
-   "turnover": 1.71,
-   "vol_ratio": 1.65,
+   "price": 25.91,
+   "pct": 1.61,
+   "turnover": 2.85,
+   "vol_ratio": 1.02,
    "r52_high": 57.02,
    "r52_low": 24.62,
-   "ma5": 26.006,
-   "ma10": 27.511,
-   "ma20": 29.877,
+   "ma5": 25.968,
+   "ma10": 27.492,
+   "ma20": 29.868,
    "kdj": {
-    "k": 11.25,
-    "d": 11.9,
-    "j": 9.96
+    "k": 10.32,
+    "d": 11.59,
+    "j": 7.79
    },
    "boll": {
-    "up": 35.565,
-    "mid": 29.878,
-    "dn": 24.19,
-    "width": 38.07
+    "up": 35.582,
+    "mid": 29.868,
+    "dn": 24.154,
+    "width": 38.26
    },
    "expma": {
-    "ema20": 28.919
+    "ema20": 28.901
    },
-   "main_in_wan": -5419.0,
+   "main_in_wan": -1589.0,
    "sector": "电子",
-   "sector_zdf": 2.44,
-   "sector_flow": 65.366027,
+   "sector_zdf": 1.4,
+   "sector_flow": 14.805045000000002,
    "qty": 3100,
    "cost": 33.5224,
-   "mv": 80910.0,
-   "pl": -23009.44,
-   "pl_pct": -22.14,
+   "mv": 80321.0,
+   "pl": -23598.44,
+   "pl_pct": -22.71,
    "disc": {
-    "lvl": 2,
-    "msg": "放量跌破 30 元纪律线，次日卖出 700 股，恢复 2400 股敞口"
+    "lvl": 1,
+    "msg": "跌破 30 元（量比 1.02 未放量），次日放量确认即卖出 700 股"
    }
   }
  ],
  "account": {
   "cash": 1063.58,
-  "hold_mv": 129410.0,
+  "hold_mv": 128821.0,
   "hold_cost": 186394.44,
-  "hold_pl": -56984.44,
-  "assets": 130473.58
+  "hold_pl": -57573.44,
+  "assets": 129884.58
  },
  "news": [
   {
-   "title": "永赢景气均衡主动管理ETF获批",
-   "url": "https://finance.sina.com.cn/money/fund/jjh/2026-10-20/doc-inivvsvt5878901.shtml",
-   "time": "10-20 02:56",
-   "media": "新浪基金",
-   "intro": "据悉，10月19日首批主动管理ETF获批，永赢基金旗下永赢景气均衡主动管理ETF位列其中。作为ETF产品形态的一次创新，主动管理ETF将主动投资的投研深度与ETF场内交易..."
+   "title": "陈启宇：围绕“可负担×可信赖”，推动中国创新药持续走向全球",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwitp6512210.shtml",
+   "time": "10-20 09:32",
+   "media": "新浪科技",
+   "intro": "10月20日，2026可持续全球领导者大会在上海举行。本届大会以“共筑韧性未来：全球治理、创新驱动与产业升级”为主题，汇聚来自全球的300余位嘉宾..."
   },
   {
-   "title": "国产AI强势上攻！DeepSeek新版本发布+科技兴商政策利好，科创人工智能ETF华宝（589520）跟踪指数猛拉3.4%",
-   "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-20/doc-inivvsvv6603771.shtml",
-   "time": "10-20 02:49",
-   "media": "新浪基金",
-   "intro": "今日（10月20日）重点布局国产AI产业链的科创人工智能ETF华宝（589520）标的指数强势上攻，盘中猛拉3.4%。成份股方面，奥比中光-W领涨超18%，恒玄科技涨逾15%，奥普特..."
-  },
-  {
-   "title": "印尼将从基准指数中剔除持股集中的股票 以免被MSCI降级",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivvsvv6602177.shtml",
-   "time": "10-20 02:47",
-   "media": "环球市场播报",
-   "intro": "印尼将从其基准股票指数中剔除持股过于集中的股票，这是为避免其市场地位可能被MSCI下调而采取的最新举措。 印尼证券交易所首席执行官Jeffrey..."
-  },
-  {
-   "title": "软银信用风险升至近四年最高 AI融资及潜在收购引发担忧",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivvsvt5869034.shtml",
-   "time": "10-20 02:46",
-   "media": "环球市场播报",
-   "intro": "随着市场对AI相关融资及潜在大型收购交易的担忧加剧，以信用违约互换衡量的软银集团信用风险已升至近四年来最高水平。 数据显示，软银五年期信用违约互换（CDS）周二报432..."
-  },
-  {
-   "title": "德康农牧盘中涨超13% 9月商品猪完全成本降至约11.6元/kg",
-   "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-20/doc-inivvsvt5858219.shtml",
-   "time": "10-20 02:33",
-   "media": "新浪港股",
-   "intro": "德康农牧（02419）盘中涨超13%，截至发稿，涨幅收窄至上涨4.34%，现报56.55港元，成交额3455.25万港元。 据机构调研数据，德康农牧2026年9月商品猪完全成本下降至约11..."
-  },
-  {
-   "title": "美国检方称，被控安装窃听设备的前OpenAI员工似乎得到沙特政府支持",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivvsvq0852002.shtml",
-   "time": "10-20 02:33",
-   "media": "环球市场播报",
-   "intro": "据法庭文件显示，一名被控在AI公司OpenAI一间高管会议室内安装窃听设备的前OpenAI工程师，似乎得到了沙特政府的大力支持。"
-  },
-  {
-   "title": "瑞博生物-B盘中涨超9% 拟收购Ribocure Pharmaceuticals AB剩余股权",
-   "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-20/doc-inivvsvv6587001.shtml",
-   "time": "10-20 02:30",
-   "media": "新浪港股",
-   "intro": "瑞博生物-B（06938）盘中涨超9%，截至发稿，股价上涨4.45%，现报52.85港元，成交额759.83万港元。 瑞博生物-B发布公告，于2026年10月16日，公司与少数股东订立换股协议..."
-  },
-  {
-   "title": "机器人概念股多数走强 五一视界涨超23%兆威机电涨超14%",
-   "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-20/doc-inivvsvr7618576.shtml",
-   "time": "10-20 02:28",
-   "media": "新浪港股",
-   "intro": "机器人概念股早盘多数走强，截至发稿，五一视界（06651）上涨23.59%，报50.55港元；兆威机电（02692）上涨14.07%，报30港元；仙工智能（06106）上涨6.92%，报52..."
-  },
-  {
-   "title": "光大期货：有色金属类日报10.20",
-   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-20/doc-inivvsvr7612181.shtml",
-   "time": "10-20 02:23",
+   "title": "MHMarkets迈汇:黄金回收试验揭示工艺取舍",
+   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-20/doc-inivwitm5779771.shtml",
+   "time": "10-20 09:31",
    "media": "市场资讯",
-   "intro": "铜： （展大鹏，从业资格号：F3013795；交易咨询资格号：Z0013582） 隔夜内外铜价先抑后扬，国内精炼铜现货进口出现小幅盈利，Comex-LME铜价差至100美元/吨附近。"
+   "intro": "10月20日，一项金矿冶金试验把关注点从品位转向提取效率。MHMarkets迈汇表示，Sun Summit公布的JD项目结果显示，在一百五十微米磨矿条件下，Creek样品采用重选加浸出流程..."
   },
   {
-   "title": "无人配送车制造商新石器完成4亿美元融资 阿里巴巴旗下基金参与投资",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivvsvq0839328.shtml",
-   "time": "10-20 02:38",
-   "media": "环球市场播报",
-   "intro": "中国无人配送车制造商新石器完成4亿美元E轮融资，所募资金将用于推动全球业务扩张。 新石器周二在声明中表示，本轮融资由博裕投资领投..."
-  },
-  {
-   "title": "光大期货：软商品类日报10.20",
-   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-20/doc-inivvsvq0838508.shtml",
-   "time": "10-20 02:22",
+   "title": "Moneta Markets外汇:黄金远期预期仍待资金回流",
+   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-20/doc-inivwiti7717695.shtml",
+   "time": "10-20 09:29",
    "media": "市场资讯",
-   "intro": "白糖： （张笑金，从业资格号：F0306200；交易咨询资格号：Z0000082） 消息方面，印度马哈拉施特拉邦季风雨季降雨量较常年缺口达19%..."
+   "intro": "10月20日，黄金长期预测与眼前走势之间存在明显距离。Moneta Markets外汇关注到，Metals Focus预计二〇二七年金价均值为每盎司五千三百三十美元，但同时承认..."
   },
   {
-   "title": "礼邦医药-B早盘一度飙升逾47% AP308获FDA临床许可及国内受理",
-   "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-20/doc-inivvsvt5849002.shtml",
-   "time": "10-20 02:22",
-   "media": "新浪港股",
-   "intro": "礼邦医药-B（09637）早盘一度飙升逾47%。截至发稿，股价回落现涨11.04%，报19.41港元，成交额8187.61万港元。 北大医院近日宣布，其肾脏内科与礼邦医药联合开发的新一代AP3..."
+   "title": "OEXN:重质原油折价扩大背后的约束",
+   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-20/doc-inivwitp6507557.shtml",
+   "time": "10-20 09:27",
+   "media": "市场资讯",
+   "intro": "10月20日，国际基准原油走高，并不代表所有油种同步受益。OEXN留意到，加拿大西部精选原油十一月交付报价在上周四较WTI低每桶二十六点四美元..."
+  },
+  {
+   "title": "Vatee外汇:燃料涨价如何传导生活成本",
+   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-20/doc-inivwiti7713179.shtml",
+   "time": "10-20 09:26",
+   "media": "市场资讯",
+   "intro": "10月20日，加拿大九月通胀数据呈现出鲜明的能源特征。Vatee外汇表示，整体物价同比上涨百分之三点一，汽油涨幅达到百分之二十七点八..."
+  },
+  {
+   "title": "直观复星钱悦平：机器人手术失血更少、并发症更低、出院更早",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwith0946842.shtml",
+   "time": "10-20 09:30",
+   "media": "睿见Economy",
+   "intro": "2026可持续全球领导者大会于10月20日-22日在上海黄浦世博园区举办。直观复星临床医学事务总监钱悦平在“科技领航・共护星球：前沿探索与全球行动”专题论坛中提出..."
+  },
+  {
+   "title": "中国生物制药靳松：ESG绝非品牌宣传工程，已经成为资本市场重要评估标尺",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwiti7711248.shtml",
+   "time": "10-20 09:24",
+   "media": "睿见Economy",
+   "intro": "2026可持续全球领导者大会于10月20日-22日在上海黄浦世博园区举办。中国生物制药副总裁靳松在“科技领航・共护星球：前沿探索与全球行动”专题论坛中介绍..."
+  },
+  {
+   "title": "FX山海证券:收益率回升压制黄金短线表现",
+   "url": "https://finance.sina.com.cn/money/future/roll/2026-10-20/doc-inivwiti7711054.shtml",
+   "time": "10-20 09:24",
+   "media": "市场资讯",
+   "intro": "10月20日，周一美国尾盘，黄金与白银走势出现分化。ZFX山海证券表示，Kitco报道时现货黄金约为每盎司四千一百三十七点八美元，当日下跌约百分之零点六三..."
+  },
+  {
+   "title": "科技“过山车”前十强换血！谁守住了排名，谁站在山岗？",
+   "url": "https://finance.sina.com.cn/money/fund/jjyj/2026-10-20/doc-inivwitm5776691.shtml",
+   "time": "10-20 09:28",
+   "media": "市场资讯",
+   "intro": "作者 |谢美浴 编辑 | 付影 来源 | 独角金融 经历完整涨跌周期后，前三季度公募基金业绩榜排位变了。 二季度末，全市场年内收益翻倍的基金有246只；到三季度末..."
+  },
+  {
+   "title": "中天期货:商品指数重心小幅下移 原油横盘震荡",
+   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-20/doc-inivwith0935759.shtml",
+   "time": "10-20 09:22",
+   "media": "市场资讯",
+   "intro": "热点品种分析 商品指数 股指 中国上证综指10月 20日（周二）收盘上涨 4.45点，涨幅 0.12%，报 3718.44 点； 中国深证成指 10月 20日（周二）收盘下跌16.13点，跌幅 0.14%..."
+  },
+  {
+   "title": "9月BBA旗下车型零售量无一过万，豪华车企份额持续下滑",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-20/doc-inivwitm5766985.shtml",
+   "time": "10-20 09:22",
+   "media": "界面",
+   "intro": "豪华车企正在面临不断加重的销售压力。 10月19日，据第一财经报道，国内车辆上险监测数据显示，在刚刚过去的9月，BBA（宝马、奔驰..."
+  },
+  {
+   "title": "存储股，别着急抄底",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-20/doc-inivwitp6507617.shtml",
+   "time": "10-20 09:28",
+   "media": "市场资讯",
+   "intro": "來源：虎嗅APP 出品 | 妙投APP 作者 | 丁萍 头图 | 视觉中国 存储股跌了这么多，是不是可以抄底了？ 看多的理由并不难找。 以10月1日收盘价为基准，截至10月15日收盘..."
   }
  ],
  "hold_news": [],
