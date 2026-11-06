@@ -1,5 +1,5 @@
 {
- "date": "2026-11-06 20:19",
+ "date": "2026-11-07 00:51",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   51523.0586,
-   -3.44
+   51572.1914,
+   0.1
   ],
   "纳斯达克": [
-   24314.9973,
-   -5.52
+   24718.8163,
+   1.66
   ],
   "标普500": [
-   7353.73,
-   -4.36
+   7421.1499,
+   0.92
   ],
   "恒生指数": [
    24404.62,
@@ -134,48 +134,19 @@
    -1.135
   ],
   "美元/人民币": [
-   6.6708,
+   6.6726,
    0
   ],
   "纽约黄金": [
-   4074.768,
+   4069.57,
    0
   ],
   "纽约原油": [
-   91.126,
+   90.078,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2612",
-   "net20": -19813,
-   "citic_net": 9757,
-   "citic_dnet": -575
-  },
-  {
-   "prod": "IH",
-   "main": "IH2612",
-   "net20": -9841,
-   "citic_net": 2735,
-   "citic_dnet": 1094
-  },
-  {
-   "prod": "IC",
-   "main": "IC2612",
-   "net20": -13862,
-   "citic_net": 8024,
-   "citic_dnet": 48
-  },
-  {
-   "prod": "IM",
-   "main": "IM2612",
-   "net20": -31044,
-   "citic_net": 15268,
-   "citic_dnet": -487
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "300237",
@@ -317,7 +288,7 @@
     "width": 23.8
    },
    "expma": {
-    "ema20": 25.428
+    "ema20": 25.427
    },
    "main_in_wan": -2777.0,
    "sector": "电子",
@@ -343,88 +314,88 @@
  },
  "news": [
   {
-   "title": "CBCX:就业数据牵动黄金定价",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-06/doc-inixvfeu5342688.shtml",
-   "time": "11-06 12:15",
-   "media": "市场资讯",
-   "intro": "11月6日，最新初请失业金人数降至十八点九万，低于市场原先预估，现货金仍守在每盎司四千一百美元附近。CBCX表示，数据并未立即改变金价方向..."
-  },
-  {
-   "title": "CPT Markets:白银供需差异值得留意",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-06/doc-inixvfeu5341715.shtml",
-   "time": "11-06 12:13",
-   "media": "市场资讯",
-   "intro": "11月6日，黄金走高之际，白银涨幅相对温和，反映两者虽同属贵金属，定价逻辑却不尽相同。CPT Markets表示，生产率和成本数据缓和通胀担忧时，黄金受益更直接..."
-  },
-  {
-   "title": "EasyMarkets易信:矿山成本映照黄金盈利",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-06/doc-inixvfeu5340705.shtml",
-   "time": "11-06 12:12",
-   "media": "市场资讯",
-   "intro": "11月6日，一位资深矿业人士以每盎司四千美元的金价评估项目经济性，并强调可研阶段会采用更保守的价格假设。EasyMarkets易信表示，这提醒市场将金价走势与矿山现金流..."
-  },
-  {
-   "title": "李大霄谈美股泡沫爆破：我们大量的人买了美股 国人财富受到巨大损失 我很痛心",
-   "url": "https://finance.sina.com.cn/stock/bxjj/2026-11-06/doc-inixvfey5568698.shtml",
-   "time": "11-06 12:17",
-   "media": "市场资讯",
-   "intro": "11月6日，李大霄发文表示我应该是全球里面相对比较严重的提醒美股泡沫要爆破的研究人员，当然也包括日本和韩国。虽然我预测对了，但是我一点都不高兴。"
-  },
-  {
-   "title": "FPG财盛国际:矿业估值需回归经营变量",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-06/doc-inixvfes8691585.shtml",
-   "time": "11-06 12:10",
-   "media": "市场资讯",
-   "intro": "11月6日，在金价走高和股市震荡并存的阶段，部分机构保留金属、降低矿业股比重。FPG财盛国际表示，矿企估值不仅对应金价，还反映成本控制、储量接续和市场整体估值的变化。"
-  },
-  {
-   "title": "M4Markets:金价站稳关键位观察",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-06/doc-inixvfew8789371.shtml",
-   "time": "11-06 12:05",
-   "media": "市场资讯",
-   "intro": "11月6日，现货黄金在四千一百美元附近获得初步支撑，同时周度初请数据降至七月以来低位。该平台表示，价格没有因就业数字立刻转弱..."
-  },
-  {
-   "title": "Mega安汇:项目可研强调价格缓冲",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-06/doc-inixvfeu5335526.shtml",
-   "time": "11-06 12:03",
-   "media": "市场资讯",
-   "intro": "11月6日，黄金处在高位时，矿山项目仍采用低于现货的假设价格进行可研，以为成本和周期预留空间。Mega安汇表示，这种审慎做法是观察黄金产业链经营质量的重要线索。"
-  },
-  {
-   "title": "NCE平台:黄金反弹仍待就业验证",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-06/doc-inixvfey5563053.shtml",
-   "time": "11-06 12:01",
-   "media": "市场资讯",
-   "intro": "11月6日，周度失业救济申请减少后，金价仍保持在四千一百美元附近，市场对就业市场的解读并未形成单边结论。NCE平台表示，当前焦点已从单项数据转向月度就业报告能否改变利..."
-  },
-  {
-   "title": "民主党大胜，市场重新评估利率路径",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixvfew8786509.shtml",
-   "time": "11-06 12:01",
+   "title": "OpenAI首席财务官：公司仍将持续投资AI数据中心",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvrun8555017.shtml",
+   "time": "11-06 16:50",
    "media": "环球市场播报",
-   "intro": "核心要点民主党选举大胜，市场初期预期特朗普或将寻求达成协议、结束伊朗战争，进而压低油价、缓解通胀压力。但和平协议无法一夜消除现有能源端压力..."
+   "intro": "核心要点OpenAI 首席财务官萨拉・弗里尔周五表示，尽管中期选举结果已经出炉，公司仍会继续投资人工智能基础设施。全美多地选民在周二选举中..."
   },
   {
-   "title": "AI相关债务风险加剧，据报道荷兰国际集团拟出售5亿美元数据中心贷款",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixvfew8785503.shtml",
-   "time": "11-06 11:58",
+   "title": "加码数据中心：哈西特称“蓝潮”不会阻碍人工智能基建建设",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvruq5202793.shtml",
+   "time": "11-06 16:48",
    "media": "环球市场播报",
-   "intro": "核心要点据消息，荷兰国际集团（ING）正在为约 5 亿美元数据中心相关贷款寻找接盘方。此次拍卖正值各家银行普遍着手分散数据中心信贷风险..."
+   "intro": "核心要点白宫国家经济委员会主任凯文・哈西特表示，尽管中期选举民主党迎来大胜，但他预计数据中心建设仍将按原计划推进。全国数十项公投提案提交选民表决..."
   },
   {
-   "title": "报道：伊朗称美国须采取实际行动 外交进程方能推进",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixvfes8685095.shtml",
-   "time": "11-06 11:58",
+   "title": "中期选举落幕叠加AI板块大跌，Kalshi平台上Anthropic官宣IPO的概率下降",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvrus8669848.shtml",
+   "time": "11-06 16:45",
    "media": "环球市场播报",
-   "intro": "据伊朗伊斯兰共和国广播电视台（IRIB）报道，伊朗最高国家安全委员会副秘书Ali Bagheri Kani表示，“伊朗必须亲眼看到美国采取实际行动；一旦看到这些行动..."
+   "intro": "核心要点在 Kalshi 预测市场上，这家人工智能企业在 12 月之前官宣 IPO 的概率，一周内从接近 90% 跌至 57%。1 月之前完成 IPO 官宣的概率..."
   },
   {
-   "title": "OEXN:生产率改善缓释通胀顾虑",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-06/doc-inixvfew8785371.shtml",
-   "time": "11-06 11:58",
-   "media": "市场资讯",
-   "intro": "11月6日，第三季度非农生产率年化增长三点六%，单位劳动力成本转为下降，黄金一度升至四千一百美元上方。OEXN表示，效率改善使市场获得观察通胀路径的新切口..."
+   "title": "华尔街恐慌指标或已发出买入信号",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvruq5200324.shtml",
+   "time": "11-06 16:45",
+   "media": "环球市场播报",
+   "intro": "俗话说，一场酣畅淋漓的抛售，足以把短线交易员变成长期投资者。这句谚语和一句更为古老的投资名言异曲同工：“街头血流成河之时，正是买入之机。”"
+  },
+  {
+   "title": "荷兰和西班牙分别提名 拉加德继任者之争料在Knot和de Cos间展开",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvrun8552116.shtml",
+   "time": "11-06 16:38",
+   "media": "环球市场播报",
+   "intro": "欧洲央行行长克里斯蒂娜·拉加德的继任者可能最终在荷兰人Klaas Knot和西班牙人Pablo Hernandez de Cos之间产生。 欧元集团主席Kyriakos Pierrakakis周五在声明中表示..."
+  },
+  {
+   "title": "共和党中期选举失利后 特朗普首席经济顾问称政府不会调整经济政策",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvruq5200042.shtml",
+   "time": "11-06 16:38",
+   "media": "环球市场播报",
+   "intro": "共和党在国会中期选举全面失利后，美国总统唐纳德·特朗普的首席经济顾问表示，政府不会重新调整其经济政策。 “我不认为我们需要计划改变政策..."
+  },
+  {
+   "title": "家族办公室10月加大初创企业投资，重点布局女性健康与照护赛道",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvrun8551037.shtml",
+   "time": "11-06 16:45",
+   "media": "环球市场播报",
+   "intro": "核心要点私人财富情报平台 Fintrx 数据显示，超级富豪家族旗下投资机构 10 月完成 56 笔企业直接投资，环比上月增长近 30%。劳伦・鲍威尔・乔布斯的爱默生集体（Emerson..."
+  },
+  {
+   "title": "马斯克长期支持者套现特斯拉，并削减SpaceX持仓",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvruu5441616.shtml",
+   "time": "11-06 16:32",
+   "media": "环球市场播报",
+   "intro": "核心要点截至周三，苏格兰抵押贷款投资信托将 SpaceX 仓位占总资产比重从 9 月 30 日的 15% 下调至 11.1%。该基金由巴利・吉福德（Baillie Gifford）管理..."
+  },
+  {
+   "title": "伊朗战争结束的希望升温 欧洲天然气势创一年多最大周跌幅",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvmnq8676075.shtml",
+   "time": "11-06 16:33",
+   "media": "环球市场播报",
+   "intro": "欧洲天然气价格势将录得一年多来最大单周跌幅。美国政治格局发生变化，加上一系列外交努力，令市场对伊朗战争迅速结束以及能源供应恢复的乐观情绪升温。"
+  },
+  {
+   "title": "台积电据报拟进军先进存储芯片制造 应英伟达要求布局3D DRAM",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvmns5323701.shtml",
+   "time": "11-06 16:19",
+   "media": "环球市场播报",
+   "intro": "据报道，台积电考虑将其业务范围拓展至先进存储芯片制造领域，此举将进一步扩大这家全球最大芯片制造商在AI硬件供应链中的份额。"
+  },
+  {
+   "title": "“整个行业格局已然改变”：博彩业CEO看待中期选举后涌现的新机遇",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvmnw5564894.shtml",
+   "time": "11-06 16:20",
+   "media": "环球市场播报",
+   "intro": "核心要点多个州民主党胜选，提升了博彩扩张的可能性，得克萨斯州成为最大潜在市场。维基・古德温击败长期反对博彩合法化的得克萨斯州副州长丹・帕特里克..."
+  },
+  {
+   "title": "增长何在？成本抬升、市场收紧，传统车企2027年处境将更为艰难",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvmnu8783913.shtml",
+   "time": "11-06 16:11",
+   "media": "环球市场播报",
+   "intro": "核心要点 车企警示：大宗商品、物流、存储芯片成本走高，同时向消费者转嫁涨价的空间越来越有限。 多家华尔街分析师认为，车企必须持续保有定价权、进一步压降成本..."
   }
  ],
  "hold_news": [],
