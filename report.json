@@ -1,5 +1,5 @@
 {
- "date": "2026-11-09 21:10",
+ "date": "2026-11-10 03:56",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   51285.7305,
-   -0.46
+   52475.6484,
+   2.32
   ],
   "纳斯达克": [
-   24579.4248,
-   1.09
+   25255.4759,
+   2.75
   ],
   "标普500": [
-   7376.8599,
-   0.31
+   7556.3901,
+   2.43
   ],
   "恒生指数": [
    24625.71,
@@ -134,48 +134,19 @@
    -0.169
   ],
   "美元/人民币": [
-   6.672,
+   6.6721,
    0
   ],
   "纽约黄金": [
-   4129.96,
+   4139.878,
    0
   ],
   "纽约原油": [
-   87.608,
+   85.67,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2612",
-   "net20": -20233,
-   "citic_net": 9401,
-   "citic_dnet": -356
-  },
-  {
-   "prod": "IH",
-   "main": "IH2612",
-   "net20": -9229,
-   "citic_net": 2059,
-   "citic_dnet": -676
-  },
-  {
-   "prod": "IC",
-   "main": "IC2612",
-   "net20": -13521,
-   "citic_net": 8717,
-   "citic_dnet": 693
-  },
-  {
-   "prod": "IM",
-   "main": "IM2612",
-   "net20": -29677,
-   "citic_net": 14513,
-   "citic_dnet": -755
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "301010",
@@ -347,7 +318,7 @@
     "width": 22.29
    },
    "expma": {
-    "ema20": 25.247
+    "ema20": 25.246
    },
    "main_in_wan": -9816.0,
    "sector": "电子",
@@ -373,88 +344,88 @@
  },
  "news": [
   {
-   "title": "伊朗称面临军事打击威胁时无义务全面配合核查，要求美伊谈判取得突破",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyears6395223.shtml",
-   "time": "11-09 13:05",
+   "title": "Jain Global股票主管Townie Wells离职创办对冲基金",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyepfq3031212.shtml",
+   "time": "11-09 18:59",
    "media": "环球市场播报",
-   "intro": "11月9日，伊朗在提交给国际原子能机构（IAEA）的一份报告中表示，由于其核设施此前遭到军事袭击，且仍面临美国再次发动打击的威胁，正常核查工作已无法进行..."
+   "intro": "知情人士称，多策略投资公司Jain Global的基本面股票交易主管Townie Wells已离职创办自己的对冲基金。 知情人士称，这位驻纽约的选股投资经理上周离职..."
   },
   {
-   "title": "QumulusAI签订丹佛数据中心托管协议，新增1.2兆瓦算力容量，预计2027年初投运",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyears6392309.shtml",
-   "time": "11-09 13:08",
+   "title": "美国防长赫格塞思再次面临弹劾动议 众议院最快周三表决",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyepfs9687834.shtml",
+   "time": "11-09 19:08",
    "media": "环球市场播报",
-   "intro": "11月9日，人工智能基础设施公司QumulusAI宣布，已在美国丹佛签订一项为期五年的数据中心托管协议，涉及1.2兆瓦关键IT负载容量，预计相关设施将于2027年第一季度具备运营条..."
+   "intro": "美国共和党众议员Thomas Massie最快将于周一提出弹劾国防部长赫格塞思的动议。 Massie在社交媒体上公布了列举对赫格塞思指控的决议案..."
   },
   {
-   "title": "如果黄仁勋离婚，会重创英伟达股票吗？",
-   "url": "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyears6390935.shtml",
-   "time": "11-09 13:00",
-   "media": "市场资讯",
-   "intro": "来源：国际金融报 11月8日，英伟达CEO黄仁勋通过内部信首次承认婚外情，向家人及股东公开道歉。英伟达董事会同日宣布启动独立审查，黄仁勋在调查期间留任。"
-  },
-  {
-   "title": "加拿大股指期货上涨0.8%，科技股反弹带动市场回暖，投资者关注美国通胀数据",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyearu3165331.shtml",
-   "time": "11-09 12:56",
+   "title": "据报英伟达CEO黄仁勋退出两场活动 日程中不再出现其姓名",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyepfs9687624.shtml",
+   "time": "11-09 18:56",
    "media": "环球市场播报",
-   "intro": "11月9日，加拿大主要股指期货上涨0.8%，科技股在此前大幅抛售后持续反弹，推动市场情绪改善。上周五，加拿大标普/多伦多证券交易所综合指数（S&amp;P/TSX）上涨0.5%..."
+   "intro": "Business Insider援引一名不具名知情人士报道，英伟达首席执行官黄仁勋原定周一晚间在一场非公开CEO论坛上接受Anthropic一名高管的访谈，但目前已不在活动议程中。"
   },
   {
-   "title": "缩量分化！A股接下来怎么走？",
-   "url": "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyearu3165944.shtml",
-   "time": "11-09 13:03",
-   "media": "市场资讯",
-   "intro": "来源：国际金融报 11月9日，A股早盘高开后震荡回落，指数与板块走势分化。AI芯片、消费电子设备、机器人板块走强，但电源设备、麒麟电池板块领跌。"
-  },
-  {
-   "title": "华尔街策略师认为美股调整接近尾声，摩根士丹利预计标普500指数可能下探7100至7300点",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyearu3164415.shtml",
-   "time": "11-09 12:54",
+   "title": "法国将导致超市冷藏设备瘫痪的网络攻击归咎于伊朗革命卫队",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyepfn6252521.shtml",
+   "time": "11-09 18:39",
    "media": "环球市场播报",
-   "intro": "11月9日，摩根士丹利、加拿大皇家银行资本市场（RBC）及摩根大通的策略师表示，近期美股大幅抛售可能已接近尾声，市场有望在年底前企稳反弹。"
+   "intro": "法国公开指责伊朗对近期发生的一系列网络攻击负责。这些攻击导致全法数百家超市的冷藏设备瘫痪，引发混乱。 “这次攻击的责任在于伊朗伊斯兰革命卫队..."
   },
   {
-   "title": "谷歌推出两款新型AI芯片配置，加速挑战英伟达，AMD参与合作",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyears6387870.shtml",
-   "time": "11-09 12:58",
+   "title": "欧洲债市：德债转跌 全球股市上涨而油价下跌",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyepfr3030432.shtml",
+   "time": "11-09 18:11",
    "media": "环球市场播报",
-   "intro": "11月9日，谷歌宣布扩展自研AI芯片产品线，推出TPU 8tx和TPU 8i Max两款新配置，分别面向机密计算及长上下文AI应用，以满足不同领域日益增长的算力需求。"
+   "intro": "随着全球股市上涨和油价下跌，德国国债转跌。 德国2年期国债收益率上涨2个基点，报3.01%，而美国2年期国债收益率上涨5个基点，报4.56%。"
   },
   {
-   "title": "CoreWeave直面“死亡循环”论调：新云厂商信用风险盖过增长光环",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyearu3160231.shtml",
-   "time": "11-09 12:50",
+   "title": "里士满联储行长暗示加息方向明确 但步伐需要谨慎",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyepfs9678497.shtml",
+   "time": "11-09 18:18",
    "media": "环球市场播报",
-   "intro": "核心要点头部 AI 新云厂商 CoreWeave 与 Nebius 过去一个月市值均近乎腰斩，两家本周即将披露财报。CoreWeave 部分债券收益率突破 16%。"
+   "intro": "里士满联储行长汤姆·巴尔金暗示，强劲的需求和居高不下的通胀意味着利率仍需进一步上调，不过他警告，任何加息都需要以谨慎的步伐进行。"
   },
   {
-   "title": "连锁餐饮重新聚焦菜品品质，挽回食客",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyearv3185168.shtml",
-   "time": "11-09 12:48",
+   "title": "欧洲股市上涨 银行和科技股表现强劲",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyepfr3030119.shtml",
+   "time": "11-09 18:09",
    "media": "环球市场播报",
-   "intro": "核心要点奇波雷墨西哥烧烤、苹果蜂等连锁餐饮品牌升级核心菜品，试图赢回顾客。对温蒂汉堡、汉堡王这类企业而言，菜品升级是宏大复苏计划里的关键一步。"
+   "intro": "欧洲股市上涨，银行股涨幅居前。意大利裕信银行业绩好于预期，加之意大利Banco BPM收到合并提议，提振了银行板块。 斯托克欧洲600指数收盘上涨1.3%。"
   },
   {
-   "title": "星座能源第三季度利润大超预期，上调全年盈利指引，与亚马逊和谷歌扩大核电合作",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniycwiw3287269.shtml",
-   "time": "11-09 12:42",
+   "title": "芝加哥联储行长警告经济过热风险 称必须应对通胀问题",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyepfq3018747.shtml",
+   "time": "11-09 18:08",
    "media": "环球市场播报",
-   "intro": "11月9日，美国核电及电力生产商星座能源（Constellation Energy）公布第三季度财报，调整后每股收益从去年同期的3.04美元增至5.06美元，明显高于分析师预期的3.89美元。"
+   "intro": "芝加哥联储行长奥斯坦·古尔斯比表示，政策制定者需要应对人工智能建设可能导致的经济过热，以及不断扩大的通胀压力。 “我们必须正视使命中成本和通胀方面未能达标的问题..."
   },
   {
-   "title": "百亿级大并购！中国企业首进巴西水泥市场",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniycwiw3287881.shtml",
-   "time": "11-09 12:53",
-   "media": "界面",
-   "intro": "界面新闻实习记者 | 朱清华 中国水泥企业出现一笔百亿元级海外并购。 11月8日晚，华新建材（600801.SH）披露，公司已与巴西国家钢铁公司签署股权收购协议..."
-  },
-  {
-   "title": "汇丰认为全球科技股抛售过度，建议逢低买入，AI监管不会阻断资本开支增长",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniycwiy9959987.shtml",
-   "time": "11-09 12:36",
+   "title": "卡尼聘请桥水联席首席投资官执掌加拿大主权财富基金",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyepfq3015895.shtml",
+   "time": "11-09 17:48",
    "media": "环球市场播报",
-   "intro": "11月9日，汇丰银行表示，近期全球股市及科技股的大幅抛售可能已经过度，市场对AI监管趋严的担忧被放大。该行认为，监管措施可能放缓AI基础设施建设进度..."
+   "intro": "桥水联席首席投资官Karen Karniol-Tambour将离职，转而执掌加拿大新设立的主权财富基金，为加拿大总理马克·卡尼的标志性经济举措之一注入华尔街的公信力和专业经验。"
+  },
+  {
+   "title": "Anthropic最快本周启动IPO正式推介 AI股暴跌考验定价",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyepfq3015536.shtml",
+   "time": "11-09 17:48",
+   "media": "环球市场播报",
+   "intro": "Anthropic最快周二可能开始正式推介备受期待的IPO，此举将向投资者表明尽管人工智能（AI）相关股票上周大跌，现在仍是上市的合适时机。"
+  },
+  {
+   "title": "市场波动之际，奥本海默：应当聚焦基本面",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyehxq6361878.shtml",
+   "time": "11-09 17:08",
+   "media": "环球市场播报",
+   "intro": "上周民主党在中期选举中取得超出预期的大胜，带动 AI 产业链相关股票遭遇回调。但奥本海默首席投资策略师约翰・斯托尔茨富斯认为，市场有机会反弹..."
+  },
+  {
+   "title": "纽交所选定雪崩链（Avalanche）作为代币化证券交易与结算的主力区块链",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyehxu9795246.shtml",
+   "time": "11-09 17:08",
+   "media": "环球市场播报",
+   "intro": "纽约证券交易所将选用雪崩链（Avalanche）作为其即将推出的关联代币化证券另类交易系统的主要区块链网络，用于处理清算与结算业务。"
   }
  ],
  "hold_news": [],
