@@ -1,5 +1,5 @@
 {
- "date": "2026-11-10 20:51",
+ "date": "2026-11-11 01:10",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   52389.75,
-   2.15
+   52114.1484,
+   -0.53
   ],
   "纳斯达克": [
-   25253.1385,
-   2.74
+   24953.9867,
+   -1.18
   ],
   "标普500": [
-   7549.9399,
-   2.35
+   7493.2002,
+   -0.75
   ],
   "恒生指数": [
    24621.13,
@@ -134,48 +134,19 @@
    0.069
   ],
   "美元/人民币": [
-   6.6696,
+   6.6783,
    0
   ],
   "纽约黄金": [
-   4085.011,
+   4030.173,
    0
   ],
   "纽约原油": [
-   84.854,
+   86.493,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2612",
-   "net20": -20318,
-   "citic_net": 10671,
-   "citic_dnet": 1270
-  },
-  {
-   "prod": "IH",
-   "main": "IH2612",
-   "net20": -9278,
-   "citic_net": 2537,
-   "citic_dnet": 478
-  },
-  {
-   "prod": "IC",
-   "main": "IC2612",
-   "net20": -13309,
-   "citic_net": 9297,
-   "citic_dnet": 580
-  },
-  {
-   "prod": "IM",
-   "main": "IM2612",
-   "net20": -27777,
-   "citic_net": 14853,
-   "citic_dnet": 340
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "300264",
@@ -347,7 +318,7 @@
     "width": 19.87
    },
    "expma": {
-    "ema20": 25.125
+    "ema20": 25.124
    },
    "main_in_wan": -1822.0,
    "sector": "电子",
@@ -373,88 +344,88 @@
  },
  "news": [
   {
-   "title": "Anthropic公布IPO发行价区间70‑78美元，这家AI企业即将登陆纳斯达克",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyhfqw9194430.shtml",
-   "time": "11-10 12:50",
+   "title": "各方观点汇总：专家、分析师解读10月CPI报告",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhser2362266.shtml",
+   "time": "11-10 17:10",
    "media": "环球市场播报",
-   "intro": "核心要点Anthropic 在即将到来的 IPO 中拟发行 8.25 亿股，发行价格区间每股 70‑78 美元。如果按预期于 11 月中旬完成上市，距离 SpaceX 创下纪录的 IPO..."
+   "intro": "周二，华尔街的目光全部聚焦于美国 10 月消费者通胀报告，本次数据高于市场预期。叠加美联储理事克里斯托弗・沃勒的鹰派讲话，交易员几乎已经笃定 12 月会加息 25 个基点..."
   },
   {
-   "title": "美联储理事沃勒：即使通胀改善，12月仍应加息25个基点，必要时考虑加息50个基点",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyhfqv2535081.shtml",
-   "time": "11-10 12:28",
+   "title": "通胀数据爆表，华尔街关注美联储下月是否会实施大幅加息",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhsen5671267.shtml",
+   "time": "11-10 17:06",
    "media": "环球市场播报",
-   "intro": "11月10日，美联储理事沃勒表示，即使即将公布的美国10月通胀数据有所改善，他仍支持美联储在12月加息25个基点。如果通胀明显高于预期，则应考虑采取更大幅度的紧缩措施..."
+   "intro": "10 月通胀数据超出预期，继 9 月物价大幅上涨之后，通胀依旧居高不下，进一步坐实美联储下月加息的市场预期，市场甚至开始担忧美联储会祭出50 个基点的大幅加息。"
   },
   {
-   "title": "财信人寿娄底中心支公司被罚20.5万元：编制或者提供虚假的报告、报表、文件、资料等",
-   "url": "https://finance.sina.com.cn/jryx/fd/2026-11-10/doc-iniyhfqw9182597.shtml",
-   "time": "11-10 12:25",
-   "media": "金融一线",
-   "intro": "11月10日金融一线消息，国家金融监督管理总局娄底监管分局行政处罚信息公示列表显示，因编制或者提供虚假的报告、报表、文件、资料；利用保险代理人虚构保险中介业务套取费..."
+   "title": "AI不只靠GPU：在拉斯维加斯，看AMD如何释放算力潜力",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-11/doc-iniyhfqs5851173.shtml",
+   "time": "11-10 17:00",
+   "media": "新浪科技",
+   "intro": "今年7月，在旧金山参加AMD Advancing AI 2026大会时，我最强烈的感受，是这家公司已经不满足于只提供几颗性能更强的芯片。它希望把CPU、GPU、网络和软件组织起来..."
   },
   {
-   "title": "883亿上纬新材拿下机器人“大结果”，但前三季度由盈转亏",
-   "url": "https://finance.sina.com.cn/stock/s/2026-11-10/doc-iniyhfqv2534444.shtml",
-   "time": "11-10 12:25",
-   "media": "市场资讯",
-   "intro": "来源：雷达Finance 雷达财经出品 文|丁禹 编|孟帅 11月8日下午，上纬新材的一则公告引爆资本市场。 上纬新材表示，截至公告披露日..."
-  },
-  {
-   "title": "网友称鲸鱼APP疑暴雷，提现无门仍可充值，厦门警方已立案",
-   "url": "https://finance.sina.com.cn/wm/2026-11-10/doc-iniyhfqw9184641.shtml",
-   "time": "11-10 12:35",
-   "media": "封面新闻",
-   "intro": "封面新闻记者 吴冰清 理财多年，账户里的余额如今只剩“数字”，近日，多名通过鲸鱼APP理财的网友反映，这款APP从10月28日起无法提现，疑似暴雷。"
-  },
-  {
-   "title": "十三届全国政协常委、经济委员会副主任杨伟民：十五五开局呈现四大积极变化 结构性改革仍是关键",
-   "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyhfqs5827515.shtml",
-   "time": "11-10 12:21",
-   "media": "新浪证券",
-   "intro": "11月10日，中信建投证券2027年度资本市场策略会在京举办。十三届全国政协常委、经济委员会副主任杨伟民就《中国宏观经济形势》发表主题演讲。"
-  },
-  {
-   "title": "亚马逊无人机配送获英国监管批准，服务覆盖客户数量将扩大逾12倍",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyhfqu2603092.shtml",
-   "time": "11-10 12:18",
+   "title": "Anthropic七名联合创始人拟在重磅IPO中套现17.5亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhsen5669806.shtml",
+   "time": "11-10 17:00",
    "media": "环球市场播报",
-   "intro": "11月10日，亚马逊宣布，旗下Prime Air无人机配送业务已获得英国民航局（CAA）的安全批准，将扩大在英格兰北部达灵顿地区的配送试点。"
+   "intro": "根据周二公布的最新招股书，Anthropic的七名联合创始人将在下周的首次公开募股中合计出售价值17.5亿美元的股票。 按IPO发行价区间中点计算，每位联合创始人拟出售价值约2..."
   },
   {
-   "title": "Anthropic公布IPO发行方案：拟发行8.25亿股，最高募资规模达643.5亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyhfqw9179495.shtml",
-   "time": "11-10 12:18",
+   "title": "10月通胀分项解读：汽油降价，但食品杂货账单走高",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhses9005877.shtml",
+   "time": "11-10 16:38",
    "media": "环球市场播报",
-   "intro": "11月10日，人工智能公司Anthropic公布首次公开募股（IPO）计划，拟在纳斯达克发行总计8.25亿股股票，发行价格区间为每股70至78美元。"
+   "intro": "日常生活开销持续侵蚀美国人的家庭预算。 通胀数据显示，继 9 月上涨 0.6% 之后，10 月 CPI 环比上涨 0.4%；剔除食品、能源的核心 CPI 环比上涨 0.3%。"
   },
   {
-   "title": "300979，筹划投资股权！拟参与光通信企业重组",
-   "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-10/doc-iniyhfqv2531891.shtml",
-   "time": "11-10 12:21",
-   "media": "",
-   "intro": "华利集团拟不超5亿美元投资光通信企业O-Net Technologies，取得后者不超过25%股权。 华利集团（300979）11月10日晚公告，公司或公司全资子公司拟以自有资金不超过5亿美元..."
-  },
-  {
-   "title": "马克龙与海湾国家讨论霍尔木兹海峡航运保险安排",
-   "url": "https://finance.sina.com.cn/world/2026-11-10/doc-iniyhfqu2602118.shtml",
-   "time": "11-10 12:16",
+   "title": "通胀数据超预期抬升加息概率，10年期美债收益率飙升",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhser2357215.shtml",
+   "time": "11-10 16:35",
    "media": "环球市场播报",
-   "intro": "法国总统马克龙正与海湾国家磋商，寻求降低船舶通过霍尔木兹海峡的保险成本。自美国和以色列2月开始对伊朗发动袭击以来，该海峡航运一直受到干扰。"
+   "intro": "受通胀报告影响，美股周二下跌，10 年期美债收益率冲高至 4.93%，市场强化了对下月美联储加息的预期。 在通胀数据公布之前，美联储理事克里斯托弗・沃勒就曾表态..."
   },
   {
-   "title": "002726，被中国证监会立案",
-   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-10/doc-iniyhfqu2604928.shtml",
-   "time": "11-10 12:22",
-   "media": "",
-   "intro": "11月10日，山东龙大美食股份有限公司公告称，公司收到中国证监会出具的《立案告知书》。因涉嫌信息披露违法违规，中国证监会决定对公司立案。"
+   "title": "美国情报与网络战机构一年至少11人自杀 引发白宫和国会关注",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhseq2440918.shtml",
+   "time": "11-10 16:38",
+   "media": "环球市场播报",
+   "intro": "据美国官员和公开记录，过去一年间，美国国家安全局（NSA）和网络司令部至少有11名工作人员自杀，人数高于此前已知水平。"
   },
   {
-   "title": "金价波动加剧！多家银行新增积存金“挂单”业务",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyhfqw9179343.shtml",
-   "time": "11-10 12:18",
-   "media": "每日经济新闻",
-   "intro": "每经记者|赵景致  在金价高频波动背景下，银行积存金业务正在经历一轮“升级”。 《每日经济新闻》记者（以下简称每经记者）注意到，11月9日，中信银行发布公告称..."
+   "title": "Anthropic寻求1.4万亿美元IPO估值，据报计划11月19或20日挂牌上市",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhsen5664577.shtml",
+   "time": "11-10 16:38",
+   "media": "环球市场播报",
+   "intro": "备受市场期待的 AI 企业 Anthropic 计划 IPO，目标估值约 1.4 万亿美元，有望成为 AI 热潮中规模最大的上市案例之一。该股预计于下周 11 月 19 日（周四）或 11 月 20..."
+  },
+  {
+   "title": "Hims & Hers公布三季度财报，业绩指引不及预期，股价大跌15%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhses9004168.shtml",
+   "time": "11-10 16:28",
+   "media": "环球市场播报",
+   "intro": "事件经过：这家远程医疗企业公布三季度财报，同时发布第四季度营收指引弱于市场预期，周二 Hims &amp; Hers Health 股价最大跌幅达 15%。"
+  },
+  {
+   "title": "退伍军人节股市休市吗？",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhses9003609.shtml",
+   "time": "11-10 16:28",
+   "media": "环球市场播报",
+   "intro": "11 月 11 日周三退伍军人节，股市正常开盘；债券市场与银行通常在当日休市。 2026 年美股全年共有 10 个休市节假日。不少美股节假日同时也是美国联邦假日、银行假日。"
+  },
+  {
+   "title": "泽连斯基：三方会谈具有建设性且富有实质内容",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhseq2438881.shtml",
+   "time": "11-10 16:38",
+   "media": "环球市场播报",
+   "intro": "乌克兰总统泽连斯基表示，三方和平谈判的形式“具有建设性且富有实质内容”。 新一轮谈判仍将在阿布扎比举行，泽连斯基就周三的会谈发出新指示。"
+  },
+  {
+   "title": "高盛分析师：预测Anthropic到2030年营收将达6850亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhsen5658092.shtml",
+   "time": "11-10 16:07",
+   "media": "环球市场播报",
+   "intro": "高盛的研究分析师预计，Anthropic PBC的营收到本十年末将飙升至约6850亿美元，这将为该公司IPO寻求1.4万亿美元估值提供支撑。"
   }
  ],
  "hold_news": [],
