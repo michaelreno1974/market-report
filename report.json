@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11 19:59",
+ "date": "2026-11-12 01:19",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   52231.8906,
-   -0.3
+   52343.5391,
+   0.21
   ],
   "纳斯达克": [
-   25065.8744,
-   -0.74
+   25586.7523,
+   2.08
   ],
   "标普500": [
-   7520.9302,
-   -0.38
+   7627.5,
+   1.42
   ],
   "恒生指数": [
    24354.19,
@@ -134,48 +134,19 @@
    -1.142
   ],
   "美元/人民币": [
-   6.6706,
+   6.6728,
    0
   ],
   "纽约黄金": [
-   4052.482,
+   4008.01,
    0
   ],
   "纽约原油": [
-   86.7,
+   87.025,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2612",
-   "net20": -20101,
-   "citic_net": 10646,
-   "citic_dnet": -25
-  },
-  {
-   "prod": "IH",
-   "main": "IH2612",
-   "net20": -9091,
-   "citic_net": 2310,
-   "citic_dnet": -227
-  },
-  {
-   "prod": "IC",
-   "main": "IC2612",
-   "net20": -15339,
-   "citic_net": 9824,
-   "citic_dnet": 527
-  },
-  {
-   "prod": "IM",
-   "main": "IM2612",
-   "net20": -30119,
-   "citic_net": 15940,
-   "citic_dnet": 1087
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "688135",
@@ -307,7 +278,7 @@
     "width": 25.82
    },
    "expma": {
-    "ema20": 5.283
+    "ema20": 5.284
    },
    "main_in_wan": -580.0,
    "sector": "社会服务",
@@ -347,7 +318,7 @@
     "width": 18.27
    },
    "expma": {
-    "ema20": 25.059
+    "ema20": 25.058
    },
    "main_in_wan": 7123.0,
    "sector": "电子",
@@ -373,88 +344,88 @@
  },
  "news": [
   {
-   "title": "民主党或将掣肘特朗普政府在私营企业持有的股权",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniykkpv1786301.shtml",
-   "time": "11-11 11:57",
+   "title": "英国前首相卡梅伦称不应寻求重新加入欧盟 呼吁做布鲁塞尔的最佳伙伴",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniykzmu8847582.shtml",
+   "time": "11-11 17:08",
    "media": "环球市场播报",
-   "intro": "核心要点特朗普政府对私营企业开展史无前例的干预；等民主党掌控参众两院后，这些举动或将被列入调查清单。过去两年，特朗普一直在和企业达成股权协议..."
+   "intro": "曾领导英国留欧运动但最终失败的前首相大卫·卡梅伦警告现首相安迪·伯纳姆，不要寻求重新加入欧盟，称此举将削弱英国与欧盟建立更紧密关系的谈判。"
   },
   {
-   "title": "俄乌阿布扎比第二日和谈结束 会晤持续不到两小时",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniykkpz2320564.shtml",
-   "time": "11-11 11:56",
+   "title": "伯恩斯坦325美元目标价：甲骨文本轮下跌过度",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniykzmu8847149.shtml",
+   "time": "11-11 17:08",
    "media": "环球市场播报",
-   "intro": "据报道，由美国主导的俄乌和平谈判在阿布扎比结束第二天磋商，当天会议持续不到两个小时。 俄罗斯和乌克兰代表预计将于周三晚些时候就谈判进展发表声明。"
+   "intro": "核心要点 甲骨文股价自 6 月高点以来已经腰斩。11 月 10 日，伯恩斯坦维持跑赢大盘（Outperform）评级，目标价 325 美元，较当前股价高出 159%。"
   },
   {
-   "title": "CBCX:黄金储备价值需分项观察",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-11/doc-iniykkpw8433979.shtml",
-   "time": "11-11 11:55",
-   "media": "市场资讯",
-   "intro": "11月11日，CBCX表示，关于黄金储备的讨论应区分实物存放地点、资产配置比例与金价本身的估值变化。报道中的研究认为，金价上升更多与私人部门需求变化相关..."
-  },
-  {
-   "title": "CPT Markets:金价技术区间随数据调整",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-11/doc-iniykkpw8433472.shtml",
-   "time": "11-11 11:54",
-   "media": "市场资讯",
-   "intro": "11月11日，CPT Markets表示，通胀数据发布后金价走弱，市场同时关注4051美元附近的短线支撑，以及4088至4148美元一带的反弹阻力。"
-  },
-  {
-   "title": "FPG财盛国际:库欣库存变化值得追踪",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-11/doc-iniykkpv1784889.shtml",
-   "time": "11-11 11:52",
-   "media": "市场资讯",
-   "intro": "11月11日，FPG财盛国际表示，库欣库存当周增加510万桶，作为WTI交割体系的关键节点，这一变化为观察区域原油流向提供了细化线索。"
-  },
-  {
-   "title": "上调业绩指引缓解AI行业放缓担忧，CoreWeave股价大涨13%",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniykkpw8432731.shtml",
-   "time": "11-11 11:51",
+   "title": "受CoreWeave财报利好提振AI交易情绪，芯片板块集体大涨",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniykvcr1638852.shtml",
+   "time": "11-11 16:48",
    "media": "环球市场播报",
-   "intro": "核心要点CoreWeave 季度营收超出市场预期，同时上调全年业绩指引。本月，随着投资者重新审视 AI 赛道行情能否持续，CoreWeave、Nebius..."
+   "intro": "得益于 CoreWeave 超预期的季度业绩，整体芯片板块走强，英伟达（NVDA）股价于周三迎来反弹。 在连续两个交易日下跌后，该股上涨约 2%。"
   },
   {
-   "title": "GTCFX:通胀数据抬高金价波动",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-11/doc-iniykkpz2318689.shtml",
-   "time": "11-11 11:50",
-   "media": "市场资讯",
-   "intro": "11月11日，GTCFX表示，最新消费者物价数据高于市场原先预期，金价在公布后承受明显压力，现货报价一度回落至4055美元附近。月度通胀与核心通胀均高于预估..."
+   "title": "Anthropic推出Claude全新产品，向这三只科技股释放竞争信号",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniykvcv2195250.shtml",
+   "time": "11-11 16:42",
+   "media": "环球市场播报",
+   "intro": "在万众期待的首次公开募股（IPO）前夕，Anthropic（非上市公司代码 ANTH.PVT）向软件行业传递出最新信号：我们想要抢占你们相当一部分业务市场..."
   },
   {
-   "title": "M4Markets:战略储备释放影响库存判断",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-11/doc-iniykkpw8431608.shtml",
-   "time": "11-11 11:48",
-   "media": "市场资讯",
-   "intro": "11月11日，该平台表示，截至11月6日当周有270万桶原油自战略储备释放，以补充商业市场供应；储备规模降至2.795亿桶。观察商业库存时，储备流入会影响表面供给宽松程度..."
+   "title": "D‑Wave股价上涨，Rigetti股价下挫：量子企业财报表现分化，投资者看法分歧",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniykvcr1636958.shtml",
+   "time": "11-11 16:38",
+   "media": "环球市场播报",
+   "intro": "D‑Wave 量子（股票代码 QBTS）与 Rigetti 计算（股票代码 RGTI）公布第三季度业绩后，周三量子板块个股走势出现分化。 周二盘后，Rigetti 因财报不及预期..."
   },
   {
-   "title": "MHMarkets迈汇:黄金聚焦核心通胀变化",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-11/doc-iniykkqa9093194.shtml",
-   "time": "11-11 11:47",
-   "media": "市场资讯",
-   "intro": "11月11日，MHMarkets迈汇表示，核心通胀读数超出预期后，黄金与白银在早盘同步走低，现货黄金约报4055美元，日内跌幅超过2%。市场首先消化的是通胀回落速度可能慢于预想这..."
+   "title": "华尔街对黄仁勋执掌的英伟达热情降温，但历史经验表明尚不该放弃这只股票",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniykvcw8968811.shtml",
+   "time": "11-11 16:37",
+   "media": "环球市场播报",
+   "intro": "和英伟达 “分手” 并非易事。该股下跌 25% 之后，华尔街两家头部大银行将其从首选股票名单中剔除，但两家机构尚且都没有下决心给出 “卖出” 评级。"
   },
   {
-   "title": "兰州银行：拟收购四家在甘村镇银行",
-   "url": "https://finance.sina.com.cn/jryx/bank/2026-11-11/doc-iniykkqa9092354.shtml",
-   "time": "11-11 11:45",
-   "media": "金融一线",
-   "intro": "11月11日金融一线消息，兰州银行公告，公司第六届董事会2026 年第六次临时会议审议通过了《关于拟收购哈尔滨银行股份有限公司、长安银行股份有限公司在甘四家村镇银行的议..."
+   "title": "CoreWeave股价暴涨20%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniykvcv2185085.shtml",
+   "time": "11-11 16:11",
+   "media": "环球市场播报",
+   "intro": "AI 云服务商 CoreWeave（股票代码 CRWV）周三股价大涨 20%。此前该公司公布的第三季度财报业绩超出市场预期，同时上调了本年度业绩指引。"
   },
   {
-   "title": "Moneta Markets亿汇:美元走强压制贵金属",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-11/doc-iniykkpz2316144.shtml",
-   "time": "11-11 11:45",
-   "media": "市场资讯",
-   "intro": "11月11日，Moneta Markets亿汇表示，黄金在高于预期的通胀数据公布后走弱，盘中约在4050美元附近波动。市场把焦点放在核心价格压力是否仍然顽固..."
+   "title": "美国商品期货交易委员会调查Kalshi是否对事件合约进行不当自我认证",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniykvcv2184221.shtml",
+   "time": "11-11 16:16",
+   "media": "环球市场播报",
+   "intro": "核心要点 Kalshi 称，这只是合约申报环节出现的小问题，表示正配合美国商品期货交易委员会（CFTC）处理此事。 预测交易平台只要遵守《商品交易法》..."
   },
   {
-   "title": "NCE平台:馏分油去库强化结构关注",
-   "url": "https://finance.sina.com.cn/money/future/roll/2026-11-11/doc-iniykkqa9091256.shtml",
-   "time": "11-11 11:43",
-   "media": "市场资讯",
-   "intro": "11月11日，NCE平台表示，最新API统计中馏分油库存减少800万桶，且此前库存已低于五年均值约13%。这类产品库存的明显变化，为原油市场之外的成品油平衡提供了新的观察角度。"
+   "title": "报道：克里姆林宫称阿布扎比会谈具有实质性 俄美元首APEC会晤在筹备中",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniykvcv2181334.shtml",
+   "time": "11-11 16:03",
+   "media": "环球市场播报",
+   "intro": "据国际文传电讯报道，克里姆林宫助手Yuri Ushakov表示，俄美乌在阿布扎比举行的会谈具有实质性，且有益。 将讨论与欧洲国家接触的可能形式..."
+  },
+  {
+   "title": "野村现预计美联储今年12月和明年3月各加息一次 因通胀高于预期",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniykvcr1619072.shtml",
+   "time": "11-11 15:45",
+   "media": "环球市场播报",
+   "intro": "野村经济学家Aichi Amemiya、Jeremy Schwartz和Ruchir Sharma在11月10日的一份报告中写道，在美国通胀数据高于预期后，该行目前预计美联储除12月加息外..."
+  },
+  {
+   "title": "摩根大通将共和服务公司评级上调至增持",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniykvcx4278819.shtml",
+   "time": "11-11 15:42",
+   "media": "环球市场播报",
+   "intro": "摩根大通分析师将共和服务公司（RSG）的股票评级由中性上调为增持，目标价上调至 295 美元，相较该股周二收盘价，潜在上涨空间接近 19%。"
+  },
+  {
+   "title": "CFRA：伯克希尔的“巴菲特溢价”或将继续消退",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniykvcw8950387.shtml",
+   "time": "11-11 15:40",
+   "media": "环球市场播报",
+   "intro": "评级机构 CFRA 表示，伯克希尔‑哈撒韦 B 类股（BRK.B）的 “巴菲特溢价” 正在不断消退，原因在于公司基本面持续走弱，同时重大管理层交接存在不确定性。"
   }
  ],
  "hold_news": [],
