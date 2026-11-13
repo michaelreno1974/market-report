@@ -1,5 +1,5 @@
 {
- "date": "2026-11-13 20:27",
+ "date": "2026-11-14 01:18",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   52297.0898,
-   -0.36
+   52199.0781,
+   -0.19
   ],
   "纳斯达克": [
-   25366.0929,
-   -0.39
+   25027.076,
+   -1.34
   ],
   "标普500": [
-   7592.3999,
-   -0.35
+   7530.48,
+   -0.82
   ],
   "恒生指数": [
    23871.91,
@@ -134,48 +134,19 @@
    -1.48
   ],
   "美元/人民币": [
-   6.6711,
+   6.671,
    0
   ],
   "纽约黄金": [
-   3897.078,
+   3884.51,
    0
   ],
   "纽约原油": [
-   88.666,
+   88.358,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2612",
-   "net20": -18908,
-   "citic_net": 12581,
-   "citic_dnet": 806
-  },
-  {
-   "prod": "IH",
-   "main": "IH2612",
-   "net20": -8631,
-   "citic_net": 1718,
-   "citic_dnet": 115
-  },
-  {
-   "prod": "IC",
-   "main": "IC2612",
-   "net20": -10190,
-   "citic_net": 8790,
-   "citic_dnet": 173
-  },
-  {
-   "prod": "IM",
-   "main": "IM2612",
-   "net20": -25004,
-   "citic_net": 14663,
-   "citic_dnet": -482
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "300528",
@@ -347,7 +318,7 @@
     "width": 17.75
    },
    "expma": {
-    "ema20": 24.792
+    "ema20": 24.791
    },
    "main_in_wan": -10045.0,
    "sector": "电子",
@@ -373,88 +344,88 @@
  },
  "news": [
   {
-   "title": "英杰华保费与财富管理资金流入双双上涨，业绩前景符合预期",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyrazw7910273.shtml",
-   "time": "11-13 12:27",
+   "title": "欧洲债市：英国和欧洲债券创两个月最差单周表现 加息押注大幅加码",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrprs7775780.shtml",
+   "time": "11-13 17:06",
    "media": "环球市场播报",
-   "intro": "公司表示有望达成去年收购 Direct‑Line 后设定的、至 2028 年的中期目标英杰华对今年剩余时间的业务前景充满信心。 英国保险集团英杰华（Aviva）公布第三季度保险保费实现..."
+   "intro": "英国和欧洲国债收益率录得两个月来最大单周升幅，因本周一以来市场大幅加码对央行加息的押注。 英国10年期国债收益率上涨4个基点至5.34%..."
   },
   {
-   "title": "河南农商银行范县辛庄支行被罚30万元：贷款管理不到位 贷款资金被挪用",
-   "url": "https://finance.sina.com.cn/jryx/fd/2026-11-13/doc-iniyrazx3510047.shtml",
-   "time": "11-13 12:26",
-   "media": "金融一线",
-   "intro": "11月13日金融一线消息，国家金融监督管理总局濮阳监管分局行政处罚信息公示表显示，河南农村商业银行股份有限公司范县辛庄支行因贷款管理不到位，贷款资金被挪用..."
-  },
-  {
-   "title": "尽管科技股回调，Anthropic IPO需求依然强劲",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyrazw7906258.shtml",
-   "time": "11-13 12:20",
+   "title": "汇丰下调英伟达评级",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrprs7773762.shtml",
+   "time": "11-13 16:58",
    "media": "环球市场播报",
-   "intro": "据报道，人工智能初创公司Anthropic的首次公开募股（IPO）认购需求达到发行规模的六倍，反映出尽管近期市场面临不利因素，投资者对人工智能赛道仍保持乐观态度。"
+   "intro": "汇丰银行表示，在选出正式 CEO 接替黄仁勋、接过临时 CEO 科莱特・克雷斯的工作之前，英伟达（NVDA）股价将持续承压。 分析师弗兰克・李将这家芯片巨头的评级从买入下调至..."
   },
   {
-   "title": "伊朗仍将联合国核查人员拒之门外 美国悬赏2000万美元征集核相关信息",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyrazv1129497.shtml",
-   "time": "11-13 12:19",
+   "title": "财报出炉后，华尔街对思科态度中性偏乐观",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrprr0997329.shtml",
+   "time": "11-13 16:58",
    "media": "环球市场播报",
-   "intro": "伊朗继续将联合国的核查人员拒之门外，凸显国际社会仍无法掌握该国铀库存情况，而美伊重启谈判的前景也显得愈发渺茫。 根据周五在维也纳传阅的一份13页受限文件..."
+   "intro": "思科周四公布 2027 财年一季度财报，业绩超出市场预期；但在 AI 热潮之下，华尔街分析师对这家网络设备厂商的前景依旧保持审慎。"
   },
   {
-   "title": "“大空头”加码纳指100看跌期权、增持半导体ETF空单，英伟达管理层动荡成诱因",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqwtt0975499.shtml",
-   "time": "11-13 12:16",
+   "title": "达拉斯联储主席洛根：应将紧急购债与货币政策操作分离，避免意外刺激经济",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyriiv3491137.shtml",
+   "time": "11-13 16:48",
    "media": "环球市场播报",
-   "intro": "“大空头”迈克尔・伯里加大了对纳斯达克100指数以及半导体板块的看跌押注，理由是黄仁勋卸任英伟达CEO之后，他对英伟达在AI基础设施市场的影响力感到担忧。"
+   "intro": "11月13日，达拉斯联储主席洛根（Lorie Logan）表示，美联储应将为维护金融市场正常运转而购买的国债，与常规货币政策资产组合分开管理..."
   },
   {
-   "title": "多家银行落地自贸离岸债DVP交易，意味着什么？",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqwtz3634084.shtml",
-   "time": "11-13 12:16",
-   "media": "界面",
-   "intro": "界面新闻记者 | 杨志锦 一笔自贸离岸债的二级交易，过去可能意味着“先把券转过去，再等对手方打钱”。现在，券和款在系统层面被绑定在一起，同步交割、不可撤销。"
-  },
-  {
-   "title": "富时罗素称需更多时间评估印尼近期提升市场透明度的措施",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqwtx1256036.shtml",
-   "time": "11-13 12:10",
+   "title": "OpenAI推出ChatGPT Wallet支付功能，支持AI智能体在用户授权后直接完成购物",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyriit1123136.shtml",
+   "time": "11-13 16:43",
    "media": "环球市场播报",
-   "intro": "富时罗素在一份日期为11月13日的通知中表示，印尼市场主管部门已实施多项旨在提高该国资本市场透明度的措施，该机构认可这些“积极”进展。"
+   "intro": "11月13日，OpenAI宣布推出全新支付功能ChatGPT Wallet，允许AI智能体在获得用户授权后直接完成商品购买和支付，进一步推动ChatGPT从商品搜索和推荐工具向能够代替用户执行..."
   },
   {
-   "title": "国有行金融科技谁更强？",
-   "url": "https://finance.sina.com.cn/money/bank/gsdt/2026-11-13/doc-iniyqwtx1258532.shtml",
-   "time": "11-13 12:15",
-   "media": "轻金融",
-   "intro": "重量级项目，是检验一家银行金融科技实力是否强大的直接标准之一。一年一度的“金融科技发展奖”，成为观察银行科技创新的重要窗口。"
-  },
-  {
-   "title": "CVS分拆难以平息华盛顿方面不满，但对华尔街或许行得通",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqwtt0971166.shtml",
-   "time": "11-13 12:18",
+   "title": "英伟达董事在丑闻曝光前数周抛售近10亿美元股票，且未披露预先减持计划",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyriiu7898246.shtml",
+   "time": "11-13 16:41",
    "media": "环球市场播报",
-   "intro": "剥离零售药店业务不会让批评者偃旗息鼓，却有可能给股东创造一家价值更高的公司 上周 CVS 宣布计划分拆旗下同名零售药店业务时，市场没有响起一片喝彩。"
+   "intro": "英伟达第二大股东，在 CEO 黄仁勋 11 月 12 日辞职之前的数月内，合计抛售了约 9.46 亿美元公司股票。 美国证券交易委员会（SEC）申报文件显示..."
   },
   {
-   "title": "一名纽约建筑工人迷上微型小车，掀起一场民间抗争",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqwty8029223.shtml",
-   "time": "11-13 12:06",
+   "title": "谷歌联合创始人再度套现1.48亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyriit1120230.shtml",
+   "time": "11-13 16:38",
    "media": "环球市场播报",
-   "intro": "日本的K‑car（轻自动车）意外掀起一场对抗监管的民间运动，挑战美国人对大型车辆的执念克里斯蒂娜・德拉维斯从马里兰州长途跋涉 300 英里运回一台 K‑car 消防小卡车..."
+   "intro": "拉里・佩奇名下信托将依据 2020 年设立的 10b5‑1 交易计划，出售价值约 1.48 亿美元的 Alphabet GOOGL、GOOG 股票。 佩奇信托固定在每月第二个周四卖出..."
   },
   {
-   "title": "2027年开门红启幕 分红险成头部险企主推产品",
-   "url": "https://finance.sina.com.cn/money/insurance/bxdt/2026-11-13/doc-iniyqwtz3630350.shtml",
-   "time": "11-13 12:06",
-   "media": "每日经济新闻",
-   "intro": "每经记者|袁园  “如火如荼的开门红季，见证了很多超出我之前对于资产配置认知的案例……”“开门红的工作节奏，半夜谈单，是分红险的时代……”“可以找我一起梳理..."
-  },
-  {
-   "title": "英伟达“星光寥寥”的董事会 如今肩负科技界最受瞩目的CEO遴选重任",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqwtx1251802.shtml",
-   "time": "11-13 12:08",
+   "title": "强生vs可口可乐：哪一家的股息增长纪录更稳？",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyriip0826268.shtml",
+   "time": "11-13 16:38",
    "media": "环球市场播报",
-   "intro": "英伟达公司用了数十年时间成长为全球最具影响力的科技公司之一，但其董事会却未能跟上步伐。如今，公司治理和高管招聘专家表示，这个由10名董事组成的董事会此前疏于规划首..."
+   "intro": "核心要点 强生（JNJ）股息率 1.9%，可口可乐（KO）股息率 2.3%；两家都在 10 月上调了 2026 年业绩指引。 最近 12 个月，强生股息占自由现金流比例为 62%..."
+  },
+  {
+   "title": "思科上调AI业务收入指引至90亿美元，但股价大跌5%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyriip0824987.shtml",
+   "time": "11-13 16:26",
+   "media": "环球市场播报",
+   "intro": "速览要点 思科（CSCO）将 AI 营收指引上调至 90 亿美元，但二季度业绩指引低于一季度，花旗据此判断增长已经见顶，该股应声下跌。"
+  },
+  {
+   "title": "凯西・伍德逢低加仓CoreWeave，减持Palantir",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyriiv3484584.shtml",
+   "time": "11-13 16:28",
+   "media": "环球市场播报",
+   "intro": "速览要点 方舟基金在 CoreWeave 股价下跌 7% 时斥资 1600 万美元买入，同时减持价值 1000 万美元的 Palantir；Palantir 当前市盈率高达 244 倍。"
+  },
+  {
+   "title": "美国上周EIA天然气库存增加610亿立方英尺，低于市场预期",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyriiv3482715.shtml",
+   "time": "11-13 16:28",
+   "media": "环球市场播报",
+   "intro": "11月13日，美国能源信息署（EIA）公布数据显示，美国上周地下天然气库存增加610亿立方英尺，低于市场预期的650亿立方英尺，也低于前一周的770亿立方英尺..."
+  },
+  {
+   "title": "比特币一度跌破6.8万美元创三个月新低，加密货币概念股集体下跌",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyriiv3482393.shtml",
+   "time": "11-13 16:18",
+   "media": "环球市场播报",
+   "intro": "11月13日，比特币价格一度下跌5.4%至67628.13美元，跌破7万美元关口，创今年8月以来最低水平。美国通胀压力持续、美联储加息预期升温，以及市场风险偏好下降..."
   }
  ],
  "hold_news": [],
