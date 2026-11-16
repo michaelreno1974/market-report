@@ -1,5 +1,5 @@
 {
- "date": "2026-11-16 21:00",
+ "date": "2026-11-17 03:45",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   52347.5508,
-   0.1
+   51539.3203,
+   -1.54
   ],
   "纳斯达克": [
-   25136.2726,
-   -0.91
+   24488.43,
+   -2.58
   ],
   "标普500": [
-   7561.6699,
-   -0.4
+   7405.9502,
+   -2.06
   ],
   "恒生指数": [
    23708.6,
@@ -134,48 +134,19 @@
    0.554
   ],
   "美元/人民币": [
-   6.6661,
+   6.6642,
    0
   ],
   "纽约黄金": [
-   3875.998,
+   3861.772,
    0
   ],
   "纽约原油": [
-   87.724,
+   85.552,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2612",
-   "net20": -18011,
-   "citic_net": 10863,
-   "citic_dnet": -1718
-  },
-  {
-   "prod": "IH",
-   "main": "IH2612",
-   "net20": -8067,
-   "citic_net": 1572,
-   "citic_dnet": -146
-  },
-  {
-   "prod": "IC",
-   "main": "IC2612",
-   "net20": -10300,
-   "citic_net": 9377,
-   "citic_dnet": 587
-  },
-  {
-   "prod": "IM",
-   "main": "IM2612",
-   "net20": -24644,
-   "citic_net": 14544,
-   "citic_dnet": -119
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "300530",
@@ -335,7 +306,7 @@
     "width": 18.66
    },
    "expma": {
-    "ema20": 24.567
+    "ema20": 24.566
    },
    "main_in_wan": -3104.0,
    "sector": "电子",
@@ -361,88 +332,88 @@
  },
  "news": [
   {
-   "title": "法通集团养老金买断业务不及预期，股价下挫",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyxuev1126030.shtml",
-   "time": "11-16 12:58",
+   "title": "道明证券料美元保持韧性 美联储鹰派前景提供支撑",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyymar2089697.shtml",
+   "time": "11-16 18:53",
    "media": "环球市场播报",
-   "intro": "欧洲早盘股价下跌 2.1%该股欧洲早盘走低，但过去 12 个月累计上涨 30%。 配图说明：图片来源：阿莱西亚・皮耶多梅尼科|路透社 内容速览..."
+   "intro": "道明证券策略师预计，在市场预期美联储将加息的背景下，美元将保持韧性，同时美国国债收益率上升继续为美元提供上行动力。"
   },
   {
-   "title": "科技巨头应当分散布局数据中心投资",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyxuex2349688.shtml",
-   "time": "11-16 12:59",
+   "title": "欧洲股市收盘下跌 科技股受挫",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyymar2077601.shtml",
+   "time": "11-16 18:04",
    "media": "环球市场播报",
-   "intro": "中期选举之后，把筹码过度押注少数超大型项目的 AI 企业正暴露风险8 月，民众聚集在圣达菲的新墨西哥州环境部外，抗议 “木星计划” 数据中心项目。"
+   "intro": "欧洲股市由涨转跌，对AI交易的持续担忧拖累科技股走低。 斯托克欧洲600指数收盘下跌0.3%，奢侈品和医疗保健股表现较好，矿业股下跌，公用事业股也表现落后。"
   },
   {
-   "title": "美国中期选举削弱特朗普话语权，欧盟再度推动全球AI规则谈判",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyxuez5966206.shtml",
-   "time": "11-16 12:53",
+   "title": "黑石REIT收购亚马逊数据中心多数股权 交易估值约50亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyymav7959202.shtml",
+   "time": "11-16 18:18",
    "media": "环球市场播报",
-   "intro": "美国中期选举之后，欧盟重新发力推动人工智能全球治理协议。欧盟希望，特朗普执政地位被削弱、选民对科技巨头的反感，能够提升达成国际协议的可能性。"
+   "intro": "黑石新近上市的数据中心收购平台收购了两家与亚马逊云服务（AWS）共同持有的合资企业的多数股权，交易估值约50亿美元。"
   },
   {
-   "title": "四川简阳农商行获批吸收合并崇州上银村镇银行",
-   "url": "https://finance.sina.com.cn/jryx/bank/2026-11-16/doc-iniyxuex2348809.shtml",
-   "time": "11-16 12:50",
-   "media": "金融一线",
-   "intro": "11月16日金融一线消息，四川金融监管局发布批复，同意四川简阳农村商业银行吸收合并崇州上银村镇银行股份有限公司，由四川简阳农村商业银行承接崇州上银村镇银行股份有限公..."
-  },
-  {
-   "title": "将在Anthropic IPO中大赚一笔的投资者",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyxufc2739956.shtml",
-   "time": "11-16 12:47",
+   "title": "西班牙希望尽快敲定De Cos出任下一任欧洲央行行长",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyymav7957940.shtml",
+   "time": "11-16 17:58",
    "media": "环球市场播报",
-   "intro": "风投机构、科技巨头与主权财富基金有望收获巨额收益 随着人工智能巨头 Anthropic 筹备上市，一大批投资者，包括风险投资机构、头部科技企业以及主权财富基金..."
+   "intro": "西班牙希望有关下一任欧洲央行行长人选的决定尽快作出，并再次力挺本国候选人。 西班牙外交大臣阿尔瓦雷斯周一接受采访时表示，“越快越好，这对欧洲..."
   },
   {
-   "title": "A股再现“天价”离婚！她分走2亿元",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniyxuev1122138.shtml",
-   "time": "11-16 12:50",
-   "media": "市场资讯",
-   "intro": "来源：中国基金报 【导读】因解除婚姻关系，上大股份特定股东拟将全部股份非交易过户至前妻名下 中国基金报记者 李智 11月16日晚间，上大股份发布公告称..."
-  },
-  {
-   "title": "文投控股6天5板领涨传媒板块，AI业务收入能撑起这轮行情吗？",
-   "url": "https://finance.sina.com.cn/roll/2026-11-16/doc-iniyxuex2346319.shtml",
-   "time": "11-16 12:47",
-   "media": "一财网",
-   "intro": "券商研报数据显示，AI短剧万次播放收益已由2025年的30~100元降至2026年的5~10元 在10月以来持续震荡、主线不明的市场中，哪个板块接连出现连板“牛股”？"
-  },
-  {
-   "title": "万事达卡CEO如何始终走在变革前沿",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyxufc2736238.shtml",
-   "time": "11-16 12:41",
+   "title": "美联储推演AI对经济潜在影响 主席沃什称涵盖多重情景",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyyeux2614603.shtml",
+   "time": "11-16 17:46",
    "media": "环球市场播报",
-   "intro": "自克莱・克里斯坦森 1997 年写下《创新者的窘境》一书以来，颠覆式变革就成了大企业挥之不去的梦魇。但值得注意的是，三十年过去，不少传统老牌企业都躲过了这一宿命。"
+   "intro": "美联储主席凯文·沃什表示，美联储工作人员已开始推演AI加速普及可能对美国经济产生影响的不同情景。 沃什周一在为旧金山联储一场活动准备的讲话中表示..."
   },
   {
-   "title": "三A股公司同日提示风险：股价低于1元，或退市！",
-   "url": "https://finance.sina.com.cn/wm/2026-11-16/doc-iniyxuev1119976.shtml",
-   "time": "11-16 12:56",
-   "media": "证券时报",
-   "intro": "11月16日，*ST美丽（000010）股票收盘价为0.95元/股，低于1元。当晚该公司披露公告称，公司股票存在可能因股价低于面值被终止上市的风险。"
-  },
-  {
-   "title": "科技板块再遭重挫，多只重仓AI硬件的基金发清盘预警",
-   "url": "https://finance.sina.com.cn/roll/2026-11-16/doc-iniyxuev1120739.shtml",
-   "time": "11-16 12:48",
-   "media": "一财网",
-   "intro": "净值实际涨幅与持仓品种显著“错配”的情况，这意味着基金产品或在三季报披露后减仓了科技品种。 科技股的反弹为何总是昙花一现？11月16日的盘面再次把这一问题摆到投资者面..."
-  },
-  {
-   "title": "激进投资者呼吁房屋租赁商Invitation Homes“逐套出售” 旗下房产",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyxuez5958681.shtml",
-   "time": "11-16 12:49",
+   "title": "Wolfe：英伟达若守不住150美元支撑位，下一目标支撑位看100美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyyeut2195629.shtml",
+   "time": "11-16 17:18",
    "media": "环球市场播报",
-   "intro": "Land &amp; Buildings 基金表示，针对大型机构投资者的购房禁令威胁公司增长前景，Invitation 应当出售房产并回购股票乔纳森・利特执掌的 Land &amp; Buildings..."
+   "intro": "英伟达股价周四出现反弹，但周五没能延续涨势，这使得 Wolfe 的分析师重新审视上周给出的 150 美元支撑位判断。 Wolfe 分析师罗布・金斯伯格在周日研报中写道：“周四盘中大..."
   },
   {
-   "title": "21家空壳公司骗贷上亿元 司法机关办案人士提醒职业背债人：“中介说不用你还，只是空头支票”",
-   "url": "https://finance.sina.com.cn/roll/2026-11-16/doc-iniyxuex2342682.shtml",
-   "time": "11-16 12:49",
-   "media": "每日经济新闻",
-   "intro": "每经记者|刘嘉魁每经编辑|董兴生 一家没有任何经营场所、没有一笔真实流水的空壳公司，如何从银行贷出数百万元？答案是有人伪造报表、有人充当“门面”..."
+   "title": "Trivariate：英伟达风波之下，半导体板块后市仍有上行动力",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyyeuv5829407.shtml",
+   "time": "11-16 17:18",
+   "media": "环球市场播报",
+   "intro": "Trivariate Research 认为，尽管芯片厂商英伟达的管理层前景存在不确定性，但半导体板块后续仍具备上涨动能。 这家机构预计，英伟达本周..."
+  },
+  {
+   "title": "诺斯海岸研究下调好市多评级",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyyeux2605091.shtml",
+   "time": "11-16 17:08",
+   "media": "环球市场播报",
+   "intro": "诺斯海岸研究周一将好市多（COST）的股票评级从买入下调至中性，此前该股今年股价一路走高。 分析师查克・塞兰科斯基表示，在通胀驱使消费者涌向门店的背景下..."
+  },
+  {
+   "title": "Anthropic的华尔街操盘手：首席财务官拉奥",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyyeut2194388.shtml",
+   "time": "11-16 17:08",
+   "media": "环球市场播报",
+   "intro": "核心要点多位投资者与前同事称，Anthropic 首席财务官克里希纳・拉奥是这家公司崛起过程中的核心人物。拉奥 2024 年加入公司，正带领这家 AI 巨头筹备本周万众瞩目的重磅..."
+  },
+  {
+   "title": "中东出口恢复，美国原油跌至每桶87美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyyeux8076743.shtml",
+   "time": "11-16 17:08",
+   "media": "环球市场播报",
+   "intro": "周一油价走低，霍尔木兹海峡航运运输逐步恢复，伊朗与美国之间的局势陷入僵持。 布伦特原油期货周一下跌 2%，报每桶 93.90 美元；美国 WTI 原油期货下滑 1.8%..."
+  },
+  {
+   "title": "预测市场：特斯拉‑SpaceX在2027年4月前完成合并的概率升至60%以上",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyyeux2602280.shtml",
+   "time": "11-16 17:08",
+   "media": "环球市场播报",
+   "intro": "核心要点自上周末以来，Kalshi 多个预测交易市场中，埃隆・马斯克旗下火箭卫星企业 SpaceX 与电动汽车厂商特斯拉的合并概率大幅飙升。"
+  },
+  {
+   "title": "诺和诺德临床试验显示：维格菲注射剂可降低儿童BMI与肥胖患病率",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyyeux2601481.shtml",
+   "time": "11-16 16:58",
+   "media": "环球市场播报",
+   "intro": "核心要点诺和诺德公布后期临床试验完整数据：维格菲（Wegovy）可显著降低 6‑12 岁肥胖儿童的身体质量指数（BMI）。维格菲目前已获批用于 12 岁及以上肥胖儿童..."
   }
  ],
  "hold_news": [],
