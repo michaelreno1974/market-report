@@ -1,5 +1,5 @@
 {
- "date": "2026-11-18 21:17",
+ "date": "2026-11-19 02:16",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   50759.4219,
-   -1.64
+   50282.1289,
+   -0.94
   ],
   "纳斯达克": [
-   24328.383,
-   -0.74
+   24408.3484,
+   0.33
   ],
   "标普500": [
-   7340.5298,
-   -1.03
+   7327.4502,
+   -0.18
   ],
   "恒生指数": [
    23428.72,
@@ -134,48 +134,19 @@
    -0.862
   ],
   "美元/人民币": [
-   6.667,
+   6.6678,
    0
   ],
   "纽约黄金": [
-   3769.079,
+   3738.131,
    0
   ],
   "纽约原油": [
-   84.097,
+   81.396,
    0
   ]
  },
- "futures": [
-  {
-   "prod": "IF",
-   "main": "IF2612",
-   "net20": -17672,
-   "citic_net": 10792,
-   "citic_dnet": -423
-  },
-  {
-   "prod": "IH",
-   "main": "IH2612",
-   "net20": -9200,
-   "citic_net": 3835,
-   "citic_dnet": 914
-  },
-  {
-   "prod": "IC",
-   "main": "IC2612",
-   "net20": -10273,
-   "citic_net": 7946,
-   "citic_dnet": -718
-  },
-  {
-   "prod": "IM",
-   "main": "IM2612",
-   "net20": -25460,
-   "citic_net": 18438,
-   "citic_dnet": 2843
-  }
- ],
+ "futures": [],
  "picks": [
   {
    "code": "301391",
@@ -373,88 +344,88 @@
  },
  "news": [
   {
-   "title": "美联储理事沃勒放鹰：12月应考虑加息50个基点",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizensx1471711.shtml",
-   "time": "11-18 13:15",
+   "title": "CoreWeave淡化黄仁勋离任影响 称英伟达仍是关键合作伙伴",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizexht6624979.shtml",
+   "time": "11-18 18:16",
    "media": "环球市场播报",
-   "intro": "美联储理事克里斯托弗·沃勒周三表示，通胀仍在朝错误的方向发展，并敦促美联储考虑在12月会议上加息50个基点。 沃勒周三接受时表示：“我们必须在加息方面稍微更激进一些..."
+   "intro": "CoreWeave Inc．试图打消市场对于黄仁勋离开英伟达可能影响这家芯片制造商支持新型云服务商的担忧。该公司战略负责人Ben Richardson表示..."
   },
   {
-   "title": "《GTA6》发售前夕，Take-Two股价上涨近7%",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizensv4692188.shtml",
-   "time": "11-18 13:10",
+   "title": "拉加德：不打算退休 世界经济论坛职位是选项之一",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizexhr4537107.shtml",
+   "time": "11-18 18:00",
    "media": "环球市场播报",
-   "intro": "备受期待的《侠盗猎车手 6（GTA VI）》即将上线，Take-Two Interactive 股价大涨近 7%。这款游戏将于周四正式开放游玩。"
+   "intro": "欧洲央行行长克里斯蒂娜·拉加德表示，她卸任后可能会考虑出任世界经济论坛领导职务。 她表示，“这是选项之一。但目前我还是欧洲央行行长，而且会一直任职到2月7日。"
   },
   {
-   "title": "永达传媒周志强：场景持续发生，品牌才能穿越周期",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-11-18/doc-inizensv4692180.shtml",
-   "time": "11-18 13:11",
-   "media": "睿见Economy",
-   "intro": "“洞见亚太·共筑繁荣——2026新浪财经之夜” 于2026年11月18日在深圳举行。永达传媒董事长周志强在演讲中表示，“品牌流通与跨区域的信任构建，在我看来..."
-  },
-  {
-   "title": "144只个股近3日连续收涨 3只股区间涨幅超25%",
-   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-18/doc-inizenst0895434.shtml",
-   "time": "11-18 13:14",
-   "media": "证券日报",
-   "intro": "证券日报之声 本报记者 王雪儿 见习记者 丛可心 近期A股市场震荡整理，一批个股走出连续上涨行情。万得数据显示，截至11月18日收盘..."
-  },
-  {
-   "title": "墨西哥总统辛鲍姆称与特朗普会晤“非常富有成效”",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizenst0892101.shtml",
-   "time": "11-18 13:08",
+   "title": "欧洲债市：油价回落 欧洲债券收复失地",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizesyt4664753.shtml",
+   "time": "11-18 17:19",
    "media": "环球市场播报",
-   "intro": "墨西哥总统克劳迪娅·辛鲍姆在X平台发文称，她与美国总统唐纳德·特朗普及其团队举行了一场“非常富有成效”的会晤。 辛鲍姆表示：“我们继续在共同议程上取得进展。”"
+   "intro": "欧洲债券走势变化不大，随着油价下跌，早前跌幅收窄；全球股市走弱也对债券价格形成支撑。英国国债上涨，此前数据显示英国CPI略低于英国央行预测。"
   },
   {
-   "title": "劳氏公布财报后股价下跌4.3%",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizensx6774903.shtml",
-   "time": "11-18 13:07",
+   "title": "欧洲股市连续第三日走低 铜价暴跌拖累矿业股",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizesyv1440904.shtml",
+   "time": "11-18 17:17",
    "media": "环球市场播报",
-   "intro": "劳氏（LOW）周三盘前交易时段跌4.3%，此前该公司发布了第三季度财报。 公司本季度调整后每股收益为 3.10 美元，但其中包含 0.34 美元的关税退款收益。"
+   "intro": "欧洲股市连续第三天下跌，矿业股指数创六个月最大跌幅，因围绕人工智能交易的忧虑导致铜价重挫近6%。 斯托克欧洲600指数收盘下跌1%，至三周以来的最低水平。"
   },
   {
-   "title": "SpaceX 400亿美元GPU融资安排表外操作 最快本周向投资者发售",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizensv4690189.shtml",
-   "time": "11-18 13:06",
+   "title": "消息人士称，投资者需求火爆，Anthropic考虑上调IPO发行规模",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizesyt4661723.shtml",
+   "time": "11-18 17:12",
    "media": "环球市场播报",
-   "intro": "据知情人士透露，阿波罗资管正在为SpaceX安排一笔规模高达400亿美元的融资，这笔融资最快本周推向市场，但不会计入SpaceX自身资产负债表。"
+   "intro": "核心要点 据知情人士透露，Anthropic 正考虑上调本次 IPO 发行规模。 这家 AI 企业预计在周三收盘后敲定 IPO 最终发行价。 股票将于周四在纳斯达克挂牌交易..."
   },
   {
-   "title": "两天三家上市房企股价跌破1元，拉响退市警报",
-   "url": "https://finance.sina.com.cn/roll/2026-11-18/doc-inizensx6774125.shtml",
-   "time": "11-18 13:13",
-   "media": "每日经济新闻",
-   "intro": "每经记者|陈利每经编辑|杜宇 一场“1元保卫战”正在A股上市房企打响。 11月16日至17日，短短两个交易日内，三家A股规模房企股价先后跌破1元面值。"
-  },
-  {
-   "title": "金价跌至年内低点，矿业股应声大跌",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizensx6773373.shtml",
-   "time": "11-18 13:04",
+   "title": "杰弗里斯赢得民主党众议院议长党内提名，有望在1月创造历史",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizesyv1437132.shtml",
+   "time": "11-18 17:12",
    "media": "环球市场播报",
-   "intro": "周三现货黄金价格跌幅超 2%，创下一年以来最低水平。黄金矿业板块个股随贵金属价格同步走弱。 纽蒙特（NEM）股价下跌 3%，自由港麦克莫兰（FCX）下跌 2.5%。"
+   "intro": "核心要点 众议院少数党领袖哈基姆・杰弗里斯获得本党党团提名，将角逐下一任众议院议长。 来自纽约州的民主党议员杰弗里斯仍需等到 1 月新一届国会召开时完成正式选举。"
   },
   {
-   "title": "上市次日股价便跌停，多只次新股累计跌幅超四成",
-   "url": "https://finance.sina.com.cn/roll/2026-11-18/doc-inizensv4685954.shtml",
-   "time": "11-18 13:08",
-   "media": "一财网",
-   "intro": "在A股市场回调背景下，多只次新股的股价涨势持续性较差。 上市首日涨逾70%，但次日股价便跌停。随着市场回调，一些新股的表现也不再如往日亮眼。"
+   "title": "Anthropic IPO前夕，关联受益标的股价走高",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizesyv6738639.shtml",
+   "time": "11-18 17:00",
+   "media": "环球市场播报",
+   "intro": "以下是部分市场行情变动： 亚马逊（AMZN）、谷歌（GOOGL）股价分别上涨 2%、接近 1%。两家企业均对 Anthropic 进行过独立投资，属于 Anthropic 的直接关联受益标的。"
   },
   {
-   "title": "“牵手”欧莱雅不到10天，惠城环保身家61亿创始人突遭留置",
-   "url": "https://finance.sina.com.cn/stock/s/2026-11-18/doc-inizensx6769554.shtml",
-   "time": "11-18 13:01",
-   "media": "市场资讯",
-   "intro": "来源：雷达Finance 雷达财经出品 文|周慧 编|孟帅 正值新技术步入规模化产业落地的关键时期，惠城环保身家61亿的创始人突遭留置。"
+   "title": "摩根士丹利：SpaceX或将与AI板块行情走势脱钩",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizesyv6738321.shtml",
+   "time": "11-18 17:02",
+   "media": "环球市场播报",
+   "intro": "截至周三早盘交易时段，SpaceX（SPCX）过去五个交易日累计涨幅超 3%，而纳斯达克综合指数同期下跌超 4%。摩根士丹利表示，这种走势分化，可能预示着未来趋势。"
   },
   {
-   "title": "2026 中国医药上市企业百强出炉：营收1.56 万亿元增 3.2％",
-   "url": "https://finance.sina.com.cn/stock/wbstock/2026-11-18/doc-inizensx1467131.shtml",
-   "time": "11-18 13:16",
-   "media": "",
-   "intro": "来源：@华夏时报微博华夏时报（www.chinatimes.net.cn）记者 王瑜 于娜 北京报道11 月 16日，健康传播指数研究院与华夏大健康研究院联合发布《2026..."
+   "title": "AI需求叙事降温 多头撤退令铜价重挫逾5%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizesyt4657794.shtml",
+   "time": "11-18 16:53",
+   "media": "环球市场播报",
+   "intro": "铜价在伦敦、纽约和上海市场全面遭抛售之际大跌。看多投资者纷纷撤出与人工智能热潮相关的押注，另一些投资者则直接转为看空，尽管金属市场仍受到极端挤仓行情扰动。"
+  },
+  {
+   "title": "欧洲央行行长拉加德：AI股票估值“非常激进” 最终可能出现调整",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizesyr0853159.shtml",
+   "time": "11-18 16:53",
+   "media": "环球市场播报",
+   "intro": "欧洲央行行长克里斯蒂娜·拉加德表示，人工智能公司的高估值最终可能回落。 尽管“过去几周出现了显著的价格回调”，拉加德仍将人工智能股的估值水平描述为“非常激进”。"
+  },
+  {
+   "title": "Lombard Odier：几乎满仓美股 尤其看好科技股",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizesyv1433754.shtml",
+   "time": "11-18 16:52",
+   "media": "环球市场播报",
+   "intro": "Lombard Odier Group全球首席投资官Michael Strobaek表示，该公司目前大举投资美国股票，尤其是科技股，并将近期的抛售视为有吸引力的入场机会。"
+  },
+  {
+   "title": "EIA：美国上周原油库存增加338万桶 预期中值为减少1.8万桶",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizesyv6720186.shtml",
+   "time": "11-18 16:03",
+   "media": "环球市场播报",
+   "intro": "EIA的库存报告还显示以下变化： 汽油库存增加519.2万桶，预期增加92.4万桶； 馏分油库存增加157.1万桶，预期增加55.2万桶； 库欣原油库存减少120..."
   }
  ],
  "hold_news": [],
