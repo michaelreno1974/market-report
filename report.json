@@ -1,5 +1,5 @@
 {
- "date": "2026-11-21 01:55",
+ "date": "2026-11-21 13:09",
  "index": [
   {
    "name": "上证指数",
@@ -114,16 +114,16 @@
  ],
  "global": {
   "道琼斯": [
-   48724.4414,
-   -0.76
+   48147.3281,
+   -1.93
   ],
   "纳斯达克": [
-   23022.1153,
-   -3.59
+   22617.733,
+   -5.28
   ],
   "标普500": [
-   7012.8901,
-   -2.27
+   6910.3901,
+   -3.7
   ],
   "恒生指数": [
    22482.39,
@@ -138,11 +138,11 @@
    0
   ],
   "纽约黄金": [
-   3529.496,
+   3535.39,
    0
   ],
   "纽约原油": [
-   82.858,
+   83.66,
    0
   ]
  },
@@ -320,88 +320,88 @@
  },
  "news": [
   {
-   "title": "特朗普称将阻止美国企业赴海外建设数据中心",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmmnr5304942.shtml",
-   "time": "11-20 17:55",
+   "title": "比特币跌破56000美元 风险资产抛售加剧下行压力",
+   "url": "https://finance.sina.com.cn/world/2026-11-21/doc-iniznnyh3473939.shtml",
+   "time": "11-21 05:07",
    "media": "环球市场播报",
-   "intro": "美国总统表示，如果美国企业在海外建设数据中心，将面临“高额重税”。 特朗普在白宫新闻发布会上称：“我们不允许数据中心建到其他国家。"
+   "intro": "比特币跌至两年多来的最低水平，从特朗普再次当选后备受市场追捧的资产，进一步转变为更广泛投机性押注退潮的受害者。 这种最早的加密货币周五在美国下跌6%..."
   },
   {
-   "title": "摩根大通面临英国1.2亿英镑银行税 CEO称将设法对冲",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmmns6984992.shtml",
-   "time": "11-20 17:54",
+   "title": "Anthropic CEO阿莫代，多年前曾拒绝过马斯克",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznnyk9736552.shtml",
+   "time": "11-21 05:07",
    "media": "环球市场播报",
-   "intro": "摩根大通首席执行官杰米·戴蒙表示，英国政府上月上调银行税，他打算采取办法对冲这笔新增税负，以此“树立一个范例”，让政界明白这类不公平征税背后的取舍代价。"
+   "intro": "在完成史上规模最大IPO的两年前，一个闷热的秋日，丹妮拉·阿莫代把Anthropic全体员工召集到圣克鲁斯山附近一片占地16英亩的花园里。"
   },
   {
-   "title": "特朗普：要对在海外建设数据中心的美国公司征税",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmmnx0081645.shtml",
-   "time": "11-20 17:44",
+   "title": "Anthropic IPO份额，优先倾斜“Claude重度使用”客户",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznnyc4951838.shtml",
+   "time": "11-21 04:58",
    "media": "环球市场播报",
-   "intro": "美国总统特朗普说要对在境外建设数据中心的本国公司征税。 特朗普在白宫新闻发布会上发表讲话。"
+   "intro": "Anthropic及其承销顾问清楚，在AI交易行情有史以来最剧烈的波动期推进IPO本身就存在风险。但他们没料到会遭遇这场完美风暴。"
   },
   {
-   "title": "美联储理事库克：遏制通胀扩散愈发紧迫",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmmns6980079.shtml",
-   "time": "11-20 17:52",
-   "media": "环球市场播报",
-   "intro": "美联储理事丽莎·库克表示，美国央行迫切需要加息以压低通胀，并警告称，如果延迟采取行动，未来可能不得不以更快速度将利率升至更高水平。"
+   "title": "视频|特朗普夸深圳完美无瑕痛批美国城市全是坑洞",
+   "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznhsn9856803.shtml",
+   "time": "11-21 04:32",
+   "media": "市场资讯",
+   "intro": ""
   },
   {
-   "title": "欧洲股市创2025年以来最大周跌幅 科技股重挫",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmmnx0073657.shtml",
-   "time": "11-20 17:20",
+   "title": "新加坡数据中心DayOne暂缓美国IPO",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznhsk3585576.shtml",
+   "time": "11-21 04:31",
    "media": "环球市场播报",
-   "intro": "随着市场对人工智能热潮能否持续的疑虑再度升温，从股票到铜等全球资产均受到冲击，欧洲股市录得2025年4月以来最大单周跌幅。"
+   "intro": "知情人士透露，新加坡数据中心DayOne Data Centers已搁置规模数十亿美元的美国IPO计划，投资者质疑，依托AI热潮的数字基础设施，其虚高估值难以维持。"
   },
   {
-   "title": "Anthropic创纪录IPO后股价回落，该持有、卖出还是加仓？",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfew3871952.shtml",
-   "time": "11-20 17:07",
-   "media": "环球市场播报",
-   "intro": "作者：Catherine Brock（撰稿） Anthropic（股票代码 ANT）于 11 月 19 日周四在纳斯达克挂牌交易，IPO 发行价定为每股 83 美元。"
+   "title": "高股息指数防“虚胖”：上证红利、中证红利等将引入可投资权重上限",
+   "url": "https://finance.sina.com.cn/roll/2026-11-21/doc-iniznhsh6809538.shtml",
+   "time": "11-21 04:42",
+   "media": "每日经济新闻",
+   "intro": "每经记者|任飞每经编辑|赵云 11月20日，中证指数有限公司官网发布多则公告，对上证红利指数及中证红利低波动指数等偏红利、高股息指数的编制方案进行修订。"
   },
   {
-   "title": "威瑞森CEO深知马斯克要来抢占自家业务，他称SpaceX要参与竞争将耗资超3000亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfeu7093765.shtml",
-   "time": "11-20 17:07",
+   "title": "牛剑MIT等不愿落地迈阿密 格里芬30亿美元捐赠花落卡内基梅隆",
+   "url": "https://finance.sina.com.cn/world/2026-11-21/doc-iniznhsh6804579.shtml",
+   "time": "11-21 04:20",
    "media": "环球市场播报",
-   "intro": "威瑞森 CEO 丹・舒尔曼表示，公司高度重视 SpaceX 进军电信行业的动向，但并未陷入恐慌。 埃隆・马斯克希望星链（Starlink）成长为美国主流移动运营商。"
+   "intro": "过去数年，肯·格里芬一直在和顶尖高校沟通，抛出他重塑迈阿密的构想。他希望把这座新定居的城市打造为全球商业枢纽，而要实现这一目标，南佛罗里达需要一所顶尖理工院校。"
   },
   {
-   "title": "市场可能再跌10%–12%—— 当下该买、该卖的标的",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfew3869173.shtml",
-   "time": "11-20 17:07",
-   "media": "环球市场播报",
-   "intro": "嘉宾：Carter Worth（Worth Charting 创始人兼 CEO），主持人 Caroline Woods Caroline Woods：今天请到 Carter Worth，Worth Charting 的创始人兼 CEO。"
+   "title": "视频|特朗普谈芯片与黄仁勋：美国只愿意出售较旧芯片 黄仁勋是“才华横溢的人” 希望道歉后回归英伟达",
+   "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznhsh6793916.shtml",
+   "time": "11-21 04:04",
+   "media": "市场资讯",
+   "intro": ""
   },
   {
-   "title": "2026年美国数据中心建设成本飙升13%",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfeu7088648.shtml",
-   "time": "11-20 16:54",
-   "media": "环球市场播报",
-   "intro": "核心要点受人工智能算力需求拉动，今年美国大型数据中心的需求暴涨，远超具备供电条件的土地以及建筑施工劳动力供给。全球项目管理机构特纳‑汤森（Turner &amp;..."
+   "title": "八马茶业被暂停全军采购资格 实控人吴小宁名下其他企业亦被暂停",
+   "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznnyc4952074.shtml",
+   "time": "11-21 04:59",
+   "media": "市场资讯",
+   "intro": "文|腾讯财经 白雪 从上半年的极致抱团拉升，到下半年的集体大幅重挫，短短几个月时间，AI产业链个股上演了一轮剧烈的过山车行情，投资者经历了一场从狂欢到恐慌的情绪反转..."
   },
   {
-   "title": "贝森特称Anthropic一名创始人将向特朗普账户做出大额捐赠",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfez0192293.shtml",
-   "time": "11-20 16:48",
-   "media": "环球市场播报",
-   "intro": "美国财政部长斯科特·贝森特表示，Anthropic PBC一名创始人将在未来几周向“特朗普账户”捐款。本周这家人工智能公司首次公开募股使其创始人都成为身家数以十亿美元的富豪。"
+   "title": "八马茶业被暂停全军采购资格，斥资回购仍大跌近7%",
+   "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznnyh3467150.shtml",
+   "time": "11-21 04:59",
+   "media": "市场资讯",
+   "intro": "来源：大河报 11月19日，军队采购网显示，八马茶业被暂停参加全军物资工程服务采购活动资格。 极目新闻记者注意到，由军委后勤保障部采购服务中心发布的关于对八马茶业股份..."
   },
   {
-   "title": "比特币跌破6万美元 投资者撤离风险资产",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfew3864157.shtml",
-   "time": "11-20 16:54",
-   "media": "环球市场播报",
-   "intro": "比特币周五跌破6万美元，为7月以来首次。市场担心人工智能交易可能瓦解，促使投资者纷纷撤离风险较高的资产。 比特币一度下跌4.5%至58，732美元，势将连续第七周下跌..."
+   "title": "罚没4711万元一年后，南卫股份实控人为何被刑事拘留？",
+   "url": "https://finance.sina.com.cn/roll/2026-11-21/doc-iniznhsh6787386.shtml",
+   "time": "11-21 03:53",
+   "media": "",
+   "intro": "（来源：贝壳财经） 实际控制人因涉嫌内幕交易被刑事拘留，南卫股份股价持续下跌。截至11月20日，公司股价已连续5日收盘下跌，11月20日，南卫股份收盘跌3.25%，报5..."
   },
   {
-   "title": "欧洲债市：德国国债上涨 全球科技股抛售提振避险需求",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfew3863809.shtml",
-   "time": "11-20 16:46",
-   "media": "环球市场播报",
-   "intro": "随着全球股市抛售加剧，投资者对更安全资产的需求上升，欧洲债券上涨，推动债券收益率降至一周来最低水平。 10年期德国国债收益率下跌10个基点，至3.30%..."
+   "title": "国投证券再收警示函，投行收入短期高增难掩内控短板",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-21/doc-iniznhsh6785234.shtml",
+   "time": "11-21 04:16",
+   "media": "界面",
+   "intro": "界面新闻记者 | 邹文榕 国投证券年内再收罚单。 近日， 上海证券交易所（下称上交所） 披露《关于对国投证券股份有限公司予以监管警示的决定》。"
   }
  ],
  "hold_news": [],
